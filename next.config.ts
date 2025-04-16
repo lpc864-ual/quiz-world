@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  /* Oculta la marca de agua de Vercel ubicada en el costado inferior izquierdo */
 };
 
 export default nextConfig;
