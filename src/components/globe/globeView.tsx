@@ -89,9 +89,9 @@ export default function GlobeView({ isQuizMode = false, highlightCountries = [],
     
     // Configuración básica del globo con textura y topografía
     globe
-      .globeImageUrl('https://images.unsplash.com/photo-1581084121296-8b65c4f80452?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZSUyMG1hcmJsZXxlbnwwfHwwfHx8MA%3D%3D')
+      .globeImageUrl('https://cdn.jsdelivr.net/npm/three-globe@2.41.0/example/img/earth-blue-marble.jpg')
+      .backgroundColor('rgba(0,0,0,0)') // Set to fully transparent
       //.bumpImageUrl('//cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png')
-      .backgroundColor(null)
       .showAtmosphere(false);
 
     // Configurar los polígonos para países usando GeoJSON
@@ -101,7 +101,7 @@ export default function GlobeView({ isQuizMode = false, highlightCountries = [],
       .polygonAltitude(0.01) // Altura ligeramente elevada para mostrar los bordes
       .polygonSideColor(() => 'rgba(0, 100, 0, 0.15)') // Color del lado del polígono
       .polygonStrokeColor(() => 'rgb(0, 0, 0)') // Color del borde
-      //.polygonCapColor('rgb(255, 0, 0)') // No pinta como queremos, pero si se deja el color de los poligonos es transparente
+      .polygonCapColor('rgba(255, 255, 0, 0.5)') // No pinta como queremos, pero si se deja el color de los poligonos es transparente
 
     // Animación inicial
     globe.controls().autoRotate = true;

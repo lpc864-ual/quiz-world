@@ -33,7 +33,7 @@ export default function ExplorePage() {
       {/* Contenido */}
       <div className="relative z-10 flex flex-col items-center w-full h-screen">
         {/* Encabezado con el temporizador */}
-        <div className="flex justify-between items-center w-full p-4 bg-black bg-opacity-50">
+        <div className="flex justify-between items-center w-full p-4 bg-opacity-50">
           <h2 className="text-white text-xl md:text-2xl font-semibold">
             Explore The World
           </h2>
@@ -52,7 +52,7 @@ export default function ExplorePage() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="absolute top-20 left-1/2 transform -translate-x-1/2 z-20 bg-black bg-opacity-70 p-4 rounded-lg max-w-md text-center"
+          className="absolute top-20 left-1/2 transform -translate-x-1/2 z-20 bg-opacity-70 p-4 rounded-lg max-w-md text-center"
         >
           <p className="text-white text-lg">
             Click on any country to learn about it. 
