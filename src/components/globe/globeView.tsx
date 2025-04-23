@@ -119,9 +119,11 @@ export default function GlobeView({ isQuizMode = false, highlightCountries = [],
       })
 
     // Animación inicial
-    //globe.controls().autoRotate = true;
-    //globe.controls().autoRotateSpeed = 0.5;
-    globe.pointOfView({ lat: 0, lng: 0, altitude: 2.5 }, 2000);
+    globe.controls().autoRotate = true;
+    globe.controls().autoRotateSpeed = 0.5;
+    if (!globeReady) {
+      globe.pointOfView({ lat: 0, lng: 0, altitude: 2.5 }, 2000);
+    }
 
     setGlobeReady(true);
 
