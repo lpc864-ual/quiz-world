@@ -35,6 +35,7 @@ interface GlobeViewProps {
   onCountryClick?: (country: Country) => void;
 }
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function GlobeView({ isQuizMode = false, highlightCountries = [], onCountryClick}: GlobeViewProps) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const globeRef = useRef<any>(null);
@@ -132,6 +133,7 @@ export default function GlobeView({ isQuizMode = false, highlightCountries = [],
         globe.controls().autoRotate = false;
       }
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [countries, geoJsonData, hoveredPolygonId]);
 
   // Cerrar el popup de información
