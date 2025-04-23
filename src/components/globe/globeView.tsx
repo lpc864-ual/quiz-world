@@ -42,6 +42,8 @@ export default function GlobeView({ isQuizMode = false, highlightCountries = [],
   const [countries, setCountries] = useState<any[]>([]);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [geoJsonData, setGeoJsonData] = useState<any>(null);
+  // Add state to track hovered country
+  const [hoveredPolygonId, setHoveredPolygonId] = useState<string | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<Country | null>(null);
   const [globeReady, setGlobeReady] = useState(false);
 
@@ -89,23 +91,36 @@ export default function GlobeView({ isQuizMode = false, highlightCountries = [],
     
     // Configuración básica del globo con textura y topografía
     globe
-      .globeImageUrl('https://cdn.jsdelivr.net/npm/three-globe@2.41.0/example/img/earth-blue-marble.jpg')
-      .backgroundColor('rgba(0,0,0,0)') // Set to fully transparent
-      //.bumpImageUrl('//cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png')
+      .globeImageUrl('https://cdn.jsdelivr.net/npm/three-globe@2.41.0/example/img/earth-blue-marble.jpg') // Fondo
+      .backgroundColor('rgba(0,0,0,0)') // Fondo transparente
       .showAtmosphere(false);
 
     // Configurar los polígonos para países usando GeoJSON
-    
     globe
       .polygonsData(geoJsonData.features || [])
-      .polygonAltitude(0.01) // Altura ligeramente elevada para mostrar los bordes
-      .polygonSideColor(() => 'rgba(0, 100, 0, 0.15)') // Color del lado del polígono
+       // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      .polygonAltitude((d: any) => hoveredPolygonId === d ? 0.05 : 0.01) // Altura ligeramente elevada para mostrar los bordes
       .polygonStrokeColor(() => 'rgb(0, 0, 0)') // Color del borde
-      .polygonCapColor('rgba(255, 255, 0, 0.5)') // No pinta como queremos, pero si se deja el color de los poligonos es transparente
+      .polygonSideColor(() => 'rgba(0, 100, 0, 0.15)') // Color del lado del polígono
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      .polygonCapColor((d: any) => {
+        // Color para el área del polígono (puedes ajustar la transparencia)
+        // Usamos un color con algo de opacidad para que sea "clickable"
+        // Un poco más opaco cuando tiene hover
+        return hoveredPolygonId === d ? 'rgba(255, 255, 255, 0.3)' : 'rgba(255, 255, 255, 0.1)'; 
+      })
+      // Añade una transición suave para la altura
+      // Importante: esto hace que los eventos de hover y clic se detecten sobre toda el área
+      .polygonsTransitionDuration(300) 
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      .onPolygonHover((d: any) => {
+        document.body.style.cursor = d ? 'pointer' : 'default';
+        setHoveredPolygonId(d ? d : null);
+      })
 
     // Animación inicial
-    globe.controls().autoRotate = true;
-    globe.controls().autoRotateSpeed = 0.5;
+    //globe.controls().autoRotate = true;
+    //globe.controls().autoRotateSpeed = 0.5;
     globe.pointOfView({ lat: 0, lng: 0, altitude: 2.5 }, 2000);
 
     setGlobeReady(true);
@@ -115,7 +130,7 @@ export default function GlobeView({ isQuizMode = false, highlightCountries = [],
         globe.controls().autoRotate = false;
       }
     };
-  }, [countries, geoJsonData, isQuizMode, highlightCountries, onCountryClick]);
+  }, [countries, geoJsonData, hoveredPolygonId]);
 
   // Cerrar el popup de información
   const closeCountryInfo = useCallback(() => {
