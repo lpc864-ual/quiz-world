@@ -1,5 +1,7 @@
-import axios from 'axios';
+// Usado para scrapping y manipulacion de DOM
 import * as cheerio from 'cheerio';
+// Usado para peticiones
+import axios from 'axios';
 
 interface ScrapedCultureData {
   overview: string;

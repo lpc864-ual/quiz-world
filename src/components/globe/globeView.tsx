@@ -35,23 +35,21 @@ interface GlobeViewProps {
   onCountryClick?: (country: Country) => void;
 }
 
-export default function GlobeView({ 
-  isQuizMode = false,
-  highlightCountries = [],
-  onCountryClick
-}: GlobeViewProps) {
+export default function GlobeView({ isQuizMode = false, highlightCountries = [], onCountryClick}: GlobeViewProps) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const globeRef = useRef<any>(null);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [countries, setCountries] = useState<any[]>([]);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [geoJsonData, setGeoJsonData] = useState<any>(null);
   const [selectedCountry, setSelectedCountry] = useState<Country | null>(null);
   const [globeReady, setGlobeReady] = useState(false);
 
-  // Cargar datos de países
+  // Cargar datos de países y necesarios para dibujar correctamente el globo
   useEffect(() => {
+    // Carga datos básicos de un país
     const fetchCountries = async () => {
       try {
-        // Usar nuestra API interna que combina datos de APIs externas y scraping
         const response = await fetch('/api/countries');
         const data = await response.json();
         setCountries(data);
@@ -59,67 +57,52 @@ export default function GlobeView({
         console.error('Error loading countries data:', error);
       }
     };
+    // Carga datos geometricos o topologicos necesarios para dibujar claramente cada país en el globo (formato GeoJSON o TopoJSON)
+    // En nuestro caso recibimos los datos en formato TopoJSON
+    const fetchGeoJson = async () => {
+      try {
+        const response = await fetch('/data/countries-110m.json');
+        const topoJsonData = await response.json();
+        
+        // Import topojson-client and convert immediately
+        const topojson = await import('topojson-client');
+        const geoJsonData = topojson.feature(topoJsonData, topoJsonData.objects.countries);
+        
+        // Store the already-converted GeoJSON
+        setGeoJsonData(geoJsonData);
+      } catch (error) {
+        console.error('Error loading GeoJSON data:', error);
+      }
+    };
 
+    //
     fetchCountries();
+    fetchGeoJson();
   }, []);
 
   // Configurar el globo una vez que se haya cargado
   useEffect(() => {
-    if (!globeRef.current || countries.length === 0) return;
+    if (!globeRef.current || countries.length === 0 || !geoJsonData) return;
 
     // Configuración del globo
     const globe = globeRef.current;
     
-    // Añadir polígonos de países
+    // Configuración básica del globo con textura y topografía
     globe
-      .hexPolygonsData(countries)
-      .hexPolygonResolution(3) // Nivel de detalle de los polígonos
-      .hexPolygonMargin(0.3)
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      .hexPolygonColor((d: any)=> {
-        // Si estamos en modo quiz y este país está en la lista de resaltados
-        if (isQuizMode && highlightCountries.includes(d.id)) {
-          return 'rgba(255, 215, 0, 0.7)'; // Color dorado para países destacados
-        }
-        return 'rgba(255, 255, 255, 0.3)'; // Color normal
-      })
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      .onHexPolygonHover((d: any) => {
-        // Cambiar cursor al hacer hover
-        document.body.style.cursor = d ? 'pointer' : 'default';
-      })
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      .onHexPolygonClick((d: any) => {
-        if (!d) return;
-        
-        // Obtener información detallada del país
-        const countryDetails = {
-          id: d.id,
-          name: d.properties.NAME || d.id,
-          latlng: d.properties.LATLNG || [0, 0],
-          capital: d.properties.CAPITAL || 'Unknown',
-          flag: d.properties.FLAG || '',
-          population: d.properties.POP_EST || 0,
-          area: d.properties.AREA || 0,
-          region: d.properties.REGION || 'Unknown'
-        };
-        
-        if (isQuizMode && onCountryClick) {
-          onCountryClick(countryDetails);
-        } else {
-          setSelectedCountry(countryDetails);
-        }
-      });
+      .globeImageUrl('https://images.unsplash.com/photo-1581084121296-8b65c4f80452?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZSUyMG1hcmJsZXxlbnwwfHwwfHx8MA%3D%3D')
+      //.bumpImageUrl('//cdn.jsdelivr.net/npm/three-globe/example/img/earth-topology.png')
+      .backgroundColor(null)
+      .showAtmosphere(false);
+
+    // Configurar los polígonos para países usando GeoJSON
     
-    // Establecer controles y ajustar la cámara
     globe
-      .globeImageUrl('/images/earth-blue-marble.jpg')
-      .backgroundColor('#000011')
-      .atmosphereColor('lightskyblue')
-      .atmosphereAltitude(0.1)
-      .showGraticules(true)
-      .showAtmosphere(true);
-    
+      .polygonsData(geoJsonData.features || [])
+      .polygonAltitude(0.01) // Altura ligeramente elevada para mostrar los bordes
+      .polygonSideColor(() => 'rgba(0, 100, 0, 0.15)') // Color del lado del polígono
+      .polygonStrokeColor(() => 'rgb(0, 0, 0)') // Color del borde
+      //.polygonCapColor('rgb(255, 0, 0)') // No pinta como queremos, pero si se deja el color de los poligonos es transparente
+
     // Animación inicial
     globe.controls().autoRotate = true;
     globe.controls().autoRotateSpeed = 0.5;
@@ -132,7 +115,7 @@ export default function GlobeView({
         globe.controls().autoRotate = false;
       }
     };
-  }, [countries, isQuizMode, highlightCountries, onCountryClick]);
+  }, [countries, geoJsonData, isQuizMode, highlightCountries, onCountryClick]);
 
   // Cerrar el popup de información
   const closeCountryInfo = useCallback(() => {
@@ -148,11 +131,7 @@ export default function GlobeView({
         animate={{ opacity: globeReady ? 1 : 0 }}
         transition={{ duration: 1.5 }}
       >
-        {typeof window !== 'undefined' && (
-          <GlobeDynamic 
-            ref={globeRef}
-          />
-        )}
+        <GlobeDynamic ref={globeRef}/>
       </motion.div>
 
       {/* Popup de información de país */}
