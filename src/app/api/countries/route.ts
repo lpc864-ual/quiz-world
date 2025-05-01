@@ -24,22 +24,19 @@ export async function GET() {
     }
 
     // Si no hay caché válida, obtener datos de países de la API RestCountries
+    // (en el futuro cambiarlo en un archivo local. Se deja por retricciones del proyecto)
     const response = await axios.get('https://restcountries.com/v3.1/all?fields=name,cca3,capital,population,area,flags,latlng,region');
 
     // Transformar los datos al formato que necesitamos
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const countries = response.data.map((country: any) => ({
-      id: country.cca3,
-      properties: {
-        NAME: country.name.common,
-        CAPITAL: country.capital ? country.capital[0] : '',
-        POP_EST: country.population,
-        AREA: country.area,
-        FLAG: country.flags.png,
-        LATLNG: country.latlng,
-        REGION: country.region
-      },
-      type: 'Feature'
+      common_name: country.name.common,
+      official_name: country.name.official,
+      capital: country.capital,
+      region: country.region, 
+      population: country.population,
+      area: country.area,
+      flag: country.flags.png
     }));
     
     // Actualizar caché
