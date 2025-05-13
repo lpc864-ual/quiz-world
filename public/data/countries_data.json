@@ -1,0 +1,3247 @@
+[
+  {
+    "common_name": "Botswana",
+    "official_name": "Republic of Botswana",
+    "capital": [
+      "Gaborone"
+    ],
+    "region": "Africa",
+    "population": 2351625,
+    "area": 582000,
+    "souvenirs": "Woven baskets, native dolls, leather and textile items, wood carvings, jewelry and ostrich shell items",
+    "traditional_cuisine": "Seswaa (or loswao) — beef or goat meat boiled with salt until tender and sometimes pounded; often served with maize meal, ground corn, or sorghum",
+    "flag": "https://flagcdn.com/w320/bw.png"
+  },
+  {
+    "common_name": "Tonga",
+    "official_name": "Kingdom of Tonga",
+    "capital": [
+      "Nuku'alofa"
+    ],
+    "region": "Oceania",
+    "population": 105697,
+    "area": 747,
+    "souvenirs": "Hand-woven tapa cloth, woven pandanus mats and baskets, coconut-shell handicrafts, model canoes, silver-inlaid jewelry and knives, collectable coins and stamps",
+    "traditional_cuisine": "ʻOta ʻika — fresh, raw fish marinated in coconut milk and citrus juice; later the fish is typically combined with vegetables including tomatoes, green onions, cucumbers, and hot peppers",
+    "flag": "https://flagcdn.com/w320/to.png"
+  },
+  {
+    "common_name": "Greece",
+    "official_name": "Hellenic Republic",
+    "capital": [
+      "Athens"
+    ],
+    "region": "Europe",
+    "population": 10715549,
+    "area": 131990,
+    "souvenirs": "Worry bead, coin, and blue bead jewelry; handwoven items, flokati rugs, copper ware, olive oil, honey, pottery, authentic and replica archeological items",
+    "traditional_cuisine": "Moussaka — layers of sautéed eggplant and/or potatoes and spicy ground lamb topped with Béchamel sauce and baked",
+    "flag": "https://flagcdn.com/w320/gr.png"
+  },
+  {
+    "common_name": "Marshall Islands",
+    "official_name": "Republic of the Marshall Islands",
+    "capital": [
+      "Majuro"
+    ],
+    "region": "Oceania",
+    "population": 59194,
+    "area": 181,
+    "souvenirs": "Coconut products, seashells/seashell items; woven handbags, baskets, and carpets; stick-chart sea maps, recreational boats",
+    "traditional_cuisine": "Barramundi cod — a whole fresh barramundi cod seasoned and then tightly wrapped within banana leaves and baked",
+    "flag": "https://flagcdn.com/w320/mh.png"
+  },
+  {
+    "common_name": "Belarus",
+    "official_name": "Republic of Belarus",
+    "capital": [
+      "Minsk"
+    ],
+    "region": "Europe",
+    "population": 9398861,
+    "area": 207600,
+    "souvenirs": "Flax/linen items, woodcarvings, leather goods, vodka, chocolate",
+    "traditional_cuisine": "Draniki — shallow-fried potato pancakes",
+    "flag": "https://flagcdn.com/w320/by.png"
+  },
+  {
+    "common_name": "Republic of the Congo",
+    "official_name": "Republic of the Congo",
+    "capital": [
+      "Brazzaville"
+    ],
+    "region": "Africa",
+    "population": 5657000,
+    "area": 342000,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/cg.png"
+  },
+  {
+    "common_name": "Tanzania",
+    "official_name": "United Republic of Tanzania",
+    "capital": [
+      "Dodoma"
+    ],
+    "region": "Africa",
+    "population": 59734213,
+    "area": 945087,
+    "souvenirs": "Kanga cloth; Masai tribal arts and crafts including basket-ware, wood-carved items, and African drums; tanzanite jewelry, spices, ceramic tile",
+    "traditional_cuisine": "Ugali na Maharage ya nazi — dough prepared with cornmeal (maize meal), cassava flour, sorghum, or millet served with beans and vegetables cooked in coconut milk",
+    "flag": "https://flagcdn.com/w320/tz.png"
+  },
+  {
+    "common_name": "Liechtenstein",
+    "official_name": "Principality of Liechtenstein",
+    "capital": [
+      "Vaduz"
+    ],
+    "region": "Europe",
+    "population": 38137,
+    "area": 160,
+    "souvenirs": "Embroidered household linens, knitted woolen and felt items; wooden toys, cuckoo clocks, and jewelry boxes; ceramic, pottery, and marble items; wine, collectible postage stamps",
+    "traditional_cuisine": "Käsknöpfle — pasta and sweet onions in cheese sauce",
+    "flag": "https://flagcdn.com/w320/li.png"
+  },
+  {
+    "common_name": "Sint Maarten",
+    "official_name": "Sint Maarten",
+    "capital": [
+      "Philipsburg"
+    ],
+    "region": "Americas",
+    "population": 40812,
+    "area": 34,
+    "souvenirs": "Dutch porcelain, guavaberry products, flavored liqueurs and wine, spices, perfume, cosmetics",
+    "traditional_cuisine": "Callaloo — a thick soup made with greens, pork, onions, okra, thyme, and hot peppers",
+    "flag": "https://flagcdn.com/w320/sx.png"
+  },
+  {
+    "common_name": "Bosnia and Herzegovina",
+    "official_name": "Bosnia and Herzegovina",
+    "capital": [
+      "Sarajevo"
+    ],
+    "region": "Europe",
+    "population": 3280815,
+    "area": 51209,
+    "souvenirs": "Wood-carved items, copper cookware and brassware, ceramics, handmade carpets, hand-embroidered clothing and linens, leather boxes, liquor",
+    "traditional_cuisine": "Ćevapi — grilled ground beef kebabs served with chopped raw onions",
+    "flag": "https://flagcdn.com/w320/ba.png"
+  },
+  {
+    "common_name": "Bahrain",
+    "official_name": "Kingdom of Bahrain",
+    "capital": [
+      "Manama"
+    ],
+    "region": "Asia",
+    "population": 1701583,
+    "area": 765,
+    "souvenirs": "Red-clay pottery, handwoven cloth, pearls/pearl jewelry, luxury goods",
+    "traditional_cuisine": "Bahrain's traditional food includes fish, meat, rice, and dates. One of the most famous Bahraini dishes is machboos, which is made up of meat or fish served with rice. Another known food is muhammar which is sweet rice served with dates or sugar.",
+    "flag": "https://flagcdn.com/w320/bh.png"
+  },
+  {
+    "common_name": "Kenya",
+    "official_name": "Republic of Kenya",
+    "capital": [
+      "Nairobi"
+    ],
+    "region": "Africa",
+    "population": 53771300,
+    "area": 580367,
+    "souvenirs": "Sisal or leather baskets; carved teak, ebony, or mninga wood statues, gourds, and tableware; soapstone items; wax paintings; tribal sarongs, blankets, jewelry, spears, and drums; coffee",
+    "traditional_cuisine": "Ugali nyama choma na kachumbari — maize meal, grilled meat, and an onion-and-tomato salsa",
+    "flag": "https://flagcdn.com/w320/ke.png"
+  },
+  {
+    "common_name": "Estonia",
+    "official_name": "Republic of Estonia",
+    "capital": [
+      "Tallinn"
+    ],
+    "region": "Europe",
+    "population": 1331057,
+    "area": 45227,
+    "souvenirs": "Juniper items, embroidered Muhu slippers, hand-knitted woolen items, carved-wood items, dried berries,  jams, honey",
+    "traditional_cuisine": "Verivorst — pork sausages made of barley, onion, allspice, marjoram, and blood and roasted together with potatoes and pork; typically accompanied with butter, sour cream, and sauerkraut on the side and topped with a cranberry or lingonberry compote",
+    "flag": "https://flagcdn.com/w320/ee.png"
+  },
+  {
+    "common_name": "Qatar",
+    "official_name": "State of Qatar",
+    "capital": [
+      "Doha"
+    ],
+    "region": "Asia",
+    "population": 2881060,
+    "area": 11586,
+    "souvenirs": "Pashminas, decorated Korans, incense burners, frankincense, ceremonial swords, dullah and kahwa coffee cups, halawa candy, dried dates",
+    "traditional_cuisine": "Machboos — a rice dish made with a variety of aromatic spices that produce a smoky taste and served with vegetables and lamb or chicken",
+    "flag": "https://flagcdn.com/w320/qa.png"
+  },
+  {
+    "common_name": "Poland",
+    "official_name": "Republic of Poland",
+    "capital": [
+      "Warsaw"
+    ],
+    "region": "Europe",
+    "population": 37950802,
+    "area": 312679,
+    "souvenirs": "Amber jewelry and decorative items, natural linen, painted ceramic pottery and stoneware, traditional costumes, vodka",
+    "traditional_cuisine": "Bigos — a stew of white cabbage, sauerkraut (fermented cabbage), mushrooms, tomatoes, ham, and meats such as pork, beef, veal, bacon, or venison; Pierogi – small dumplings stuffed with either savory or sweet fillings including cheese, onions, ground meat, mushrooms, potatoes, sauerkraut, or various berries",
+    "flag": "https://flagcdn.com/w320/pl.png"
+  },
+  {
+    "common_name": "Moldova",
+    "official_name": "Republic of Moldova",
+    "capital": [
+      "Chișinău"
+    ],
+    "region": "Europe",
+    "population": 2617820,
+    "area": 33846,
+    "souvenirs": "Woodworking crafts, straw- and wool-knitted items, ceramics, traditional costumes, handmade carpets, wine/brandy",
+    "traditional_cuisine": "Mămăligă — yellow maize flour porridge cooked to a bread-like consistency; grape or cabbage leaves stuffed with ground meat are a popular accompaniment",
+    "flag": "https://flagcdn.com/w320/md.png"
+  },
+  {
+    "common_name": "Jordan",
+    "official_name": "Hashemite Kingdom of Jordan",
+    "capital": [
+      "Amman"
+    ],
+    "region": "Asia",
+    "population": 10203140,
+    "area": 89342,
+    "souvenirs": "Decorated sand bottles, hand woven rugs, water pipe musical instruments, kefiya headscarves, pottery, camel themed items",
+    "traditional_cuisine": "Mansaf — a dish made of lamb cooked in a sauce of fermented dried yogurt and served with rice or bulgur",
+    "flag": "https://flagcdn.com/w320/jo.png"
+  },
+  {
+    "common_name": "Tunisia",
+    "official_name": "Tunisian Republic",
+    "capital": [
+      "Tunis"
+    ],
+    "region": "Africa",
+    "population": 11818618,
+    "area": 163610,
+    "souvenirs": "Woven carpets/rugs, copper and brassware, olivewood sculptures, carved wooden birdcages, ceramic and tile goods, kaftans, shisha water pipes",
+    "traditional_cuisine": "Couscous — semolina flour sprinkled with water until it forms into tiny pellets that are then pushed through a sieve; typically steamed to a crumbly paste and tossed with a variety of ingredients including carrots, potatoes, turnips, and parsley",
+    "flag": "https://flagcdn.com/w320/tn.png"
+  },
+  {
+    "common_name": "Paraguay",
+    "official_name": "Republic of Paraguay",
+    "capital": [
+      "Asunción"
+    ],
+    "region": "Americas",
+    "population": 7132530,
+    "area": 406752,
+    "souvenirs": "Yerba guampa cups or mate gourds, wood crafts, native feathered jewelry, filigree jewelry, native fabric and lace items, leather goods, woven baskets, pottery",
+    "traditional_cuisine": "Sopá Paraguaí (or Sopa paraguaya) — a spongy cake similar to corn bread made with corn flour, cheese, onion, egg, and milk",
+    "flag": "https://flagcdn.com/w320/py.png"
+  },
+  {
+    "common_name": "Malaysia",
+    "official_name": "Malaysia",
+    "capital": [
+      "Kuala Lumpur"
+    ],
+    "region": "Asia",
+    "population": 32365998,
+    "area": 330803,
+    "souvenirs": "Hand-woven embroidered silk/cotton cloth, batik sarongs, pewter items; precious silver bowls, jewelry boxes, and betel nut sets; woven-bamboo and various fiber-woven baskets, bowls, and mats",
+    "traditional_cuisine": "Nasi Lemak — rice soaked in coconut cream overnight and cooked with pandan leaves, lemon grass, ginger, and other spices; usually served with a hard-boiled egg, fried anchovies, sambal paste, and roasted peanuts",
+    "flag": "https://flagcdn.com/w320/my.png"
+  },
+  {
+    "common_name": "Cameroon",
+    "official_name": "Republic of Cameroon",
+    "capital": [
+      "Yaoundé"
+    ],
+    "region": "Africa",
+    "population": 26545864,
+    "area": 475442,
+    "souvenirs": "Pottery, carved wooden tribal masks and animal sculptures, native beadwork dresses, woven mats and rugs, jewelry, tree sap paintings, spices",
+    "traditional_cuisine": "Ndolé — stewed nuts, ndoleh (bitter leaves), and fish, beef, or shrimp traditionally eaten with plantains or bobolo (fermented ground manioc or cassava wrapped in leaves)",
+    "flag": "https://flagcdn.com/w320/cm.png"
+  },
+  {
+    "common_name": "Solomon Islands",
+    "official_name": "Solomon Islands",
+    "capital": [
+      "Honiara"
+    ],
+    "region": "Oceania",
+    "population": 686878,
+    "area": 28896,
+    "souvenirs": "Wood carvings, woven baskets and other woven goods, mother-of-pearl and shell jewelry and other decorative items",
+    "traditional_cuisine": "Poi — a savory side dish of rinsed taro roots turned into a paste",
+    "flag": "https://flagcdn.com/w320/sb.png"
+  },
+  {
+    "common_name": "Mongolia",
+    "official_name": "Mongolia",
+    "capital": [
+      "Ulan Bator"
+    ],
+    "region": "Asia",
+    "population": 3278292,
+    "area": 1564110,
+    "souvenirs": "Wool, cashmere, and felt goods; leather goods, woodcrafts, batik fabric items",
+    "traditional_cuisine": "Khorkhog — meat (usually goat but sometimes mutton) and vegetables cooked inside large milk jugs using hot stones and water",
+    "flag": "https://flagcdn.com/w320/mn.png"
+  },
+  {
+    "common_name": "Vanuatu",
+    "official_name": "Republic of Vanuatu",
+    "capital": [
+      "Port Vila"
+    ],
+    "region": "Oceania",
+    "population": 307150,
+    "area": 12189,
+    "souvenirs": "Wood carvings, shell and coconut handicrafts, liquor, sarongs",
+    "traditional_cuisine": "Laplap — various roots such as taro, yam, or breadfruit are pounded into a dough that is wrapped with leaves from the lap lap plant and cooked in an underground oven with spinach leaves, coconut cream, and pieces of chicken, pork, or corned beef",
+    "flag": "https://flagcdn.com/w320/vu.png"
+  },
+  {
+    "common_name": "Nepal",
+    "official_name": "Federal Democratic Republic of Nepal",
+    "capital": [
+      "Kathmandu"
+    ],
+    "region": "Asia",
+    "population": 29136808,
+    "area": 147181,
+    "souvenirs": "Knotted/woven carpets and hemp items, wool pashminas, sheepskin slippers, woven caps, kukri knives, precious metal and turquoise jewelry, sacred scroll paintings, wood instruments, lokta bark paper, tea, kitchen spices",
+    "traditional_cuisine": "Dal Bhaath/Bhat — rice served with lentil soup and vegetable or meat curry",
+    "flag": "https://flagcdn.com/w320/np.png"
+  },
+  {
+    "common_name": "Guam",
+    "official_name": "Guam",
+    "capital": [
+      "Hagåtña"
+    ],
+    "region": "Oceania",
+    "population": 168783,
+    "area": 549,
+    "souvenirs": "Marmar flower headbands, woven baskets, shell necklaces and beaded jewelry, sarongs, machetes with carved wooden handles, natural beauty products",
+    "traditional_cuisine": "Kelaguen — a seafood, fish, or meat dish served either as a main course, appetizer, or side dish; the ingredients are typically marinated in a combination of lemon juice, salt, and hot peppers and sometimes enriched with grated fresh coconut",
+    "flag": "https://flagcdn.com/w320/gu.png"
+  },
+  {
+    "common_name": "Lebanon",
+    "official_name": "Lebanese Republic",
+    "capital": [
+      "Beirut"
+    ],
+    "region": "Asia",
+    "population": 6825442,
+    "area": 10452,
+    "souvenirs": "Jewelry, copperware, glassware, brass tea sets, baskets",
+    "traditional_cuisine": "Tabbouleh — a salad made with tomatoes, parsley, bulgur, and onions mixed in a sauce of lemon juice, olive oil, and salt; often served with Kibbeh (ground lamb, bulgur, and seasonings baked, fried, stuffed, or served raw)",
+    "flag": "https://flagcdn.com/w320/lb.png"
+  },
+  {
+    "common_name": "Ivory Coast",
+    "official_name": "Republic of Côte d'Ivoire",
+    "capital": [
+      "Yamoussoukro"
+    ],
+    "region": "Africa",
+    "population": 26378275,
+    "area": 322463,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/ci.png"
+  },
+  {
+    "common_name": "Ecuador",
+    "official_name": "Republic of Ecuador",
+    "capital": [
+      "Quito"
+    ],
+    "region": "Americas",
+    "population": 17643060,
+    "area": 276841,
+    "souvenirs": "Coffee, llama wool products, woven baskets and straw hats, carpets, tagua vegetable and wood carvings, non-edible dough figurines, leather goods, sheepskin paintings; tribal instruments, masks, jewelry, and fabrics",
+    "traditional_cuisine": "Ceviche — raw fresh fish marinated with lime juice and mixed with chilies, onions, tomatoes, and cilantro; typically served with patacones (thick fried green plantains), chifles (very thin fried green plantain chips), corn nuts, or popcorn",
+    "flag": "https://flagcdn.com/w320/ec.png"
+  },
+  {
+    "common_name": "Palau",
+    "official_name": "Republic of Palau",
+    "capital": [
+      "Ngerulmud"
+    ],
+    "region": "Oceania",
+    "population": 18092,
+    "area": 459,
+    "souvenirs": "Woven baskets, mats, and straw hats; shell jewelry, wood-carved storyboards and figurines, spices, flower-based body products",
+    "traditional_cuisine": "Tinola — soup made with chicken, green papaya, and ginger",
+    "flag": "https://flagcdn.com/w320/pw.png"
+  },
+  {
+    "common_name": "Kyrgyzstan",
+    "official_name": "Kyrgyz Republic",
+    "capital": [
+      "Bishkek"
+    ],
+    "region": "Asia",
+    "population": 6591600,
+    "area": 199951,
+    "souvenirs": "felt rugs and felt-crafted clothing/cloth and decorative items, silver jewelry, chess sets, miniature wood-carved yurts",
+    "traditional_cuisine": "Beshbarmak — horse or lamb meat with flat noodles and onion sauce",
+    "flag": "https://flagcdn.com/w320/kg.png"
+  },
+  {
+    "common_name": "Egypt",
+    "official_name": "Arab Republic of Egypt",
+    "capital": [
+      "Cairo"
+    ],
+    "region": "Africa",
+    "population": 102334403,
+    "area": 1002450,
+    "souvenirs": "Papyrus scrolls and art, camel- and pyramid-themed items, copper and brassware, ankh jewelry, shisha pipes, pottery, handmade leather goods, silk, spices",
+    "traditional_cuisine": "Ful medames — a stew of cooked fava beans served with olive oil, cumin, and optionally with chopped parsley, garlic, onion, lemon juice, chili pepper, and other vegetable, herb, and spice ingredients; traditionally made in and served from a large metal jug",
+    "flag": "https://flagcdn.com/w320/eg.png"
+  },
+  {
+    "common_name": "North Korea",
+    "official_name": "Democratic People's Republic of Korea",
+    "capital": [
+      "Pyongyang"
+    ],
+    "region": "Asia",
+    "population": 25778815,
+    "area": 120538,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/kp.png"
+  },
+  {
+    "common_name": "Senegal",
+    "official_name": "Republic of Senegal",
+    "capital": [
+      "Dakar"
+    ],
+    "region": "Africa",
+    "population": 16743930,
+    "area": 196722,
+    "souvenirs": "Carved wooden statues and other items, tailored clothing, hand-painted fabric, woven baskets, copper sculptures, gold and silver filigree jewelry",
+    "traditional_cuisine": "Thieboudienne — a one-pot dish with fish, rice, and a variety of vegetables such as potatoes, cassava, squash, onions, cabbage, or carrots simmered in tomato sauce",
+    "flag": "https://flagcdn.com/w320/sn.png"
+  },
+  {
+    "common_name": "British Virgin Islands",
+    "official_name": "Virgin Islands",
+    "capital": [
+      "Road Town"
+    ],
+    "region": "Americas",
+    "population": 30237,
+    "area": 151,
+    "souvenirs": "Carved wooden and straw woven items, batik fabric, luxury items, rum, pottery, spices, handmade jewelry",
+    "traditional_cuisine": "Fish and Fungi — cornmeal and okra cooked into a thick mash served with fried whole fish seasoned Creole-style and topped with a sweet onion gravy",
+    "flag": "https://flagcdn.com/w320/vg.png"
+  },
+  {
+    "common_name": "Costa Rica",
+    "official_name": "Republic of Costa Rica",
+    "capital": [
+      "San José"
+    ],
+    "region": "Americas",
+    "population": 5094114,
+    "area": 51100,
+    "souvenirs": "Coffee, hammocks, ceramic and wood bowls, wooden macaw statues and other carved items, leather rocking chairs, handmade earrings and threaded necklaces",
+    "traditional_cuisine": "Gallo Pinto — kidney or black beans or pigeon peas and rice cooked together and mixed with Lizano sauce; often served as breakfast",
+    "flag": "https://flagcdn.com/w320/cr.png"
+  },
+  {
+    "common_name": "Guatemala",
+    "official_name": "Republic of Guatemala",
+    "capital": [
+      "Guatemala City"
+    ],
+    "region": "Americas",
+    "population": 16858333,
+    "area": 108889,
+    "souvenirs": "Coffee, Mayan native textiles and jewelry, jade, wood carvings, leather goods, hammocks, baskets, ceramics",
+    "traditional_cuisine": "Pepián — a spicy stew made with chicken, beef, or pork and containing both fruit and vegetables and a mix of spices; traditionally served with rice and tortillas or Pupusas (thick corn tortillas stuffed with a variety of fillings including refried beans, cheese, or pork and then fried)",
+    "flag": "https://flagcdn.com/w320/gt.png"
+  },
+  {
+    "common_name": "China",
+    "official_name": "People's Republic of China",
+    "capital": [
+      "Beijing"
+    ],
+    "region": "Asia",
+    "population": 1402112000,
+    "area": 9706961,
+    "souvenirs": "Silk items, jade and pearl items, calligraphy sets, antique ceramics, designer fashions, electronics",
+    "traditional_cuisine": "Peking Roast Duck — maltose syrup (a natural sweetener produced from fermented grains) glazed-duck roasted until brown; the skin is served dipped in a sugar-garlic sauce and the meat is served with sweet bean sauce, spring onions, pancakes, and cucumber sticks",
+    "flag": "https://flagcdn.com/w320/cn.png"
+  },
+  {
+    "common_name": "Kazakhstan",
+    "official_name": "Republic of Kazakhstan",
+    "capital": [
+      "Astana"
+    ],
+    "region": "Asia",
+    "population": 18754440,
+    "area": 2724900,
+    "souvenirs": "Stringed instruments; wool rugs, coats, vests, and hats; batik and silk scarves, mats, and wall hangings; traditional dresses; leather water flasks and other goods; gold and silver items; camel- and yurt-themed items",
+    "traditional_cuisine": "Beshbarmak — horse or lamb meat with flat noodles and onion sauce",
+    "flag": "https://flagcdn.com/w320/kz.png"
+  },
+  {
+    "common_name": "Cape Verde",
+    "official_name": "Republic of Cabo Verde",
+    "capital": [
+      "Praia"
+    ],
+    "region": "Africa",
+    "population": 555988,
+    "area": 4033,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/cv.png"
+  },
+  {
+    "common_name": "Vatican City",
+    "official_name": "Vatican City State",
+    "capital": [
+      "Vatican City"
+    ],
+    "region": "Europe",
+    "population": 451,
+    "area": 0.44,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/va.png"
+  },
+  {
+    "common_name": "Bhutan",
+    "official_name": "Kingdom of Bhutan",
+    "capital": [
+      "Thimphu"
+    ],
+    "region": "Asia",
+    "population": 771612,
+    "area": 38394,
+    "souvenirs": "Carved wooden masks, Thangkas art, woven woolen cloth and native garments, prayer flags, handmade paper",
+    "traditional_cuisine": "Ema datshi — hot chili peppers and cheese curd made from cow or yak's milk; often served with rice",
+    "flag": "https://flagcdn.com/w320/bt.png"
+  },
+  {
+    "common_name": "Colombia",
+    "official_name": "Republic of Colombia",
+    "capital": [
+      "Bogotá"
+    ],
+    "region": "Americas",
+    "population": 50882884,
+    "area": 1141748,
+    "souvenirs": "Crocheted mochila bags, handwoven and mola fabric items, leather goods, silver/gold filigree and precious stone jewelry, ceramics, carved wooden statues, musical instruments, Tagua plant carved items, coconut-sourced goods, coffee",
+    "traditional_cuisine": "Ajiaco — a soup made with chicken, three varieties of potatoes, and guasca (an herb); typically garnished with capers, avocado slices, corn on the cob, or cream",
+    "flag": "https://flagcdn.com/w320/co.png"
+  },
+  {
+    "common_name": "Grenada",
+    "official_name": "Grenada",
+    "capital": [
+      "St. George's"
+    ],
+    "region": "Americas",
+    "population": 112519,
+    "area": 344,
+    "souvenirs": "Leather goods, handmade jewelry, rum, spices and homemade jams and jellies, straw goods, batik fabric items, natural beauty products",
+    "traditional_cuisine": "Oil down — a stew of breadfruit, salted meat, chicken, dumplings, callaloo (a vegetable), and other vegetables stewed in coconut milk, herbs, and spices; Pupusas - corn tortillas stuffed with a variety of fillings including refried beans, cheese, and/or pork and then fried; traditionally served with salsa and cabbage",
+    "flag": "https://flagcdn.com/w320/gd.png"
+  },
+  {
+    "common_name": "Northern Mariana Islands",
+    "official_name": "Commonwealth of the Northern Mariana Islands",
+    "capital": [
+      "Saipan"
+    ],
+    "region": "Oceania",
+    "population": 57557,
+    "area": 464,
+    "souvenirs": "Traditional sarongs, shell jewelry, wishing dolls, coconut- and wood-carved crafts, crab shell crafts",
+    "traditional_cuisine": "Kelaguen — chicken, meat, or raw seafood marinated in lemon juice, salt, and hot peppers topped with coconut and scallions; the chicken or meat is grilled while the seafood is prepared raw and “cooked” for only a few hours in lemon juice",
+    "flag": "https://flagcdn.com/w320/mp.png"
+  },
+  {
+    "common_name": "Papua New Guinea",
+    "official_name": "Independent State of Papua New Guinea",
+    "capital": [
+      "Port Moresby"
+    ],
+    "region": "Oceania",
+    "population": 8947027,
+    "area": 462840,
+    "souvenirs": "Woven billum bags; tribal masks; wood-carved storyboards, spirit boards, and drums; inlaid wooden bowls; woven baskets",
+    "traditional_cuisine": "Mumu — pork, sweet potato, rice, and vegetables cooked in an earth oven filled with hot coals or stones",
+    "flag": "https://flagcdn.com/w320/pg.png"
+  },
+  {
+    "common_name": "Antarctica",
+    "official_name": "Antarctica",
+    "capital": [],
+    "region": "Antarctic",
+    "population": 1000,
+    "area": 14000000,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/aq.png"
+  },
+  {
+    "common_name": "South Africa",
+    "official_name": "Republic of South Africa",
+    "capital": [
+      "Pretoria",
+      "Bloemfontein",
+      "Cape Town"
+    ],
+    "region": "Africa",
+    "population": 59308690,
+    "area": 1221037,
+    "souvenirs": "Zulu spoons, Zulu beaded items, seshweshwe fabric,  Rooibos tea, wine and liqueur",
+    "traditional_cuisine": "Bobotie — minced meat simmered with spices, especially curry powder, herbs, and dried fruit, then topped with a mixture of egg and milk and baked",
+    "flag": "https://flagcdn.com/w320/za.png"
+  },
+  {
+    "common_name": "Guinea",
+    "official_name": "Republic of Guinea",
+    "capital": [
+      "Conakry"
+    ],
+    "region": "Africa",
+    "population": 13132792,
+    "area": 245857,
+    "souvenirs": "Native and custom-tailored clothing, wood carvings, ceremonial tribal masks and drums, calabash gourds, leather rugs, skin care products",
+    "traditional_cuisine": "Poulet Yassa — a chicken dish made with an onion-and lemon-infused marinade",
+    "flag": "https://flagcdn.com/w320/gn.png"
+  },
+  {
+    "common_name": "Hong Kong",
+    "official_name": "Hong Kong Special Administrative Region of the People's Republic of China",
+    "capital": [
+      "City of Victoria"
+    ],
+    "region": "Asia",
+    "population": 7500700,
+    "area": 1104,
+    "souvenirs": "Chinese-made goods including silk and cotton items, jade statues, silk paintings, and printed chopsticks; tailored clothing; electronics and computer equipment; bone porcelain items",
+    "traditional_cuisine": "Sweet and Sour Pork — spare ribs or pork loin with a scarlet sauce made of vinegar, preserved plums, and hawthorn candy; Roast goose – roasted goose with a delicately crispy skin traditionally served over white rice with a sweet plum sauce on the side",
+    "flag": "https://flagcdn.com/w320/hk.png"
+  },
+  {
+    "common_name": "Chad",
+    "official_name": "Republic of Chad",
+    "capital": [
+      "N'Djamena"
+    ],
+    "region": "Africa",
+    "population": 16425859,
+    "area": 1284000,
+    "souvenirs": "Camel-hair carpets, leather goods, native beaded and silver jewelry, tribal masks and knives, decorated calabash gourds, pottery, embroidered cotton cloth",
+    "traditional_cuisine": "Daraba — a stew made with chopped okra, mixed vegetables, tomatoes, stock cubes, and smooth peanut butter; usually served with rice, boiled cassava, or boiled plantains",
+    "flag": "https://flagcdn.com/w320/td.png"
+  },
+  {
+    "common_name": "Saint Helena, Ascension and Tristan da Cunha",
+    "official_name": "Saint Helena, Ascension and Tristan da Cunha",
+    "capital": [
+      "Jamestown"
+    ],
+    "region": "Africa",
+    "population": 53192,
+    "area": 394,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/sh.png"
+  },
+  {
+    "common_name": "Honduras",
+    "official_name": "Republic of Honduras",
+    "capital": [
+      "Tegucigalpa"
+    ],
+    "region": "Americas",
+    "population": 9904608,
+    "area": 112492,
+    "souvenirs": "Mahogany wood carvings, cigars, leather goods, straw work, pottery, shell items, woven cloth hammocks, replica Mayan items and corn husk dolls, coffee",
+    "traditional_cuisine": "Plato típico — a variety of foods prepared separately, but forming a complete meal in the end; the dish consists of marinated and grilled beef, pork sausages and cracklings, fried plantains, stewed or refried beans, and rice; traditionally served with sour cream, fresh white cheese, avocado slices, marinated cabbage, lime juice, and small tortillas",
+    "flag": "https://flagcdn.com/w320/hn.png"
+  },
+  {
+    "common_name": "Montenegro",
+    "official_name": "Montenegro",
+    "capital": [
+      "Podgorica"
+    ],
+    "region": "Europe",
+    "population": 621718,
+    "area": 13812,
+    "souvenirs": "Traditional caps, brojanica prayer bracelets, cheese, honey, Amaro Montenegro liqueur, wine",
+    "traditional_cuisine": "Brudet — fish stew made with white fish and shellfish, as well as tomatoes, wine, and spices; typically served with polenta (coarsely ground corn)",
+    "flag": "https://flagcdn.com/w320/me.png"
+  },
+  {
+    "common_name": "Morocco",
+    "official_name": "Kingdom of Morocco",
+    "capital": [
+      "Rabat"
+    ],
+    "region": "Africa",
+    "population": 36910558,
+    "area": 446550,
+    "souvenirs": "Silver and brass tea sets, Argan oil, ceramics/tagine clay cooking pots, leather goods including bobouche slippers, jewelry",
+    "traditional_cuisine": "Tagine — chicken stew with spices, vegetables, olives, and preserved lemons served with couscous",
+    "flag": "https://flagcdn.com/w320/ma.png"
+  },
+  {
+    "common_name": "Nicaragua",
+    "official_name": "Republic of Nicaragua",
+    "capital": [
+      "Managua"
+    ],
+    "region": "Americas",
+    "population": 6624554,
+    "area": 130373,
+    "souvenirs": "Pottery, hand-woven hammocks, gold jewelry, leather goods, rum, cigars, coffee",
+    "traditional_cuisine": "Gallo Pinto — red (kidney) beans and cooked stale rice sautéed in oil with onions and garlic",
+    "flag": "https://flagcdn.com/w320/ni.png"
+  },
+  {
+    "common_name": "Cayman Islands",
+    "official_name": "Cayman Islands",
+    "capital": [
+      "George Town"
+    ],
+    "region": "Americas",
+    "population": 65720,
+    "area": 264,
+    "souvenirs": "Caymanite jewelry and decorative items, black coral and shell jewelry, shipwreck artifacts, handwoven baskets and other woven items, luxury items, rum",
+    "traditional_cuisine": "Turtle stew — a stew containing turtle meat, cassava, potatoes, onions, and peppers",
+    "flag": "https://flagcdn.com/w320/ky.png"
+  },
+  {
+    "common_name": "Luxembourg",
+    "official_name": "Grand Duchy of Luxembourg",
+    "capital": [
+      "Luxembourg"
+    ],
+    "region": "Europe",
+    "population": 632275,
+    "area": 2586,
+    "souvenirs": "Carved wooden toys, Christmas decorations, and clocks; luxury fashions, jewelry, watches, crystal, and perfumes; porcelain, pottery/terracotta bird whistles",
+    "traditional_cuisine": "Judd mat Gaardebounen — smoked pork collar and broad beans",
+    "flag": "https://flagcdn.com/w320/lu.png"
+  },
+  {
+    "common_name": "Guyana",
+    "official_name": "Co-operative Republic of Guyana",
+    "capital": [
+      "Georgetown"
+    ],
+    "region": "Americas",
+    "population": 786559,
+    "area": 214969,
+    "souvenirs": "Carved wooden animals, handmade slippers, leather goods, beadwork, woven cloth hammocks and dyed fabrics, glassware",
+    "traditional_cuisine": "Pepper pot — a stewed meat dish with beef, pork, or mutton, flavored with cinnamon, cassareep (a sauce made from the cassava root), and other ingredients, including Caribbean hot peppers; typically served with homemade bread, rice, or roti and/or boiled vegetables such as cassava, eddoes, sweet potatoes, and green or ripe plantains.",
+    "flag": "https://flagcdn.com/w320/gy.png"
+  },
+  {
+    "common_name": "Bulgaria",
+    "official_name": "Republic of Bulgaria",
+    "capital": [
+      "Sofia"
+    ],
+    "region": "Europe",
+    "population": 6927288,
+    "area": 110879,
+    "souvenirs": "Rose oil and other rose products, pottery, traditional dolls, handicraft items including hand-tatted lace and wood-carved items",
+    "traditional_cuisine": "Shopska salad — tomatoes, cucumbers, onion, raw or roasted peppers, sirene (white brine cheese), and parsley; the vegetables are usually diced and salted and served with a light dressing of sunflower or olive oil and occasionally complemented by vinegar",
+    "flag": "https://flagcdn.com/w320/bg.png"
+  },
+  {
+    "common_name": "Ghana",
+    "official_name": "Republic of Ghana",
+    "capital": [
+      "Accra"
+    ],
+    "region": "Africa",
+    "population": 31072945,
+    "area": 238533,
+    "souvenirs": "Handmade beads, woven Kente cloth, gold and silver jewelry, carved stools, pottery",
+    "traditional_cuisine": "Fufu — cassava and unripe plantains mashed together in water with a wooden pole; once the mixture is smooth it is shaped into small balls that are placed in a stew or soup with meat",
+    "flag": "https://flagcdn.com/w320/gh.png"
+  },
+  {
+    "common_name": "Finland",
+    "official_name": "Republic of Finland",
+    "capital": [
+      "Helsinki"
+    ],
+    "region": "Europe",
+    "population": 5530719,
+    "area": 338424,
+    "souvenirs": "Knitted traditional Lappish clothing, reindeer and elk decorative and food items, glass bird statues, stone necklaces",
+    "traditional_cuisine": "Rye Bread and Karelian stew — pork and beef with carrots, onions, and spices",
+    "flag": "https://flagcdn.com/w320/fi.png"
+  },
+  {
+    "common_name": "Seychelles",
+    "official_name": "Republic of Seychelles",
+    "capital": [
+      "Victoria"
+    ],
+    "region": "Africa",
+    "population": 98462,
+    "area": 452,
+    "souvenirs": "Coco De Mer food and decorative items; batik fabric, sarongs, and scarves; shell and pearl jewelry; turtle shell-, coral-, and coconut-carved items; natural bath products, straw baskets, tea",
+    "traditional_cuisine": "Pwason griye — whole fresh fish, often red snapper or rabbit fish, flavored with crushed chili, garlic, and ginger and grilled; typically served over rice, with sweet potatoes or tamarind-tomato chutney on the side",
+    "flag": "https://flagcdn.com/w320/sc.png"
+  },
+  {
+    "common_name": "United States Virgin Islands",
+    "official_name": "Virgin Islands of the United States",
+    "capital": [
+      "Charlotte Amalie"
+    ],
+    "region": "Americas",
+    "population": 106290,
+    "area": 347,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/vi.png"
+  },
+  {
+    "common_name": "Ethiopia",
+    "official_name": "Federal Democratic Republic of Ethiopia",
+    "capital": [
+      "Addis Ababa"
+    ],
+    "region": "Africa",
+    "population": 114963583,
+    "area": 1104300,
+    "souvenirs": "Coffee, traditional clothing, shema cloth, carved-metal or wood religious crosses and other wooden items, leather goods, wickerwork, handicrafts",
+    "traditional_cuisine": "Wat — a stew that may be prepared with chicken, beef, lamb, a variety of vegetables, spice mixtures such as berbere, and niter kibbeh (seasoned clarified butter); typically served with injera (a spongy flat bread)",
+    "flag": "https://flagcdn.com/w320/et.png"
+  },
+  {
+    "common_name": "Mauritania",
+    "official_name": "Islamic Republic of Mauritania",
+    "capital": [
+      "Nouakchott"
+    ],
+    "region": "Africa",
+    "population": 4649660,
+    "area": 1030700,
+    "souvenirs": "Dyed leather goods, silver jewelry and engraved items, woven rugs/carpets and hand-dyed fabric, knives; neolithic pottery, arrowheads, and other items",
+    "traditional_cuisine": "Thieboudienne — fish and rice served in a white and red sauce, usually made from tomatoes",
+    "flag": "https://flagcdn.com/w320/mr.png"
+  },
+  {
+    "common_name": "Iceland",
+    "official_name": "Iceland",
+    "capital": [
+      "Reykjavik"
+    ],
+    "region": "Europe",
+    "population": 366425,
+    "area": 103000,
+    "souvenirs": "Hand-knit wool items including blankets, sweaters, hats, coats, and mittens; pottery, local spirits, Viking themed items and dolls in traditional costumes; carved fish skin, lava rock, and driftwood items; felt stuffed animal toys",
+    "traditional_cuisine": "Lamb; Hákarl — cured (fermented) shark meat",
+    "flag": "https://flagcdn.com/w320/is.png"
+  },
+  {
+    "common_name": "Réunion",
+    "official_name": "Réunion Island",
+    "capital": [
+      "Saint-Denis"
+    ],
+    "region": "Africa",
+    "population": 840974,
+    "area": 2511,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/re.png"
+  },
+  {
+    "common_name": "Tajikistan",
+    "official_name": "Republic of Tajikistan",
+    "capital": [
+      "Dushanbe"
+    ],
+    "region": "Asia",
+    "population": 9537642,
+    "area": 143100,
+    "souvenirs": "Arabic words worked into jewelry, musical instruments, utensils, and small sculptures; carved furniture; hand-woven carpets; brocade fabric items; gold-embroidered rumol belts, toki kallapush scullcaps, and other items; dried apricots; Soviet-era memorabilia",
+    "traditional_cuisine": "Qurutob — dried balls of cheese are soaked in water and the resulting salty liquid is used as the base of the dish; strips of flatbread are placed on top and the mixture is usually topped with a variety of vegetables, meat, or garnished with chili peppers",
+    "flag": "https://flagcdn.com/w320/tj.png"
+  },
+  {
+    "common_name": "Cuba",
+    "official_name": "Republic of Cuba",
+    "capital": [
+      "Havana"
+    ],
+    "region": "Americas",
+    "population": 11326616,
+    "area": 109884,
+    "souvenirs": "Cigars, rum, coffee, sugar, local art and handicrafts",
+    "traditional_cuisine": "Ropa Vieja — shredded flank steak cooked in tomato sauce and served with rice and/or beans and sweet plantain fritters",
+    "flag": "https://flagcdn.com/w320/cu.png"
+  },
+  {
+    "common_name": "Somalia",
+    "official_name": "Federal Republic of Somalia",
+    "capital": [
+      "Mogadishu"
+    ],
+    "region": "Africa",
+    "population": 15893219,
+    "area": 637657,
+    "souvenirs": "Woven cloth, woven baskets, woodcarvings, meerschaum carvings,  gold and silver jewelry",
+    "traditional_cuisine": "Bariis Iskukaris — rice cooked in stock and spices (including cumin, cinnamon, black pepper, cardamom, cloves, coriander, and nutmeg) topped with fried onions and raisins; sometimes peppers or potatoes are added; typically served with roasted lamb or goat and bananas",
+    "flag": "https://flagcdn.com/w320/so.png"
+  },
+  {
+    "common_name": "Switzerland",
+    "official_name": "Swiss Confederation",
+    "capital": [
+      "Bern"
+    ],
+    "region": "Europe",
+    "population": 8654622,
+    "area": 41284,
+    "souvenirs": "Chocolate; cuckoo clocks, music boxes, and other wood carved items; cheese; Swiss army knives; watches/clocks; paper cut pictures; embroidered fabric; schnapps spirits",
+    "traditional_cuisine": "Rösti — grated potato patties sometimes including herbs and spices, onions, ham, or cheese and pan-fried in butter or oil; the dish is cut into wedges for serving",
+    "flag": "https://flagcdn.com/w320/ch.png"
+  },
+  {
+    "common_name": "Christmas Island",
+    "official_name": "Territory of Christmas Island",
+    "capital": [
+      "Flying Fish Cove"
+    ],
+    "region": "Oceania",
+    "population": 2072,
+    "area": 135,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/cx.png"
+  },
+  {
+    "common_name": "Martinique",
+    "official_name": "Martinique",
+    "capital": [
+      "Fort-de-France"
+    ],
+    "region": "Americas",
+    "population": 378243,
+    "area": 1128,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/mq.png"
+  },
+  {
+    "common_name": "Australia",
+    "official_name": "Commonwealth of Australia",
+    "capital": [
+      "Canberra"
+    ],
+    "region": "Oceania",
+    "population": 25687041,
+    "area": 7692024,
+    "souvenirs": "Boomerangs and other indigenous carved items, stuffed toy native animals (such as kangaroo, koala, wombat, and platypus), jewelry, woolen goods, vegemite",
+    "traditional_cuisine": "Meat Pie — a fist-sized baked pie filled with ground meat, gravy, and topped with tomato sauce; the gravy often contains onions and/or mushrooms",
+    "flag": "https://flagcdn.com/w320/au.png"
+  },
+  {
+    "common_name": "Benin",
+    "official_name": "Republic of Benin",
+    "capital": [
+      "Porto-Novo"
+    ],
+    "region": "Africa",
+    "population": 12123198,
+    "area": 112622,
+    "souvenirs": "Tribal masks, basketware, pottery, handwoven textiles, brassware",
+    "traditional_cuisine": "Kuli-kuli — ground, smashed peanuts mixed with salt, pepper, and other spices shaped into balls or biscuits and deep-fried",
+    "flag": "https://flagcdn.com/w320/bj.png"
+  },
+  {
+    "common_name": "Laos",
+    "official_name": "Lao People's Democratic Republic",
+    "capital": [
+      "Vientiane"
+    ],
+    "region": "Asia",
+    "population": 7275556,
+    "area": 236800,
+    "souvenirs": "Hand-woven silk or cotton sarongs, gold and gemstone jewelry, wood carvings, spices, Hill Tribe bags",
+    "traditional_cuisine": "Larb (or Laap) — minced meat, seasoned with lime juice, fermented fish sauce, and a variety of other ingredients such as finely ground roasted sticky rice, chilli, mint leaves, onions, herbs, and spices",
+    "flag": "https://flagcdn.com/w320/la.png"
+  },
+  {
+    "common_name": "Sudan",
+    "official_name": "Republic of the Sudan",
+    "capital": [
+      "Khartoum"
+    ],
+    "region": "Africa",
+    "population": 43849269,
+    "area": 1886068,
+    "souvenirs": "Ebony carved items, basketwork, tribal art, gold and silver jewelry, spices",
+    "traditional_cuisine": "Ful Medames — a vegetarian dish typically made with fava beans and served with toppings such as tomatoes, greens, feta, red onions, hard-boiled eggs, or shata (hot sauce)",
+    "flag": "https://flagcdn.com/w320/sd.png"
+  },
+  {
+    "common_name": "Libya",
+    "official_name": "State of Libya",
+    "capital": [
+      "Tripoli"
+    ],
+    "region": "Africa",
+    "population": 6871287,
+    "area": 1759540,
+    "souvenirs": "Ghadames slippers, blended oils/perfumes, stamps, gold jewelry inlaid with precious stones, leather goods, hand-loomed rugs, pottery, stringed musical instruments, copperware, palm leaf baskets",
+    "traditional_cuisine": "Cuscus Bil-Bosla — couscous cooked with lamb, chickpeas, potatoes, and tomatoes",
+    "flag": "https://flagcdn.com/w320/ly.png"
+  },
+  {
+    "common_name": "Mali",
+    "official_name": "Republic of Mali",
+    "capital": [
+      "Bamako"
+    ],
+    "region": "Africa",
+    "population": 20250834,
+    "area": 1240192,
+    "souvenirs": "Carved-wood native items, including masks and musical instruments; iron and copper swords and knives; pottery; woven cloth; gold, silver, and wood jewelry",
+    "traditional_cuisine": "Tiguadege Na — a peanut butter stew prepared with lamb or chicken and large chunks of potatoes and carrots",
+    "flag": "https://flagcdn.com/w320/ml.png"
+  },
+  {
+    "common_name": "Peru",
+    "official_name": "Republic of Peru",
+    "capital": [
+      "Lima"
+    ],
+    "region": "Americas",
+    "population": 32971846,
+    "area": 1285216,
+    "souvenirs": "Alpaca wool sweaters, scarves, and Chullo hats; pottery; sterling silver jewelry; leather goods; carved gourds",
+    "traditional_cuisine": "Ceviche — chunks of raw fish marinated in lime juice, mixed with onions, chili peppers, and garlic; fish bone broth, salt, and pepper are used for seasoning",
+    "flag": "https://flagcdn.com/w320/pe.png"
+  },
+  {
+    "common_name": "Hungary",
+    "official_name": "Hungary",
+    "capital": [
+      "Budapest"
+    ],
+    "region": "Europe",
+    "population": 9749763,
+    "area": 93028,
+    "souvenirs": "Paprika and other food items including salami and goose liver; wine and liqueurs; embroidery; pottery and porcelain and ceramic figurines; crystal; goose down items; natural herbal remedies; wooden sculptures",
+    "traditional_cuisine": "Goulash — a spicy tomato-and-paprika-based stew of beef, noodles, potatoes, and other vegetables",
+    "flag": "https://flagcdn.com/w320/hu.png"
+  },
+  {
+    "common_name": "Bermuda",
+    "official_name": "Bermuda",
+    "capital": [
+      "Hamilton"
+    ],
+    "region": "Americas",
+    "population": 63903,
+    "area": 54,
+    "souvenirs": "Bermuda shorts, handmade cedar furniture and decorative items, costumed dolls, luxury items, rum, perfume",
+    "traditional_cuisine": "Bermuda fish chowder — fish stock, fish, vegetables, and bacon fat served with spices or black rum and sherry peppers",
+    "flag": "https://flagcdn.com/w320/bm.png"
+  },
+  {
+    "common_name": "Fiji",
+    "official_name": "Republic of Fiji",
+    "capital": [
+      "Suva"
+    ],
+    "region": "Oceania",
+    "population": 896444,
+    "area": 18272,
+    "souvenirs": "Wood-carved mako masks and other tribal wooden items, shell items, pearls, pottery, tapa cloth; pandanus woven mats, baskets, and rope",
+    "traditional_cuisine": "Kokoda — fresh, raw fish such as mahi-mahi or snapper marinated in a combination of coconut milk and citrus juices; often garnished with sea salt, minced chilis, finely sliced green onions, or coriander leaves",
+    "flag": "https://flagcdn.com/w320/fj.png"
+  },
+  {
+    "common_name": "Netherlands",
+    "official_name": "Kingdom of the Netherlands",
+    "capital": [
+      "Amsterdam"
+    ],
+    "region": "Europe",
+    "population": 16655799,
+    "area": 41850,
+    "souvenirs": "Tulips/tulip bulbs, wooden clogs, blue Delft-ware, chocolate, cheese, glass/crystal, windmill themed items",
+    "traditional_cuisine": "Stamppot — potatoes mashed with sauerkraut, endive, kale, turnips, or other vegetable and cooked in a pot; usually served with smoked sausage on the side",
+    "flag": "https://flagcdn.com/w320/nl.png"
+  },
+  {
+    "common_name": "Nigeria",
+    "official_name": "Federal Republic of Nigeria",
+    "capital": [
+      "Abuja"
+    ],
+    "region": "Africa",
+    "population": 206139587,
+    "area": 923768,
+    "souvenirs": "Tribal ceremonial masks, carved idols, and weapons; leather goods, cane furniture, brass and bronze carvings and jewelry, woven baskets, Aso oke fabric items",
+    "traditional_cuisine": "Jollof rice — rice cooked in a sauce made with tomatoes, tomato paste, onions, salt, pepper, coconut milk, spices such as nutmeg or partminger (basil leaf); meat, fish, vegetables, or even Roiboos tea can be added",
+    "flag": "https://flagcdn.com/w320/ng.png"
+  },
+  {
+    "common_name": "Portugal",
+    "official_name": "Portuguese Republic",
+    "capital": [
+      "Lisbon"
+    ],
+    "region": "Europe",
+    "population": 10305564,
+    "area": 92090,
+    "souvenirs": "Hand-painted dishes and ceramic tiles, wood-inlaid items, antiques, port wine",
+    "traditional_cuisine": "Bacalhau — dried and salted cod fish usually soaked first in water or milk; typically prepared with a variety of ingredients including potatoes, carrots, cabbage, or eggs and may be baked, boiled, or fried",
+    "flag": "https://flagcdn.com/w320/pt.png"
+  },
+  {
+    "common_name": "India",
+    "official_name": "Republic of India",
+    "capital": [
+      "New Delhi"
+    ],
+    "region": "Asia",
+    "population": 1380004385,
+    "area": 3287590,
+    "souvenirs": "Handmade shoes and leather goods, traditional saris, Nehru jackets, gold and bangle jewelry, furniture and lacquered decorative items, brass and wood carvings; cardamom, cinnamon, curry, saffron, and other spices; antiques",
+    "traditional_cuisine": "Khichdi — a dish of rice and lentils; Biryani — long-grain rice cooked with spices and meat and often topped with fried onion flakes and boiled eggs; Tandoori Chicken — whole chicken marinated in yogurt and spices, and baked in a tandoor (a traditional Indian clay oven)",
+    "flag": "https://flagcdn.com/w320/in.png"
+  },
+  {
+    "common_name": "South Georgia",
+    "official_name": "South Georgia and the South Sandwich Islands",
+    "capital": [
+      "King Edward Point"
+    ],
+    "region": "Antarctic",
+    "population": 30,
+    "area": 3903,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/gs.png"
+  },
+  {
+    "common_name": "Lesotho",
+    "official_name": "Kingdom of Lesotho",
+    "capital": [
+      "Maseru"
+    ],
+    "region": "Africa",
+    "population": 2142252,
+    "area": 30355,
+    "souvenirs": "Hand-woven wool/mohair clothing, tapestries, and accessories; traditional woven grass hats; leather goods; silver, gold, and diamond jewelry",
+    "traditional_cuisine": "Papa — boiled cornmeal porridge",
+    "flag": "https://flagcdn.com/w320/ls.png"
+  },
+  {
+    "common_name": "Zambia",
+    "official_name": "Republic of Zambia",
+    "capital": [
+      "Lusaka"
+    ],
+    "region": "Africa",
+    "population": 18383956,
+    "area": 752612,
+    "souvenirs": "Wood and stone carvings, handmade pottery and glassware, basketware, batik fabric and decorative items; wrought iron sculptures and copperware; carved tribal items including masks, drums, and animals; beadwork and handmade jewelry; local gemstones",
+    "traditional_cuisine": "Nshima — a dough-like porridge made from ground maize used to scoop up side dishes (ndiwo) such as soups, stews, sauces, or relishes",
+    "flag": "https://flagcdn.com/w320/zm.png"
+  },
+  {
+    "common_name": "Tokelau",
+    "official_name": "Tokelau",
+    "capital": [
+      "Fakaofo"
+    ],
+    "region": "Oceania",
+    "population": 1411,
+    "area": 12,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/tk.png"
+  },
+  {
+    "common_name": "Gambia",
+    "official_name": "Republic of the Gambia",
+    "capital": [
+      "Banjul"
+    ],
+    "region": "Africa",
+    "population": 2416664,
+    "area": 10689,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/gm.png"
+  },
+  {
+    "common_name": "Sierra Leone",
+    "official_name": "Republic of Sierra Leone",
+    "capital": [
+      "Freetown"
+    ],
+    "region": "Africa",
+    "population": 7976985,
+    "area": 71740,
+    "souvenirs": "Tribal art and ceremonial masks, woven baskets, pottery, handmade precious metal and stone jewelry, tailored clothing, bush-medicine items",
+    "traditional_cuisine": "Cassava leaf stew — a stew made with finely shredded Cassava leaves added to a palaver sauce made using red palm oil mixed with ingredients such as onions, pepper, fish, meat, and vegetables",
+    "flag": "https://flagcdn.com/w320/sl.png"
+  },
+  {
+    "common_name": "Kiribati",
+    "official_name": "Independent and Sovereign Republic of Kiribati",
+    "capital": [
+      "South Tarawa"
+    ],
+    "region": "Oceania",
+    "population": 119446,
+    "area": 811,
+    "souvenirs": "Hand-smocked tops; beaded, sea shell, or wood jewelry; Pandanus leaf, coconut, or sea shell items; Gilbertese canoe and house models, shark-tooth items",
+    "traditional_cuisine": "Palusami - wrapped bundles of taro leaves with a coconut-and-onion filling; sometimes also made with chicken or fish",
+    "flag": "https://flagcdn.com/w320/ki.png"
+  },
+  {
+    "common_name": "Norway",
+    "official_name": "Kingdom of Norway",
+    "capital": [
+      "Oslo"
+    ],
+    "region": "Europe",
+    "population": 5379475,
+    "area": 323802,
+    "souvenirs": "Wool-knit sweaters and socks, jewelry and watches; wood-carved ornaments, toys, and decorative items; ceramics, moose- and troll-themed items",
+    "traditional_cuisine": "Farikal — mutton-pieces-with-bone, cabbage, salt, and whole black pepper cooked together for several hours in a big pot, until the mutton becomes very soft",
+    "flag": "https://flagcdn.com/w320/no.png"
+  },
+  {
+    "common_name": "Ireland",
+    "official_name": "Republic of Ireland",
+    "capital": [
+      "Dublin"
+    ],
+    "region": "Europe",
+    "population": 4994724,
+    "area": 70273,
+    "souvenirs": "Hand-woven wool and other knitwear, pottery, crystal; silver and gold Claddagh, Celtic cross, and trinity knot jewelry; liquor, shamrock-themed items",
+    "traditional_cuisine": "Irish Stew — mutton stew with potatoes, onions, carrots, and parsley",
+    "flag": "https://flagcdn.com/w320/ie.png"
+  },
+  {
+    "common_name": "Greenland",
+    "official_name": "Greenland",
+    "capital": [
+      "Nuuk"
+    ],
+    "region": "Americas",
+    "population": 56367,
+    "area": 2166086,
+    "souvenirs": "Bone, antler, or soapstone carvings; gemstones including tugtupite; bead and pendant necklaces; beauty products; leather goods; local berry, meat, and fish items",
+    "traditional_cuisine": "Suaasat — a soup made from seal, whale, reindeer, or seabirds, often including onions and potatoes, and seasoned with salt and pepper or bay leaf; the soup is often thickened with rice or by soaking barley in the water overnight",
+    "flag": "https://flagcdn.com/w320/gl.png"
+  },
+  {
+    "common_name": "British Indian Ocean Territory",
+    "official_name": "British Indian Ocean Territory",
+    "capital": [
+      "Diego Garcia"
+    ],
+    "region": "Africa",
+    "population": 3000,
+    "area": 60,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/io.png"
+  },
+  {
+    "common_name": "Mozambique",
+    "official_name": "Republic of Mozambique",
+    "capital": [
+      "Maputo"
+    ],
+    "region": "Africa",
+    "population": 31255435,
+    "area": 801590,
+    "souvenirs": "Ritual masks, seashell and bead jewelry, hand woven and dyed fabric goods, carved wooden items, pottery",
+    "traditional_cuisine": "Peri peri chicken — grilled or roasted chicken marinated in cumin, garlic, paprika, lemon juice, and bird's eye chilis grilled or roasted and served with a creamy and spicy coconut sauce",
+    "flag": "https://flagcdn.com/w320/mz.png"
+  },
+  {
+    "common_name": "Panama",
+    "official_name": "Republic of Panama",
+    "capital": [
+      "Panama City"
+    ],
+    "region": "Americas",
+    "population": 4314768,
+    "area": 75417,
+    "souvenirs": "Mola- and embroidered-cloth items, woven baskets, pre-Columbian inspired gold jewelry",
+    "traditional_cuisine": "Sancocho de Gallina (Chicken Stew) - chicken, corn, and root vegetables such as ñame, yuca, and otoe, flavored with culantro (an herb similar to cilantro); typically served with a side of white rice",
+    "flag": "https://flagcdn.com/w320/pa.png"
+  },
+  {
+    "common_name": "Ukraine",
+    "official_name": "Ukraine",
+    "capital": [
+      "Kyiv"
+    ],
+    "region": "Europe",
+    "population": 44134693,
+    "area": 603500,
+    "souvenirs": "Pysanka hand-decorated eggs, handmade embroidered traditional shirts, blouses, and table linens",
+    "traditional_cuisine": "Borshch — a soup made with beetroot, meat, or bone stock, and sautéed vegetables; Varenyky – dumplings stuffed with potato, cheese (sometimes both), sauerkraut, mushrooms, or fruit filling",
+    "flag": "https://flagcdn.com/w320/ua.png"
+  },
+  {
+    "common_name": "Uruguay",
+    "official_name": "Oriental Republic of Uruguay",
+    "capital": [
+      "Montevideo"
+    ],
+    "region": "Americas",
+    "population": 3473727,
+    "area": 181034,
+    "souvenirs": "Leather and suede goods, amethyst jewelry, woolen items",
+    "traditional_cuisine": "Chivito — a sandwich filled with slices of churrasco (grilled/roasted and thinly sliced beef), ham, bacon, tomatoes, lettuce, melted mozzarella, and a topping of fried (or sometimes boiled) eggs",
+    "flag": "https://flagcdn.com/w320/uy.png"
+  },
+  {
+    "common_name": "Aruba",
+    "official_name": "Aruba",
+    "capital": [
+      "Oranjestad"
+    ],
+    "region": "Americas",
+    "population": 106766,
+    "area": 180,
+    "souvenirs": "Woodcrafts, leather goods, pottery, jewelry, aloe/skin care products",
+    "traditional_cuisine": "Keshi yena — a large portion of cheese that is hollowed out and stuffed with spiced meat and served either steamed or baked",
+    "flag": "https://flagcdn.com/w320/aw.png"
+  },
+  {
+    "common_name": "Iran",
+    "official_name": "Islamic Republic of Iran",
+    "capital": [
+      "Tehran"
+    ],
+    "region": "Asia",
+    "population": 83992953,
+    "area": 1648195,
+    "souvenirs": "Hand-carved inlaid wood items, woven carpets and rugs, silks, silver and gold jewelry, ceramics, hand-lettered calligraphy, embroidered slippers",
+    "traditional_cuisine": "Chelo Kebab — skewered ground meat (lamb or beef) kebabs served with saffron rice and grilled tomatoes",
+    "flag": "https://flagcdn.com/w320/ir.png"
+  },
+  {
+    "common_name": "Isle of Man",
+    "official_name": "Isle of Man",
+    "capital": [
+      "Douglas"
+    ],
+    "region": "Europe",
+    "population": 85032,
+    "area": 572,
+    "souvenirs": "Hand knit sweaters and other clothing, tartan items, silver jewelry, traditional dolls, liquor, Manx cat and racing-bike-themed items; iron, steel, and woodworking items including furniture",
+    "traditional_cuisine": "Isle of Man Queenies — medium-sized queen scallops",
+    "flag": "https://flagcdn.com/w320/im.png"
+  },
+  {
+    "common_name": "Åland Islands",
+    "official_name": "Åland Islands",
+    "capital": [
+      "Mariehamn"
+    ],
+    "region": "Europe",
+    "population": 29458,
+    "area": 1580,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/ax.png"
+  },
+  {
+    "common_name": "Saudi Arabia",
+    "official_name": "Kingdom of Saudi Arabia",
+    "capital": [
+      "Riyadh"
+    ],
+    "region": "Asia",
+    "population": 34813867,
+    "area": 2149690,
+    "souvenirs": "Oud perfume, dried dates, olive oil, woven wool prayer rugs, oil lamps or incense burners, frankincense and myrrh incense",
+    "traditional_cuisine": "Kabsa — water used to cook meat or fish is re-used to cook rice to impart flavor; the dish can be made with chicken, lamb, camel meat, fish, or shrimp; the meat or fish is usually placed on top of the rice and served on a large platter",
+    "flag": "https://flagcdn.com/w320/sa.png"
+  },
+  {
+    "common_name": "Djibouti",
+    "official_name": "Republic of Djibouti",
+    "capital": [
+      "Djibouti"
+    ],
+    "region": "Africa",
+    "population": 988002,
+    "area": 23200,
+    "souvenirs": "Malachite and amber beaded items, hammered silver jewelry, traditional African clothing and woven goods, tribal art and daggers, wooden and carved stone items, scented incense, coffee beans",
+    "traditional_cuisine": "Skoudekharis — a one-pot dish of rice and spices that includes generous portions of lamb",
+    "flag": "https://flagcdn.com/w320/dj.png"
+  },
+  {
+    "common_name": "Italy",
+    "official_name": "Italian Republic",
+    "capital": [
+      "Rome"
+    ],
+    "region": "Europe",
+    "population": 59554023,
+    "area": 301336,
+    "souvenirs": "Leather goods, designer fashion, artwork, ceramics and pottery, wine and liqueurs, cheese, pasta, crystal and blown-glass items",
+    "traditional_cuisine": "Pasta dishes, pizza",
+    "flag": "https://flagcdn.com/w320/it.png"
+  },
+  {
+    "common_name": "Canada",
+    "official_name": "Canada",
+    "capital": [
+      "Ottawa"
+    ],
+    "region": "Americas",
+    "population": 38005238,
+    "area": 9984670,
+    "souvenirs": "Maple syrup products, maple leaf and loon figurine handicrafts, Canadian Mountie \"Moose\" items, stuffed toy polar bears, native artwork and wood carvings",
+    "traditional_cuisine": "Poutine — French fries topped with a mildly spicy chicken or turkey gravy and fresh cheese curds",
+    "flag": "https://flagcdn.com/w320/ca.png"
+  },
+  {
+    "common_name": "Jamaica",
+    "official_name": "Jamaica",
+    "capital": [
+      "Kingston"
+    ],
+    "region": "Americas",
+    "population": 2961161,
+    "area": 10991,
+    "souvenirs": "Hand-loomed, embroidered, and batik fabric; silkscreens and oil paintings, wood carvings; raffia, straw, and wicker items; rum, coffee, pottery and ceramics, bead and shell jewelry",
+    "traditional_cuisine": "Ackee and saltfish — boiled ackee (a pear-shaped fruit) and salted codfish sautéd with onions and tomatoes; sometimes served over bammy (deep-fried cassava cakes) with fried plantains",
+    "flag": "https://flagcdn.com/w320/jm.png"
+  },
+  {
+    "common_name": "Niger",
+    "official_name": "Republic of Niger",
+    "capital": [
+      "Niamey"
+    ],
+    "region": "Africa",
+    "population": 24206636,
+    "area": 1267000,
+    "souvenirs": "Gold and silver jewelry, leather goods, dyed fabric items, Tuareg native weapons, woven baskets, decorated gourds",
+    "traditional_cuisine": "Dambou - rice flour, fine hard wheat semolina (couscous semolina), or millet, wheat or corn couscous; the cereals are steamed for about 20 to 30 minutes and added to boiling moringa leaves; other ingredients are added including onion, chili, salt, broth, peanut, vegetable oil, meat or fish as a side dish",
+    "flag": "https://flagcdn.com/w320/ne.png"
+  },
+  {
+    "common_name": "Afghanistan",
+    "official_name": "Islamic Republic of Afghanistan",
+    "capital": [
+      "Kabul"
+    ],
+    "region": "Asia",
+    "population": 40218234,
+    "area": 652230,
+    "souvenirs": "Tribal hats and scarves, pottery, lapis lazuli and soapstone items, handwoven rugs, brass and copperware",
+    "traditional_cuisine": "Kabuli Pulao — long-grained Basmati rice steamed in meat broth, with assorted lentils, raisins, carrots, lamb, and chopped almonds and pistachios",
+    "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_the_Taliban.svg/320px-Flag_of_the_Taliban.svg.png"
+  },
+  {
+    "common_name": "Croatia",
+    "official_name": "Republic of Croatia",
+    "capital": [
+      "Zagreb"
+    ],
+    "region": "Europe",
+    "population": 4047200,
+    "area": 56594,
+    "souvenirs": "Lace and embroidered items, silver and coral jewelry, carved heart items; lavender, olive oil, and truffle products; handmade non-edible dough painted and/or bejeweled ornaments, wine and liqueurs",
+    "traditional_cuisine": "Zagorski štrukli — dough and various types of filling either boiled or baked; a mixture of cottage cheese with eggs, sour cream, and salt is spread thinly over the dough which is rolled lengthwise into two joined rolls and then cut into pieces before cooking",
+    "flag": "https://flagcdn.com/w320/hr.png"
+  },
+  {
+    "common_name": "Latvia",
+    "official_name": "Republic of Latvia",
+    "capital": [
+      "Riga"
+    ],
+    "region": "Europe",
+    "population": 1901548,
+    "area": 64559,
+    "souvenirs": "Amber jewelry and decorative items, ceramic items, wickerwork, silver, beer/liquor",
+    "traditional_cuisine": "Grey Peas and Bacon — grey peas cooked in smoked bacon, onion, and salt; rye bread",
+    "flag": "https://flagcdn.com/w320/lv.png"
+  },
+  {
+    "common_name": "Samoa",
+    "official_name": "Independent State of Samoa",
+    "capital": [
+      "Apia"
+    ],
+    "region": "Oceania",
+    "population": 198410,
+    "area": 2842,
+    "souvenirs": "Shell, coconut, and mother-of-pearl jewelry and decorative items; bone-, turtle-shell-, and kava-wood-carved items; tapa and embroidered cloth goods; spices and tea; woven baskets",
+    "traditional_cuisine": "Panipopo — a dessert consisting of buns baked in a sweet and sticky coconut cream sauce",
+    "flag": "https://flagcdn.com/w320/ws.png"
+  },
+  {
+    "common_name": "Curaçao",
+    "official_name": "Country of Curaçao",
+    "capital": [
+      "Willemstad"
+    ],
+    "region": "Americas",
+    "population": 155014,
+    "area": 444,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/cw.png"
+  },
+  {
+    "common_name": "Cyprus",
+    "official_name": "Republic of Cyprus",
+    "capital": [
+      "Nicosia"
+    ],
+    "region": "Europe",
+    "population": 1207361,
+    "area": 9251,
+    "souvenirs": "Handmade lace, woven fabric and silk items, basketware, pottery, silver items, leather goods, brandy and liqueurs",
+    "traditional_cuisine": "Souvla — large pieces of meat cooked on a long skewer over a charcoal barbecue; salt, spices, oil, and wine are sprinkled or brushed on the meat during the cooking process",
+    "flag": "https://flagcdn.com/w320/cy.png"
+  },
+  {
+    "common_name": "Madagascar",
+    "official_name": "Republic of Madagascar",
+    "capital": [
+      "Antananarivo"
+    ],
+    "region": "Africa",
+    "population": 27691019,
+    "area": 587041,
+    "souvenirs": "Vanilla, baobab seeds, Batik/handwoven fabric and hand-beaded slippers; gold or silver hairpins, brooches, and other jewelry; pewter goods",
+    "traditional_cuisine": "Romazava — beef and green leaves stew",
+    "flag": "https://flagcdn.com/w320/mg.png"
+  },
+  {
+    "common_name": "Uzbekistan",
+    "official_name": "Republic of Uzbekistan",
+    "capital": [
+      "Tashkent"
+    ],
+    "region": "Asia",
+    "population": 34232050,
+    "area": 447400,
+    "souvenirs": "Koran stands and other carved and painted wooden items, filigree cylinder necklaces, engraved metal items, Asian-style carpets, Kolyb prayer rugs,  decorative textiles, handmade silk and embroidered items, Soviet memorabilia, knives, spices",
+    "traditional_cuisine": "Plov — a base consisting of seasoned carrots, onions, garlic, and meat sautéed in fat is first prepared and then rice is added over the previously sautéed ingredients, topped with water, and simmered until the rice is fully cooked; ingredients typically added to Plov include meat, vegetables, and raisins or other fruit",
+    "flag": "https://flagcdn.com/w320/uz.png"
+  },
+  {
+    "common_name": "Macau",
+    "official_name": "Macao Special Administrative Region of the People's Republic of China",
+    "capital": [],
+    "region": "Asia",
+    "population": 649342,
+    "area": 30,
+    "souvenirs": "Jewelry/watches, traditional silk robes; Chinese-inspired paintings, jade statues, and tea sets",
+    "traditional_cuisine": "Minchee — minced or ground beef or pork flavored with molasses and soy sauce and served with a fried egg on top",
+    "flag": "https://flagcdn.com/w320/mo.png"
+  },
+  {
+    "common_name": "Micronesia",
+    "official_name": "Federated States of Micronesia",
+    "capital": [
+      "Palikir"
+    ],
+    "region": "Oceania",
+    "population": 115021,
+    "area": 702,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/fm.png"
+  },
+  {
+    "common_name": "Maldives",
+    "official_name": "Republic of the Maldives",
+    "capital": [
+      "Malé"
+    ],
+    "region": "Asia",
+    "population": 540542,
+    "area": 300,
+    "souvenirs": "Hand-woven wicker and reed mats, woven baskets, shell and stone jewelry, tree-sap-carved lacquered boxes and other carved wooden items",
+    "traditional_cuisine": "Garudiya — a clear fish (typically tuna) broth",
+    "flag": "https://flagcdn.com/w320/mv.png"
+  },
+  {
+    "common_name": "Slovenia",
+    "official_name": "Republic of Slovenia",
+    "capital": [
+      "Ljubljana"
+    ],
+    "region": "Europe",
+    "population": 2100126,
+    "area": 20273,
+    "souvenirs": "Handmade lace; dragon-, carnation-, folklore-, and beehive-themed ceramic and wood decorative items; replica boats; crystal; gold jewelry; woven baskets; liquor and wine; Soviet-era money, stamps, and military paraphernalia",
+    "traditional_cuisine": "Štruklji — rolls of filo dough filled with savory or sweet fillings including meat, cottage cheese, apple, or walnuts; the dumplings can be boiled, steamed, or fried and served as a side dish to meat or as a dessert",
+    "flag": "https://flagcdn.com/w320/si.png"
+  },
+  {
+    "common_name": "Andorra",
+    "official_name": "Principality of Andorra",
+    "capital": [
+      "Andorra la Vella"
+    ],
+    "region": "Europe",
+    "population": 77265,
+    "area": 468,
+    "souvenirs": "Wood, leather, and metal carved \"musicature\"; ironwork; pinewood furniture; glazed pottery",
+    "traditional_cuisine": "Escudella i carn d'olla — a traditional Catalan meat and vegetable stew and soup",
+    "flag": "https://flagcdn.com/w320/ad.png"
+  },
+  {
+    "common_name": "Eritrea",
+    "official_name": "State of Eritrea",
+    "capital": [
+      "Asmara"
+    ],
+    "region": "Africa",
+    "population": 5352000,
+    "area": 117600,
+    "souvenirs": "Tigrinya netsela cotton shawls/scarves, gold and silver jewelry, religious artifacts, pottery, baskets",
+    "traditional_cuisine": "Zigini — a spicy meat stew made with Berbere spices and eaten with a type of flatbread called injera",
+    "flag": "https://flagcdn.com/w320/er.png"
+  },
+  {
+    "common_name": "Guinea-Bissau",
+    "official_name": "Republic of Guinea-Bissau",
+    "capital": [
+      "Bissau"
+    ],
+    "region": "Africa",
+    "population": 1967998,
+    "area": 36125,
+    "souvenirs": "Carved tribal masks and wooden statues, beaded jewelry or precious metals items, handmade cloth, beauty products, pottery, baskets",
+    "traditional_cuisine": "Jollof rice — rice cooked in palm oil and served with tomato paste and onions; sometimes with added fish or meat",
+    "flag": "https://flagcdn.com/w320/gw.png"
+  },
+  {
+    "common_name": "Kuwait",
+    "official_name": "State of Kuwait",
+    "capital": [
+      "Kuwait City"
+    ],
+    "region": "Asia",
+    "population": 4270563,
+    "area": 17818,
+    "souvenirs": "Wool rugs, pearl jewelry, pottery, dried fruits/nuts, tea sets",
+    "traditional_cuisine": "Machboos (or Machboos laham) — mutton accompanied with rice cooked in the meat’s broth and a mixture of onions, raisins, and yellow split peas",
+    "flag": "https://flagcdn.com/w320/kw.png"
+  },
+  {
+    "common_name": "Gabon",
+    "official_name": "Gabonese Republic",
+    "capital": [
+      "Libreville"
+    ],
+    "region": "Africa",
+    "population": 2225728,
+    "area": 267668,
+    "souvenirs": "Stone carvings, ceremonial masks, pottery, drums, precious and semi-precious gemstones; beaded or brass, copper, or silver pendant necklaces",
+    "traditional_cuisine": "Poulet Nyembwe — chicken in palm butter sauce",
+    "flag": "https://flagcdn.com/w320/ga.png"
+  },
+  {
+    "common_name": "Yemen",
+    "official_name": "Republic of Yemen",
+    "capital": [
+      "Sana'a"
+    ],
+    "region": "Asia",
+    "population": 29825968,
+    "area": 527968,
+    "souvenirs": "Frankincense, jambiyyas daggers, polished amber, traditional clothing, honey",
+    "traditional_cuisine": "Saltah — brown meat stew served with rice; key ingredients include saltah and hilbeh (a condiment based on fenugreek) and zhug (a condiment consisting of chillies, oil, cumin, garlic, and coriander); other ingredients may include lamb or chicken, tomatoes, potatoes, other vegetables, or scrambled eggs; typically served with flatbread",
+    "flag": "https://flagcdn.com/w320/ye.png"
+  },
+  {
+    "common_name": "Cocos (Keeling) Islands",
+    "official_name": "Territory of the Cocos (Keeling) Islands",
+    "capital": [
+      "West Island"
+    ],
+    "region": "Oceania",
+    "population": 544,
+    "area": 14,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/cc.png"
+  },
+  {
+    "common_name": "Timor-Leste",
+    "official_name": "Democratic Republic of Timor-Leste",
+    "capital": [
+      "Dili"
+    ],
+    "region": "Asia",
+    "population": 1318442,
+    "area": 14874,
+    "souvenirs": "Tais woven fabric, Batik and embroidered fabrics, shell and pearl jewelry, handmade bags, woodcarvings, silverwork",
+    "traditional_cuisine": "Ikan pepes — fish is coated in a paste made with ingredients including turmeric, macadamia nuts, tomatoes, shrimp paste, palm sugar, lemon basil, tamarind, lemongrass, and chili peppers and then wrapped in banana leaves; the parcels are steamed or grilled and served with lime or lemon wedges on the side",
+    "flag": "https://flagcdn.com/w320/tl.png"
+  },
+  {
+    "common_name": "Slovakia",
+    "official_name": "Slovak Republic",
+    "capital": [
+      "Bratislava"
+    ],
+    "region": "Europe",
+    "population": 5458827,
+    "area": 49037,
+    "souvenirs": "Cornhusk dolls and puppets, glass and crystal, musical instruments, woodcarvings, pottery and porcelain, hand-embroidered cloth, chocolate, cheese, ginger desserts, wine and brandy",
+    "traditional_cuisine": "Bryndzové halušky — small boiled dumplings made from grated potato, flour, and egg then covered in a special sheep’s cheese and topped with bacon bits and drippings",
+    "flag": "https://flagcdn.com/w320/sk.png"
+  },
+  {
+    "common_name": "Rwanda",
+    "official_name": "Republic of Rwanda",
+    "capital": [
+      "Kigali"
+    ],
+    "region": "Africa",
+    "population": 12952209,
+    "area": 26338,
+    "souvenirs": "Imigongo art; tribal wall hangings, masks, weapons, and musical instruments; baskets with painted lids, embroidered cloth items",
+    "traditional_cuisine": "Brochettes — meat (typically goat, beef, chicken, or pork) or fish on a skewer, sometimes with vegetables, and roasted over hot coals; typically served with roasted potatoes, deep-fried bananas, or salad",
+    "flag": "https://flagcdn.com/w320/rw.png"
+  },
+  {
+    "common_name": "Antigua and Barbuda",
+    "official_name": "Antigua and Barbuda",
+    "capital": [
+      "Saint John's"
+    ],
+    "region": "Americas",
+    "population": 97928,
+    "area": 442,
+    "souvenirs": "Lavender jade/precious-gem jewelry, pottery, woven baskets, scrimshaw art, rum",
+    "traditional_cuisine": "Fungee — a cornmeal breadball or patty eaten with vegetable mash and a sauce made from tomatoes, garlic, and salted codfish",
+    "flag": "https://flagcdn.com/w320/ag.png"
+  },
+  {
+    "common_name": "Togo",
+    "official_name": "Togolese Republic",
+    "capital": [
+      "Lomé"
+    ],
+    "region": "Africa",
+    "population": 8278737,
+    "area": 56785,
+    "souvenirs": "Tribal goods, including wood-carved ceremonial masks and statues; woven and dyed Kente fabric, custom-tailored items, precious metal and glass handmade jewelry",
+    "traditional_cuisine": "Akume — a savory porridge made from ground maize flour and served with a sauce made from eggplant, tomato, spinach, or fish",
+    "flag": "https://flagcdn.com/w320/tg.png"
+  },
+  {
+    "common_name": "Syria",
+    "official_name": "Syrian Arab Republic",
+    "capital": [
+      "Damascus"
+    ],
+    "region": "Asia",
+    "population": 17500657,
+    "area": 185180,
+    "souvenirs": "Rosewood, ebony, and olive wood carvings; embroidery, woven items, and hand-loomed brocade fabric; leather goods; gold and silver jewelry; mother-of-pearl items; inlaid steel and copper items; pottery",
+    "traditional_cuisine": "Kibbeh — ground lamb, bulgur, and seasonings baked, fried, stuffed or served raw; often served with tabbouleh (a salad made with tomatoes, parsley, bulgur, and onions mixed in a sauce of lemon juice, olive oil, and salt)",
+    "flag": "https://flagcdn.com/w320/sy.png"
+  },
+  {
+    "common_name": "Guadeloupe",
+    "official_name": "Guadeloupe",
+    "capital": [
+      "Basse-Terre"
+    ],
+    "region": "Americas",
+    "population": 400132,
+    "area": 1628,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/gp.png"
+  },
+  {
+    "common_name": "Turkmenistan",
+    "official_name": "Turkmenistan",
+    "capital": [
+      "Ashgabat"
+    ],
+    "region": "Asia",
+    "population": 6031187,
+    "area": 488100,
+    "souvenirs": "Carpets, scarves, silk, gold statues, Turkmen calendars, Turkmen sheepskin hats",
+    "traditional_cuisine": "Ishleki — a flatbread-type dough wrapped around a filling including minced lamb, onions, and spices and then fried",
+    "flag": "https://flagcdn.com/w320/tm.png"
+  },
+  {
+    "common_name": "Sri Lanka",
+    "official_name": "Democratic Socialist Republic of Sri Lanka",
+    "capital": [
+      "Sri Jayawardenepura Kotte"
+    ],
+    "region": "Asia",
+    "population": 21919000,
+    "area": 65610,
+    "souvenirs": "Carved masks, precious gems, teas, spices",
+    "traditional_cuisine": "Kottu roti — roti (a round flatbread) is placed on a grill and chopped and combined with additional ingredients including spices, vegetables, eggs, cheese or meat",
+    "flag": "https://flagcdn.com/w320/lk.png"
+  },
+  {
+    "common_name": "United States",
+    "official_name": "United States of America",
+    "capital": [
+      "Washington, D.C."
+    ],
+    "region": "Americas",
+    "population": 329484123,
+    "area": 9372610,
+    "souvenirs": "Regional food items such as sauces, preserves, and candy, t-shirts, Disney merchandise, American flag, statue of Liberty model, and local specialties.",
+    "traditional_cuisine": "Highlights of American cuisine include milkshakes, barbecue, and a wide range of fried foods. Many quintessential American dishes are unique takes on food originally from other culinary traditions, including pizza, hot dogs, and Tex-Mex.",
+    "flag": "https://flagcdn.com/w320/us.png"
+  },
+  {
+    "common_name": "Argentina",
+    "official_name": "Argentine Republic",
+    "capital": [
+      "Buenos Aires"
+    ],
+    "region": "Americas",
+    "population": 45376763,
+    "area": 2780400,
+    "souvenirs": "Leather goods, wine, alpaca wool clothing, mate gourds, gaucho knives/other traditional gaucho gear",
+    "traditional_cuisine": "Asado — cuts of beef, pork, chicken, or chorizo, and morcilla (blood sausage) that are barbecued on a grill; empanadas; milanesa; matambre arrollado; various deserts with dulce de leche",
+    "flag": "https://flagcdn.com/w320/ar.png"
+  },
+  {
+    "common_name": "South Sudan",
+    "official_name": "Republic of South Sudan",
+    "capital": [
+      "Juba"
+    ],
+    "region": "Africa",
+    "population": 11193729,
+    "area": 619745,
+    "souvenirs": "Ebony-wood-carved animal tribal items, grass woven baskets, leather items, gold jewelry, spices",
+    "traditional_cuisine": "Ful Medames — a vegetarian dish typically made with fava beans and served with toppings such as tomatoes, greens, feta, red onions, hard-boiled eggs, or shata (hot sauce)",
+    "flag": "https://flagcdn.com/w320/ss.png"
+  },
+  {
+    "common_name": "Palestine",
+    "official_name": "State of Palestine",
+    "capital": [
+      "Ramallah",
+      "Jerusalem"
+    ],
+    "region": "Asia",
+    "population": 4803269,
+    "area": 6220,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/ps.png"
+  },
+  {
+    "common_name": "Georgia",
+    "official_name": "Georgia",
+    "capital": [
+      "Tbilisi"
+    ],
+    "region": "Asia",
+    "population": 3714000,
+    "area": 69700,
+    "souvenirs": "Cloisonne jewelry and decorative items, silk clothing and accessories, woven carpets, felt items, religious icons, nesting dolls, wine and brandy",
+    "traditional_cuisine": "Khachapuri, Sulguni — cheese-filled, leavened, and baked bread topped with a cracked soft-boiled egg and butter just before serving",
+    "flag": "https://flagcdn.com/w320/ge.png"
+  },
+  {
+    "common_name": "Japan",
+    "official_name": "Japan",
+    "capital": [
+      "Tokyo"
+    ],
+    "region": "Asia",
+    "population": 125836021,
+    "area": 377930,
+    "souvenirs": "Silk kimonos, designer fashion and electronics, beauty products, bento boxes, art supplies, bamboo and paper wagasa umbrellas, printed tenugui cloth items, hand fans, tanuki statues; ceremonially dressed dolls, kites, and folk toys; maneki neko good fortune cat items",
+    "traditional_cuisine": "Sushi — small rolls of vinegar-flavored cold cooked rice typically served with a garnish of raw fish; Japanese curry — meat and vegetables in a simple curry sauce with Japanese spices and usually served on top of plain steamed rice",
+    "flag": "https://flagcdn.com/w320/jp.png"
+  },
+  {
+    "common_name": "Sweden",
+    "official_name": "Kingdom of Sweden",
+    "capital": [
+      "Stockholm"
+    ],
+    "region": "Europe",
+    "population": 10353442,
+    "area": 450295,
+    "souvenirs": "Dala horse wooden toys, Sami handicrafts, glasswork items, hand-knitted Nordic sweaters, schnapps spirits",
+    "traditional_cuisine": "Köttbullar (Swedish Meatballs) — beef mixed with pork or veal seasoned with onions, salt, pepper, and allspice and shaped into small round balls for browning in butter; typically served with lingonberry sauce, mashed potatoes, and gravy on the side",
+    "flag": "https://flagcdn.com/w320/se.png"
+  },
+  {
+    "common_name": "Chile",
+    "official_name": "Republic of Chile",
+    "capital": [
+      "Santiago"
+    ],
+    "region": "Americas",
+    "population": 19116209,
+    "area": 756102,
+    "souvenirs": "Lapis lazuli jewelry, greda clay cooking pots, native pottery/ceramics, brassware, wine, merken chile seasonings",
+    "traditional_cuisine": "Pastel de Choclo — ground beef, onions, olives, and raisins, topped with a sweet corn crust; the corn crust is a paste of sweet corn kernels and basil cooked in milk or lard",
+    "flag": "https://flagcdn.com/w320/cl.png"
+  },
+  {
+    "common_name": "Saint Kitts and Nevis",
+    "official_name": "Federation of Saint Christopher and Nevis",
+    "capital": [
+      "Basseterre"
+    ],
+    "region": "Americas",
+    "population": 53192,
+    "area": 261,
+    "souvenirs": "Conch-shell and coconut-shell decorative items, leather goods, batik fabric, jewelry, pottery and glass art",
+    "traditional_cuisine": "Stewed saltfish with spicy plantains and coconut dumplings",
+    "flag": "https://flagcdn.com/w320/kn.png"
+  },
+  {
+    "common_name": "Denmark",
+    "official_name": "Kingdom of Denmark",
+    "capital": [
+      "Copenhagen"
+    ],
+    "region": "Europe",
+    "population": 5831404,
+    "area": 43094,
+    "souvenirs": "Porcelain/ceramics, handmade woolen items, cheese, chocolate, Lego toys",
+    "traditional_cuisine": "Frikadeller — flat meat patties made of minced beef, chopped onions, milk, and eggs and served with potatoes, creamed cabbage, gravy, and/or pickled beetroot",
+    "flag": "https://flagcdn.com/w320/dk.png"
+  },
+  {
+    "common_name": "United States Minor Outlying Islands",
+    "official_name": "United States Minor Outlying Islands",
+    "capital": [
+      "Washington DC"
+    ],
+    "region": "Americas",
+    "population": 300,
+    "area": 34.2,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/um.png"
+  },
+  {
+    "common_name": "American Samoa",
+    "official_name": "American Samoa",
+    "capital": [
+      "Pago Pago"
+    ],
+    "region": "Oceania",
+    "population": 55197,
+    "area": 199,
+    "souvenirs": "Tapa bark cloth, traditional clothing, shell purses and handicrafts, wood carvings, woven mats",
+    "traditional_cuisine": "Panipopo — a dessert consisting of buns baked in a sweet and sticky coconut cream sauce",
+    "flag": "https://flagcdn.com/w320/as.png"
+  },
+  {
+    "common_name": "Anguilla",
+    "official_name": "Anguilla",
+    "capital": [
+      "The Valley"
+    ],
+    "region": "Americas",
+    "population": 13452,
+    "area": 91,
+    "souvenirs": "Seashell jewelry and handicrafts, pottery, rum, collectible stamps, traditional carvings",
+    "traditional_cuisine": "Pigeon peas with rice, seasoned with herbs and spices",
+    "flag": "https://flagcdn.com/w320/ai.png"
+  },
+  {
+    "common_name": "Philippines",
+    "official_name": "Republic of the Philippines",
+    "capital": [
+      "Manila"
+    ],
+    "region": "Asia",
+    "population": 109581085,
+    "area": 342353,
+    "souvenirs": "Toy jeepney figurines; pearl jewelry and mother-of-pearl tableware; handmade bags, pouches, and bandanas; woven mats and baskets, embroidered silk traditional clothing; straw fans; handmade musical instruments; coffee",
+    "traditional_cuisine": "Adobo — chicken and/or pork marinated or braised in a sauce of garlic, peppercorns, and soy sauce and then fried in oil; traditionally served over a bed of rice",
+    "flag": "https://flagcdn.com/w320/ph.png"
+  },
+  {
+    "common_name": "Bolivia",
+    "official_name": "Plurinational State of Bolivia",
+    "capital": [
+      "Sucre"
+    ],
+    "region": "Americas",
+    "population": 11673029,
+    "area": 1098581,
+    "souvenirs": "Native pottery and handicrafts, paper mache and copper decorations, llama and alpaca woolen items, woven ponchos, jewelry and \"good luck\" charms",
+    "traditional_cuisine": "Salteñas (empanadas) — savory pastries filled with beef, pork, or chicken mixed in a sweet, slightly spicy sauce containing olives, raisins, and potatoes",
+    "flag": "https://flagcdn.com/w320/bo.png"
+  },
+  {
+    "common_name": "São Tomé and Príncipe",
+    "official_name": "Democratic Republic of São Tomé and Príncipe",
+    "capital": [
+      "São Tomé"
+    ],
+    "region": "Africa",
+    "population": 219161,
+    "area": 964,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/st.png"
+  },
+  {
+    "common_name": "Montserrat",
+    "official_name": "Montserrat",
+    "capital": [
+      "Plymouth"
+    ],
+    "region": "Americas",
+    "population": 4922,
+    "area": 102,
+    "souvenirs": "Leather goods, handwoven goods, volcanic soap, preserves",
+    "traditional_cuisine": "Goat water — a stew made from ram meat and served with a variety of sides including bread and rice",
+    "flag": "https://flagcdn.com/w320/ms.png"
+  },
+  {
+    "common_name": "Myanmar",
+    "official_name": "Republic of the Union of Myanmar",
+    "capital": [
+      "Naypyidaw"
+    ],
+    "region": "Asia",
+    "population": 54409794,
+    "area": 676578,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/mm.png"
+  },
+  {
+    "common_name": "Niue",
+    "official_name": "Niue",
+    "capital": [
+      "Alofi"
+    ],
+    "region": "Oceania",
+    "population": 1470,
+    "area": 260,
+    "souvenirs": "Niue honey, kahoa hihi (Snail Shell Necklace), organic vanilla, coconut oil, pareu (sarong), carved and woven earrings, woven goods, silver jewelry, and flower garland",
+    "traditional_cuisine": "Meals in Niue typically include traditional ingredients, such as taro, cassava, breadfruit, shellfish, fish and the local delicacy uga (coconut crab).",
+    "flag": "https://flagcdn.com/w320/nu.png"
+  },
+  {
+    "common_name": "Israel",
+    "official_name": "State of Israel",
+    "capital": [
+      "Jerusalem"
+    ],
+    "region": "Asia",
+    "population": 9216900,
+    "area": 20770,
+    "souvenirs": "Religious artifacts, jewelry, olive wood carvings, olive oil and Dead Sea mineral beauty products, antiquities replicas including Roman coins, olive oil and kosher foods",
+    "traditional_cuisine": "Falafel — deep-fried balls or patties of mashed chickpea most often served with tahina/tahini (a paste made from ground sesame seeds), hummus, vegetable salad, or other sides",
+    "flag": "https://flagcdn.com/w320/il.png"
+  },
+  {
+    "common_name": "Heard Island and McDonald Islands",
+    "official_name": "Heard Island and McDonald Islands",
+    "capital": [],
+    "region": "Antarctic",
+    "population": 0,
+    "area": 412,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/hm.png"
+  },
+  {
+    "common_name": "Comoros",
+    "official_name": "Union of the Comoros",
+    "capital": [
+      "Moroni"
+    ],
+    "region": "Africa",
+    "population": 869595,
+    "area": 1862,
+    "souvenirs": "Spices; gold, pearl, and shell jewelry; woven hats and slippers, pottery,  wood carvings, baskets",
+    "traditional_cuisine": "Comoros Langouste a la Vanille — fresh lobster and newly harvested vanilla beans; other ingredients include butter, olive oil, shallots, white wine, vinegar, vidalia onions, clover sprouts, and spinach",
+    "flag": "https://flagcdn.com/w320/km.png"
+  },
+  {
+    "common_name": "Saint Vincent and the Grenadines",
+    "official_name": "Saint Vincent and the Grenadines",
+    "capital": [
+      "Kingstown"
+    ],
+    "region": "Americas",
+    "population": 110947,
+    "area": 389,
+    "souvenirs": "Sailboat models, recreational boats, handmade jewelry, handmade clothing, spices and hot sauces, straw-made items, grass rugs",
+    "traditional_cuisine": "Roasted breadfruit and fried jackfish — whole breadfruit are roasted over an open fire; the jackfish is typically marinated in lemon juice, coated in flour, and then fried; a sauce made with onions, tomatoes, garlic, thyme, or other herbs and vegetables is usually served alongside the dish",
+    "flag": "https://flagcdn.com/w320/vc.png"
+  },
+  {
+    "common_name": "Vietnam",
+    "official_name": "Socialist Republic of Vietnam",
+    "capital": [
+      "Hanoi"
+    ],
+    "region": "Asia",
+    "population": 97338583,
+    "area": 331212,
+    "souvenirs": "Conical hats, ao dai tunics, leather goods, handmade jewelry, scarves and silk-embroidered items, clay miniatures, sand paintings",
+    "traditional_cuisine": "Pho — rice noodles in beef or chicken broth seasoned with cumin, coriander powder, black cardamom, roasted onion powder, roasted ginger powder, fennel, and cloves; sometimes beef slices and/or vegetable sprouts are added",
+    "flag": "https://flagcdn.com/w320/vn.png"
+  },
+  {
+    "common_name": "Caribbean Netherlands",
+    "official_name": "Bonaire, Sint Eustatius and Saba",
+    "capital": [
+      "Kralendijk"
+    ],
+    "region": "Americas",
+    "population": 25987,
+    "area": 328,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/bq.png"
+  },
+  {
+    "common_name": "Jersey",
+    "official_name": "Bailiwick of Jersey",
+    "capital": [
+      "Saint Helier"
+    ],
+    "region": "Europe",
+    "population": 100800,
+    "area": 116,
+    "souvenirs": "Jersey Black Butter, apple brandy, wine, cider, handmade chocolates; lavender bath and body products, candles, sachets, and edibles; ceramics and pottery",
+    "traditional_cuisine": "Bean jar — a one-pot dish typically made with pig’s trotter, haricot beans, butter beans, bay leaves, onions, and carrots; the dish is baked for 6-8 hours",
+    "flag": "https://flagcdn.com/w320/je.png"
+  },
+  {
+    "common_name": "Falkland Islands",
+    "official_name": "Falkland Islands",
+    "capital": [
+      "Stanley"
+    ],
+    "region": "Americas",
+    "population": 2563,
+    "area": 12173,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/fk.png"
+  },
+  {
+    "common_name": "Armenia",
+    "official_name": "Republic of Armenia",
+    "capital": [
+      "Yerevan"
+    ],
+    "region": "Asia",
+    "population": 2963234,
+    "area": 29743,
+    "souvenirs": "Woven carpets, evil eye glass or bead jewelry, pottery, quilled picture art, silver jewelry and cameo jewelry/art",
+    "traditional_cuisine": "Harees — a dish of boiled, cracked, or coarsely-ground wheat, mixed with meat and seasoned",
+    "flag": "https://flagcdn.com/w320/am.png"
+  },
+  {
+    "common_name": "Kosovo",
+    "official_name": "Republic of Kosovo",
+    "capital": [
+      "Pristina"
+    ],
+    "region": "Europe",
+    "population": 1775378,
+    "area": 10908,
+    "souvenirs": "Leather goods, wool items/knitwear, hand-sewn lace, filigree items, black pottery, wood engravings, musical instruments, coffee sets",
+    "traditional_cuisine": "Flia — crêpe-like batter layers brushed with cream and served with sour cream",
+    "flag": "https://flagcdn.com/w320/xk.png"
+  },
+  {
+    "common_name": "Bouvet Island",
+    "official_name": "Bouvet Island",
+    "capital": [],
+    "region": "Antarctic",
+    "population": 0,
+    "area": 49,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/bv.png"
+  },
+  {
+    "common_name": "Venezuela",
+    "official_name": "Bolivarian Republic of Venezuela",
+    "capital": [
+      "Caracas"
+    ],
+    "region": "Americas",
+    "population": 28435943,
+    "area": 916445,
+    "souvenirs": "Handwoven baskets, blankets, and hammocks; papier mâché devil masks; musical instruments; jewelry; liquor",
+    "traditional_cuisine": "Pabellón criollo — black beans, white rice, and slices of steak cooked with tomatoes; often served with fried plantains and arepas (cornbread) and white cheese",
+    "flag": "https://flagcdn.com/w320/ve.png"
+  },
+  {
+    "common_name": "Belgium",
+    "official_name": "Kingdom of Belgium",
+    "capital": [
+      "Brussels"
+    ],
+    "region": "Europe",
+    "population": 11555997,
+    "area": 30528,
+    "souvenirs": "Handmade lace, woven tapestries and rugs, diamonds, beer, chocolate, perfume, antiques",
+    "traditional_cuisine": "Moules-frites — fresh mussels cooked in olive oil and white wine with garlic, thyme, and shallots served with potato fries",
+    "flag": "https://flagcdn.com/w320/be.png"
+  },
+  {
+    "common_name": "Burkina Faso",
+    "official_name": "Burkina Faso",
+    "capital": [
+      "Ouagadougou"
+    ],
+    "region": "Africa",
+    "population": 20903278,
+    "area": 272967,
+    "souvenirs": "Woven baskets and rugs, leather goods, hand-carved chess sets and wooden statues, bronze models, tribal masks and jewelry",
+    "traditional_cuisine": "Riz gras — white rice, tomato paste, and vegetables such as eggplant, carrots, onions, chili peppers, and garlic boiled together into a thick rice stew and served with raw onions",
+    "flag": "https://flagcdn.com/w320/bf.png"
+  },
+  {
+    "common_name": "Algeria",
+    "official_name": "People's Democratic Republic of Algeria",
+    "capital": [
+      "Algiers"
+    ],
+    "region": "Africa",
+    "population": 44700000,
+    "area": 2381741,
+    "souvenirs": "Kandura tunics, leather items, rugs, copper and brassware, coral jewelry",
+    "traditional_cuisine": "Most of the Algerian dishes are centered around bread, meats (lamb, beef or poultry), olive oil, vegetables, and fresh herbs. Vegetables are often used for salads, soups, tajines, couscous, and sauce-based dishes.",
+    "flag": "https://flagcdn.com/w320/dz.png"
+  },
+  {
+    "common_name": "France",
+    "official_name": "French Republic",
+    "capital": [
+      "Paris"
+    ],
+    "region": "Europe",
+    "population": 67391582,
+    "area": 551695,
+    "souvenirs": "Designer fashion, perfumes, wine, porcelain items, lavender goods, soap, kitchen items",
+    "traditional_cuisine": "Crêpes — thin wheat or buckwheat flour batter pancakes filled with either sweet (chocolate, preserves, cream etc.) or savory (ham, sausage, cheese, mushroom, etc.) ingredients",
+    "flag": "https://flagcdn.com/w320/fr.png"
+  },
+  {
+    "common_name": "Saint Pierre and Miquelon",
+    "official_name": "Saint Pierre and Miquelon",
+    "capital": [
+      "Saint-Pierre"
+    ],
+    "region": "Americas",
+    "population": 6069,
+    "area": 242,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/pm.png"
+  },
+  {
+    "common_name": "Pakistan",
+    "official_name": "Islamic Republic of Pakistan",
+    "capital": [
+      "Islamabad"
+    ],
+    "region": "Asia",
+    "population": 220892331,
+    "area": 881912,
+    "souvenirs": "Shawls, carpets, onyx and other gemstones and jewelry, inlaid wood furniture and crafts",
+    "traditional_cuisine": "Chicken Biryani — a rice dish layered with curried chicken, herbs, biryani spices (including curry, turmeric, allspice, and cardamom), and sometimes potatoes or eggs",
+    "flag": "https://flagcdn.com/w320/pk.png"
+  },
+  {
+    "common_name": "El Salvador",
+    "official_name": "Republic of El Salvador",
+    "capital": [
+      "San Salvador"
+    ],
+    "region": "Americas",
+    "population": 6486201,
+    "area": 21041,
+    "souvenirs": "Sorpresa ceramic figurines, silk bahia band bracelets, wooden toys, wicker furniture, hammocks, native clothing, painted-wood household and decorative items",
+    "traditional_cuisine": "Pupusa — a thick griddle cake made with cornmeal or rice flour usually stuffed with \ningredients such as cheese, chicharrón (fried pork skin), squash, or refried beans; typically served with curtido (spicy fermented cabbage slaw) and tomato salsa",
+    "flag": "https://flagcdn.com/w320/sv.png"
+  },
+  {
+    "common_name": "North Macedonia",
+    "official_name": "Republic of North Macedonia",
+    "capital": [
+      "Skopje"
+    ],
+    "region": "Europe",
+    "population": 2077132,
+    "area": 25713,
+    "souvenirs": "Religious icons and marble statues, jeweled crosses, rosaries, wood carvings, spices",
+    "traditional_cuisine": "Tavče Gravče — fresh white beans and other vegetables baked and served in a traditional unglazed earthenware pot",
+    "flag": "https://flagcdn.com/w320/mk.png"
+  },
+  {
+    "common_name": "Brunei",
+    "official_name": "Nation of Brunei, Abode of Peace",
+    "capital": [
+      "Bandar Seri Begawan"
+    ],
+    "region": "Asia",
+    "population": 437483,
+    "area": 5765,
+    "souvenirs": "Kris ceremonial daggers, native costumes and textiles, silver work, brass items, spices",
+    "traditional_cuisine": "Ambuyat — a starchy substance derived from the interior trunk of the sago palm, which is dipped into a variety of sauces",
+    "flag": "https://flagcdn.com/w320/bn.png"
+  },
+  {
+    "common_name": "Central African Republic",
+    "official_name": "Central African Republic",
+    "capital": [
+      "Bangui"
+    ],
+    "region": "Africa",
+    "population": 4829764,
+    "area": 622984,
+    "souvenirs": "Ebony wood carvings, native drums, handwoven baskets/mats, gold and gemstone jewelry, butterfly artwork",
+    "traditional_cuisine": "Makara — bread made from cassava flour",
+    "flag": "https://flagcdn.com/w320/cf.png"
+  },
+  {
+    "common_name": "Uganda",
+    "official_name": "Republic of Uganda",
+    "capital": [
+      "Kampala"
+    ],
+    "region": "Africa",
+    "population": 45741000,
+    "area": 241550,
+    "souvenirs": "Musical instruments, wood carvings, woven goods and batik fabric, locally made jewelry, local teas and coffees",
+    "traditional_cuisine": "Matoke (or Matooke) — unripe boiled, steamed, or roasted bananas typically mashed and paired with vegetable sauces, ground peanuts, or meat",
+    "flag": "https://flagcdn.com/w320/ug.png"
+  },
+  {
+    "common_name": "Wallis and Futuna",
+    "official_name": "Territory of the Wallis and Futuna Islands",
+    "capital": [
+      "Mata-Utu"
+    ],
+    "region": "Oceania",
+    "population": 11750,
+    "area": 142,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/wf.png"
+  },
+  {
+    "common_name": "Germany",
+    "official_name": "Federal Republic of Germany",
+    "capital": [
+      "Berlin"
+    ],
+    "region": "Europe",
+    "population": 83240525,
+    "area": 357114,
+    "souvenirs": "Carved wooden cuckoo clocks, music boxes, nutcracker figurines, and Christmas ornaments; crystal, porcelain, and glassware; traditional clothing, beer steins and glasses, Steiff teddy bears, Hummel figurines, antiques",
+    "traditional_cuisine": "Sauerbraten — beef braised in a marinade typically consisting of red wine vinegar, cloves, nutmeg, peppercorns, cinnamon, ginger, and juniper berries and simmered in a pot for several hours; typically served with potato dumplings and red cabbage",
+    "flag": "https://flagcdn.com/w320/de.png"
+  },
+  {
+    "common_name": "Taiwan",
+    "official_name": "Republic of China (Taiwan)",
+    "capital": [
+      "Taipei"
+    ],
+    "region": "Asia",
+    "population": 23503349,
+    "area": 36193,
+    "souvenirs": "Jade jewelry and other jade items; coral, agate, and other precious stone jewelry and decorative items; bamboo items; hand-tailored clothing; Seagrass items; glass figurines; ceramics/pottery; Chinese musical instruments; traditional dolls in costumes; hand-painted palace lanterns; lacquerware; teak furniture; replica antiques; teas; beauty products",
+    "traditional_cuisine": "Beef Noodle Soup — a soup made with beef, broth, vegetables, noodles, and spices and often served with seaweed and braised dried tofu",
+    "flag": "https://flagcdn.com/w320/tw.png"
+  },
+  {
+    "common_name": "United Arab Emirates",
+    "official_name": "United Arab Emirates",
+    "capital": [
+      "Abu Dhabi"
+    ],
+    "region": "Asia",
+    "population": 9890400,
+    "area": 83600,
+    "souvenirs": "Silk pashminas, leather goods, perfumes, gold and silver items",
+    "traditional_cuisine": "Kabsa (or Al Machboos) — chopped meat, fried onions, salt, other spices, and dried lemon served with rice cooked in the broth from the meat mixture",
+    "flag": "https://flagcdn.com/w320/ae.png"
+  },
+  {
+    "common_name": "Namibia",
+    "official_name": "Republic of Namibia",
+    "capital": [
+      "Windhoek"
+    ],
+    "region": "Africa",
+    "population": 2540916,
+    "area": 825615,
+    "souvenirs": "Stone and wood carvings, karosse woven rugs, woven palm baskets, Herero dolls, diamond/precious gem and beaded jewelry, swakara woolen clothing and swakopmunder leather shoes",
+    "traditional_cuisine": "Meat and pap — pap (a traditional porridge made from ground maize or pearl millet) served with meat, cabbage, or fish",
+    "flag": "https://flagcdn.com/w320/na.png"
+  },
+  {
+    "common_name": "Monaco",
+    "official_name": "Principality of Monaco",
+    "capital": [
+      "Monaco"
+    ],
+    "region": "Europe",
+    "population": 39244,
+    "area": 2.02,
+    "souvenirs": "Designer clothes, jewelry, watches, and perfumes; racing memorabilia, ceramics, collectible stamps",
+    "traditional_cuisine": "Barbagiuan — chard leaves, onions, ham, and parmesan-or ricotta-cheese-stuffed deep-fried pastries",
+    "flag": "https://flagcdn.com/w320/mc.png"
+  },
+  {
+    "common_name": "Malawi",
+    "official_name": "Republic of Malawi",
+    "capital": [
+      "Lilongwe"
+    ],
+    "region": "Africa",
+    "population": 19129955,
+    "area": 118484,
+    "souvenirs": "Carved wooden masks, statues, and toys; tribal jewelry; hand-woven baskets and twig rugs; Batik wall hangings, clothing, and bags; wood/cane/raffia furniture and decorative items; soapstone carvings; ceramics/pottery.",
+    "traditional_cuisine": "Chambo (fish) with nshima/nsima (a thick porridge made from cassava, corn, or other starchy flour)",
+    "flag": "https://flagcdn.com/w320/mw.png"
+  },
+  {
+    "common_name": "Azerbaijan",
+    "official_name": "Republic of Azerbaijan",
+    "capital": [
+      "Baku"
+    ],
+    "region": "Asia",
+    "population": 10110116,
+    "area": 86600,
+    "souvenirs": "Handmade carpets, pottery, ceramics, caviar, silk items",
+    "traditional_cuisine": "Plov — riсe covered with saffron, cinnamon, aromatic herbs, and fried mutton, chicken, beef, or lamb, as well as vegetables and even dried fruits",
+    "flag": "https://flagcdn.com/w320/az.png"
+  },
+  {
+    "common_name": "Mexico",
+    "official_name": "United Mexican States",
+    "capital": [
+      "Mexico City"
+    ],
+    "region": "Americas",
+    "population": 128932753,
+    "area": 1964375,
+    "souvenirs": "Talavera tiles/pottery, wooden instruments, sombrero hats, ponchos, animal figurines, leather goods, woven hammocks, Lucha Libre masks, Huarache shoes, Day of the Dead Souvenirs, mole and other sauces",
+    "traditional_cuisine": "Tacos; Mole poblano — a thick dark red-brown sauce made with dried poblano peppers and chocolate; typically served with chicken or turkey; Chiles en nogada — poblano chile peppers stuffed with picadillo (a mixture of shredded meat, spices, fruits, and spices) topped with nogada (a walnut-based cream sauce), pomegranate seeds, and parsley",
+    "flag": "https://flagcdn.com/w320/mx.png"
+  },
+  {
+    "common_name": "Iraq",
+    "official_name": "Republic of Iraq",
+    "capital": [
+      "Baghdad"
+    ],
+    "region": "Asia",
+    "population": 40222503,
+    "area": 438317,
+    "souvenirs": "Copperware, hand-woven carpets and rugs, silver, spices, teas, coffees, calligraphic paintings, woven baskets, musical instruments",
+    "traditional_cuisine": "Masgouf — seasoned grilled carp",
+    "flag": "https://flagcdn.com/w320/iq.png"
+  },
+  {
+    "common_name": "Cambodia",
+    "official_name": "Kingdom of Cambodia",
+    "capital": [
+      "Phnom Penh"
+    ],
+    "region": "Asia",
+    "population": 16718971,
+    "area": 181035,
+    "souvenirs": "Krama scarves, silk items, carved statues, jewelry, silver boxes and bowls",
+    "traditional_cuisine": "A mok trei (fish amok) — a steamed fish curry with a mousse-like consistency",
+    "flag": "https://flagcdn.com/w320/kh.png"
+  },
+  {
+    "common_name": "Tuvalu",
+    "official_name": "Tuvalu",
+    "capital": [
+      "Funafuti"
+    ],
+    "region": "Oceania",
+    "population": 11792,
+    "area": 26,
+    "souvenirs": "Carved tuluma wooden tackle boxes, woven cloth, shell jewelry, stamps",
+    "traditional_cuisine": "Pulaka (similar to taro); often combined with coconut cream and served with fish",
+    "flag": "https://flagcdn.com/w320/tv.png"
+  },
+  {
+    "common_name": "Cook Islands",
+    "official_name": "Cook Islands",
+    "capital": [
+      "Avarua"
+    ],
+    "region": "Oceania",
+    "population": 18100,
+    "area": 236,
+    "souvenirs": "Pareu cloth and quilted items, woven hats and baskets, carved wooden instruments and decorative items,  pearl and shell items, collectible coins and stamps",
+    "traditional_cuisine": "Ika Mata — freshly caught fish cooked in lemon juice and then combined with fresh coconut cream, onion, and chilis; typically served with a side salad",
+    "flag": "https://flagcdn.com/w320/ck.png"
+  },
+  {
+    "common_name": "Haiti",
+    "official_name": "Republic of Haiti",
+    "capital": [
+      "Port-au-Prince"
+    ],
+    "region": "Americas",
+    "population": 11402533,
+    "area": 27750,
+    "souvenirs": "Straw hats, metalwork sculptures, papier-mache items, woodcrafts, voodoo items",
+    "traditional_cuisine": "Griot (or Griyo) — pork shoulder marinated in citrus, which is braised and then fried; often served with diri ak pwa wouj (red beans and rice)",
+    "flag": "https://flagcdn.com/w320/ht.png"
+  },
+  {
+    "common_name": "Belize",
+    "official_name": "Belize",
+    "capital": [
+      "Belmopan"
+    ],
+    "region": "Americas",
+    "population": 397621,
+    "area": 22966,
+    "souvenirs": "Mayan woven baskets and textiles, conch jewelry, wood-carved kitchenware and decorative items, handmade hammocks, native dolls, rum",
+    "traditional_cuisine": "Belizean Rice and Beans — red kidney beans and rice stewed in coconut milk; typically served with meat and potato salad and/or plantains",
+    "flag": "https://flagcdn.com/w320/bz.png"
+  },
+  {
+    "common_name": "French Guiana",
+    "official_name": "Guiana",
+    "capital": [
+      "Cayenne"
+    ],
+    "region": "Americas",
+    "population": 254541,
+    "area": 83534,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/gf.png"
+  },
+  {
+    "common_name": "DR Congo",
+    "official_name": "Democratic Republic of the Congo",
+    "capital": [
+      "Kinshasa"
+    ],
+    "region": "Africa",
+    "population": 108407721,
+    "area": 2344858,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/cd.png"
+  },
+  {
+    "common_name": "Equatorial Guinea",
+    "official_name": "Republic of Equatorial Guinea",
+    "capital": [
+      "Malabo"
+    ],
+    "region": "Africa",
+    "population": 1402985,
+    "area": 28051,
+    "souvenirs": "Traditional African cloth; soapstone, ivory, and wood carvings; woven baskets, tribal masks",
+    "traditional_cuisine": "Succotash — a salad-like dish consisting of corn, lima beans, sweet peppers, tomatoes, and other vegetables sautéed in butter",
+    "flag": "https://flagcdn.com/w320/gq.png"
+  },
+  {
+    "common_name": "Mauritius",
+    "official_name": "Republic of Mauritius",
+    "capital": [
+      "Port Louis"
+    ],
+    "region": "Africa",
+    "population": 1265740,
+    "area": 2040,
+    "souvenirs": "Pareo fabric, ship models, spices, woven items, tax free luxury goods",
+    "traditional_cuisine": "Dholl Puri — pan-fried, split pea flatbread stuffed with a variety of fillings including rougaille (a tomato-based sauce), green chutney, kheer rice pudding, or lima bean curry",
+    "flag": "https://flagcdn.com/w320/mu.png"
+  },
+  {
+    "common_name": "Austria",
+    "official_name": "Republic of Austria",
+    "capital": [
+      "Vienna"
+    ],
+    "region": "Europe",
+    "population": 8917205,
+    "area": 83871,
+    "souvenirs": "Handbags, crystal, porcelain, winter sports equipment, bronze and Hummel figurines, carved Nativity scenes featuring Alpine villages",
+    "traditional_cuisine": "Wiener Schnitzel — pounded veal cutlets breaded and lightly fried in butter; typically garnished with parsley and lemon slices and served with potato salad",
+    "flag": "https://flagcdn.com/w320/at.png"
+  },
+  {
+    "common_name": "Spain",
+    "official_name": "Kingdom of Spain",
+    "capital": [
+      "Madrid"
+    ],
+    "region": "Europe",
+    "population": 47351567,
+    "area": 505992,
+    "souvenirs": "Espadrille shoes, Cava sparkling wine, liquor, leather goods, Caganer figurines, mortar and pestle sets, Gaudí-inspired decorated items",
+    "traditional_cuisine": "Paella — a one-pot dish consisting of saffron-flavored rice simmered in a broth of garlic, tomatoes, freshly cooked vegetables, and meat and/or seafood",
+    "flag": "https://flagcdn.com/w320/es.png"
+  },
+  {
+    "common_name": "Russia",
+    "official_name": "Russian Federation",
+    "capital": [
+      "Moscow"
+    ],
+    "region": "Europe",
+    "population": 144104080,
+    "area": 17098242,
+    "souvenirs": "Matryoshka nesting dolls, Soviet-era memorabilia, amber jewelry, lacquer boxes, Faberge egg reproductions, hand-painted icons",
+    "traditional_cuisine": "Pelmeni — bite-sized dough dumplings filled with a variety of ingredients including pork, beef, fish, spices, mushrooms, onions, and other vegetables and boiled; typically served with sour cream",
+    "flag": "https://flagcdn.com/w320/ru.png"
+  },
+  {
+    "common_name": "Zimbabwe",
+    "official_name": "Republic of Zimbabwe",
+    "capital": [
+      "Harare"
+    ],
+    "region": "Africa",
+    "population": 14862927,
+    "area": 390757,
+    "souvenirs": "Copper, wood, and soapstone carved items; local fabrics; basketwork; pottery; leather goods",
+    "traditional_cuisine": "Sadza — cornmeal mixed with water until it becomes a stiff dumpling-like porridge which is then boiled; typically served hot as a side dish for meat or vegetable stews",
+    "flag": "https://flagcdn.com/w320/zw.png"
+  },
+  {
+    "common_name": "Singapore",
+    "official_name": "Republic of Singapore",
+    "capital": [
+      "Singapore"
+    ],
+    "region": "Asia",
+    "population": 5685807,
+    "area": 710,
+    "souvenirs": "Merlion-themed figurines, gold-plated orchid jewelry, Tiger Balm ointment, Peranakan Kebaya sarong garments, five-stones games, dolls in traditional costumes, handmade quilts, silk paintings, liquor, candy and teas",
+    "traditional_cuisine": "Hainanese Chicken Rice — boiled chicken tossed in chili-ginger-garlic-soy sauce on high heat and served with rice boiled in coconut milk",
+    "flag": "https://flagcdn.com/w320/sg.png"
+  },
+  {
+    "common_name": "Czechia",
+    "official_name": "Czech Republic",
+    "capital": [
+      "Prague"
+    ],
+    "region": "Europe",
+    "population": 10698896,
+    "area": 78865,
+    "souvenirs": "Crystal and glassware, garnet jewelry, local artwork; marionettes, puppets, and wooden toys; natural soaps, candles, and lotions; hand painted Easter eggs",
+    "traditional_cuisine": "Vepřo-knedlo-zelo — roast pork with dumplings and sauerkraut",
+    "flag": "https://flagcdn.com/w320/cz.png"
+  },
+  {
+    "common_name": "Faroe Islands",
+    "official_name": "Faroe Islands",
+    "capital": [
+      "Tórshavn"
+    ],
+    "region": "Europe",
+    "population": 48865,
+    "area": 1393,
+    "souvenirs": "Woolen clothes, crystal, local art, liquor, stamps, Danish goods",
+    "traditional_cuisine": "Skerpikjøt — semi-fermented mutton prepared by wind-drying and typically served with toasted sourdough bread sprinkled with coarse salt",
+    "flag": "https://flagcdn.com/w320/fo.png"
+  },
+  {
+    "common_name": "Oman",
+    "official_name": "Sultanate of Oman",
+    "capital": [
+      "Muscat"
+    ],
+    "region": "Asia",
+    "population": 5106622,
+    "area": 309500,
+    "souvenirs": "Khanjar daggers, silver boxes inlaid with lapis lazuli, coffee and tea sets, frankincense and incense burners, clay pots, Quran stands, silver and gold jewelry,  hand-woven goat-hair carpets, woven baskets",
+    "traditional_cuisine": "Shuwa — lamb or goat meat coated in a spice blend of chili peppers, cardamom, cloves, cumin, or coriander then wrapped in banana or palm leaves and placed in a woven bag before being roasted and smoked in underground pits; typically served on a bed of rice with a tomato-based sauce",
+    "flag": "https://flagcdn.com/w320/om.png"
+  },
+  {
+    "common_name": "French Southern and Antarctic Lands",
+    "official_name": "Territory of the French Southern and Antarctic Lands",
+    "capital": [
+      "Port-aux-Français"
+    ],
+    "region": "Antarctic",
+    "population": 400,
+    "area": 7747,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/tf.png"
+  },
+  {
+    "common_name": "Burundi",
+    "official_name": "Republic of Burundi",
+    "capital": [
+      "Gitega"
+    ],
+    "region": "Africa",
+    "population": 11890781,
+    "area": 27834,
+    "souvenirs": "Wicker baskets, pottery, jewelry, leather goods, other native handicrafts",
+    "traditional_cuisine": "Boko Boko — a porridge made from shredded meat, bulghur or cracked wheat, and spices; sometimes flavored with sugar, honey, milk, or lemon juice",
+    "flag": "https://flagcdn.com/w320/bi.png"
+  },
+  {
+    "common_name": "Western Sahara",
+    "official_name": "Sahrawi Arab Democratic Republic",
+    "capital": [
+      "El Aaiún"
+    ],
+    "region": "Africa",
+    "population": 510713,
+    "area": 266000,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/eh.png"
+  },
+  {
+    "common_name": "Mayotte",
+    "official_name": "Department of Mayotte",
+    "capital": [
+      "Mamoudzou"
+    ],
+    "region": "Africa",
+    "population": 226915,
+    "area": 374,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/yt.png"
+  },
+  {
+    "common_name": "Puerto Rico",
+    "official_name": "Commonwealth of Puerto Rico",
+    "capital": [
+      "San Juan"
+    ],
+    "region": "Americas",
+    "population": 3194034,
+    "area": 8870,
+    "souvenirs": "Vejigante festival masks, cigars, coffee, rum, woven straw items, carved santos figures, stringed instruments, mundillo lace",
+    "traditional_cuisine": "Arroz con gandules — a one-pot dish consisting of yellow rice, pigeon peas, and sofrito (a sauce made with green peppers, onions, tomatoes, garlic, red pepper, cilantro, and coriander); may also be garnished with pork, bacon, chorizo, or olives",
+    "flag": "https://flagcdn.com/w320/pr.png"
+  },
+  {
+    "common_name": "San Marino",
+    "official_name": "Republic of San Marino",
+    "capital": [
+      "City of San Marino"
+    ],
+    "region": "Europe",
+    "population": 33938,
+    "area": 61,
+    "souvenirs": "Handmade lace and embroidery items, decorative wrought iron, ceramic tableware, wines and liqueurs, stamps and coins, replica medieval weapons",
+    "traditional_cuisine": "Torta tre monti — a cake consisting of multiple layers of wafers that are cemented with hazelnut cream and/or chocolate and then coated in chocolate fondant",
+    "flag": "https://flagcdn.com/w320/sm.png"
+  },
+  {
+    "common_name": "Turks and Caicos Islands",
+    "official_name": "Turks and Caicos Islands",
+    "capital": [
+      "Cockburn Town"
+    ],
+    "region": "Americas",
+    "population": 38718,
+    "area": 948,
+    "souvenirs": "Handmade baskets and plaited straw hats, hand-screened cloth, ocean-themed wood carvings including wooden boats and models, conch shell items, sea glass and other beaded jewelry, wind chimes, rum, ceramics",
+    "traditional_cuisine": "Cracked Conch — conch meat pounded with a meat tenderizer, seasoned, coated in a flour batter, and then deep fried",
+    "flag": "https://flagcdn.com/w320/tc.png"
+  },
+  {
+    "common_name": "Malta",
+    "official_name": "Republic of Malta",
+    "capital": [
+      "Valletta"
+    ],
+    "region": "Europe",
+    "population": 525285,
+    "area": 316,
+    "souvenirs": "Religious icons/statues and prayer beads, gold and silver jewelry and filigree work, blown glass, hand woven lace, pottery",
+    "traditional_cuisine": "Stuffat tal-fenek (Maltese rabbit stew) — a slow-cooked rabbit dish; typically the tomato-based sauce is served with pasta as a first course and the rabbit with vegetables is served as a main course",
+    "flag": "https://flagcdn.com/w320/mt.png"
+  },
+  {
+    "common_name": "Nauru",
+    "official_name": "Republic of Nauru",
+    "capital": [
+      "Yaren"
+    ],
+    "region": "Oceania",
+    "population": 10834,
+    "area": 21,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/nr.png"
+  },
+  {
+    "common_name": "Saint Martin",
+    "official_name": "Saint Martin",
+    "capital": [
+      "Marigot"
+    ],
+    "region": "Americas",
+    "population": 38659,
+    "area": 53,
+    "souvenirs": "Flavored liqueurs, rum, and wine; guavaberry products;  spices; perfumes and cosmetics",
+    "traditional_cuisine": "Conch & Dumplings — conch (sea snail) tenderized and pressure-cooked with dumplings, herbs, and spices; the sauce from the conch and dumplings is used as gravy to eat with rice, vegetables, or johnnycakes (pancakes made with cornmeal)",
+    "flag": "https://flagcdn.com/w320/mf.png"
+  },
+  {
+    "common_name": "French Polynesia",
+    "official_name": "French Polynesia",
+    "capital": [
+      "Papeetē"
+    ],
+    "region": "Oceania",
+    "population": 280904,
+    "area": 4167,
+    "souvenirs": "Black pearls, mother-of-pearl jewelry and decorative items, pareau cloth, wood and stone carvings, vanilla",
+    "traditional_cuisine": "Poisson cru — raw tuna marinated in lime juice and coconut milk and served with various vegetables; often, fresh coconut meat is wrapped in cloth, and the milky juice is then squeezed over the fish and vegetables",
+    "flag": "https://flagcdn.com/w320/pf.png"
+  },
+  {
+    "common_name": "New Zealand",
+    "official_name": "New Zealand",
+    "capital": [
+      "Wellington"
+    ],
+    "region": "Oceania",
+    "population": 5084300,
+    "area": 270467,
+    "souvenirs": "Abalone, paua shell, and greenstone jewelry; stone and wood Maori tribal masks, statues, baskets, and weapons; sheepskin rugs, merino wool blankets, chamois cloths, other wool/lanolin items; Rimu timber clocks, Kiwi art, wine, honey",
+    "traditional_cuisine": "Pavlova — a meringue-like dessert with a crisp Cornstarch-based outer crust and a soft and moist core; whipped cream and fruits, such as kiwi or passion fruit, are used as garnishes",
+    "flag": "https://flagcdn.com/w320/nz.png"
+  },
+  {
+    "common_name": "Serbia",
+    "official_name": "Republic of Serbia",
+    "capital": [
+      "Belgrade"
+    ],
+    "region": "Europe",
+    "population": 6908224,
+    "area": 88361,
+    "souvenirs": "Handmade jewelry, ceramics and pottery, brushwood carvings, sajkaca woolen caps, opanak leather shoes, lacework, woven rugs, Turkish coffee sets, herbal beauty products",
+    "traditional_cuisine": "Sarma — rolled cabbage stuffed with minced meat, rice or bulgur, various herbs, red pepper, paprika, ground sumac, or tomato sauce cooked over sauerkraut",
+    "flag": "https://flagcdn.com/w320/rs.png"
+  },
+  {
+    "common_name": "Trinidad and Tobago",
+    "official_name": "Republic of Trinidad and Tobago",
+    "capital": [
+      "Port of Spain"
+    ],
+    "region": "Americas",
+    "population": 1399491,
+    "area": 5130,
+    "souvenirs": "Sarongs and other hand-painted clothing; shell necklaces and beaded, gold, and silver jewelry; leather sandals, spices, woodcarvings, steel pan drums, handmade ceramic statues",
+    "traditional_cuisine": "Callaloo — a stew with a soup-like consistency; dasheen (a type of taro) leaves are cooked with a variety of herbs and spices; crabs are traditionally added, however, chicken or salted pork may also be used",
+    "flag": "https://flagcdn.com/w320/tt.png"
+  },
+  {
+    "common_name": "Saint Barthélemy",
+    "official_name": "Collectivity of Saint Barthélemy",
+    "capital": [
+      "Gustavia"
+    ],
+    "region": "Americas",
+    "population": 4255,
+    "area": 21,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/bl.png"
+  },
+  {
+    "common_name": "Pitcairn Islands",
+    "official_name": "Pitcairn Group of Islands",
+    "capital": [
+      "Adamstown"
+    ],
+    "region": "Oceania",
+    "population": 56,
+    "area": 47,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/pn.png"
+  },
+  {
+    "common_name": "Norfolk Island",
+    "official_name": "Territory of Norfolk Island",
+    "capital": [
+      "Kingston"
+    ],
+    "region": "Oceania",
+    "population": 2302,
+    "area": 36,
+    "souvenirs": "Hand-woven cloth items, woven baskets, carved statues, landscape art",
+    "traditional_cuisine": "Pilhi — sliced bananas or kumeras (sweet potatoes), salt, and flour spread in a baking dish and baked until golden",
+    "flag": "https://flagcdn.com/w320/nf.png"
+  },
+  {
+    "common_name": "Barbados",
+    "official_name": "Barbados",
+    "capital": [
+      "Bridgetown"
+    ],
+    "region": "Americas",
+    "population": 287371,
+    "area": 430,
+    "souvenirs": "Straw bags and other handicrafts, batiks, paintings/wood works; duty-free luxury items, rum",
+    "traditional_cuisine": "Cou-cou (or fungie) — lightly seasoned cooked cornmeal mixed with okra and water; often served with flying fish steamed with lime juice, spices, and vegetables or fried and served with a spicy sauce",
+    "flag": "https://flagcdn.com/w320/bb.png"
+  },
+  {
+    "common_name": "South Korea",
+    "official_name": "Republic of Korea",
+    "capital": [
+      "Seoul"
+    ],
+    "region": "Asia",
+    "population": 51780579,
+    "area": 100210,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/kr.png"
+  },
+  {
+    "common_name": "Bangladesh",
+    "official_name": "People's Republic of Bangladesh",
+    "capital": [
+      "Dhaka"
+    ],
+    "region": "Asia",
+    "population": 164689383,
+    "area": 147570,
+    "souvenirs": "Pink pearls, mother-of-pearl jewelry, hand-loomed fabrics, silk, carved masks, leather goods, folk dolls",
+    "traditional_cuisine": "Ilish macher paturi — rice and Ilish fish marinated with ground spices and wrapped in banana leaves and steamed or roasted",
+    "flag": "https://flagcdn.com/w320/bd.png"
+  },
+  {
+    "common_name": "Dominican Republic",
+    "official_name": "Dominican Republic",
+    "capital": [
+      "Santo Domingo"
+    ],
+    "region": "Americas",
+    "population": 10847904,
+    "area": 48671,
+    "souvenirs": "Larimar jewelry and stones, amber jewelry, woodcarvings, pottery, baskets, limestone carvings, cigars, rum",
+    "traditional_cuisine": "La Bandera — rice, red beans, and meat",
+    "flag": "https://flagcdn.com/w320/do.png"
+  },
+  {
+    "common_name": "Turkey",
+    "official_name": "Republic of Turkey",
+    "capital": [
+      "Ankara"
+    ],
+    "region": "Asia",
+    "population": 84339067,
+    "area": 783562,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/tr.png"
+  },
+  {
+    "common_name": "Indonesia",
+    "official_name": "Republic of Indonesia",
+    "capital": [
+      "Nusantara"
+    ],
+    "region": "Asia",
+    "population": 273523621,
+    "area": 1904569,
+    "souvenirs": "Batik and ikat fabrics; paper, silk, and light wood kites; silver items, woven basketware, bamboo items and wood carved bowls, furniture and antiques",
+    "traditional_cuisine": "Nasi Goreng — rice stir-fried with shrimp, shallots, and soy sauce and topped with a fried egg; often accompanied with a grilled sausage",
+    "flag": "https://flagcdn.com/w320/id.png"
+  },
+  {
+    "common_name": "Liberia",
+    "official_name": "Republic of Liberia",
+    "capital": [
+      "Monrovia"
+    ],
+    "region": "Africa",
+    "population": 5057677,
+    "area": 111369,
+    "souvenirs": "Ritual masks; ebony, soapstone and mahogany carvings; handmade fabrics and tailored clothing; leather goods; stamped metal necklaces and earrings",
+    "traditional_cuisine": "Dumboy — boiled cassava pounded into a viscous dough and shaped into balls; typically eaten with pepper soup",
+    "flag": "https://flagcdn.com/w320/lr.png"
+  },
+  {
+    "common_name": "Guernsey",
+    "official_name": "Bailiwick of Guernsey",
+    "capital": [
+      "St. Peter Port"
+    ],
+    "region": "Europe",
+    "population": 62999,
+    "area": 78,
+    "souvenirs": "Hand-knit sweaters, copper decorative items, hand-embroidered items; duty-free fashion, jewelry, alcohol, and tobacco",
+    "traditional_cuisine": "Bean jar — a one-pot dish typically made with pig’s trotter, haricot beans, butter beans, bay leaves, onions, and carrots; the dish is baked for 6-8 hours and typically served with crusty bread and Guernsey butter",
+    "flag": "https://flagcdn.com/w320/gg.png"
+  },
+  {
+    "common_name": "Suriname",
+    "official_name": "Republic of Suriname",
+    "capital": [
+      "Paramaribo"
+    ],
+    "region": "Americas",
+    "population": 586634,
+    "area": 163820,
+    "souvenirs": "Woven baskets and wicker items, batik cloth, tribal woodcarvings, pottery, gold and silver jewelry, hand-rolled cigars, cotton hammocks, bamboo items",
+    "traditional_cuisine": "Pom — a casserole made with chicken pieces, chicken sausages, tomatoes, onions, celery, garlic, hot peppers, salt, pepper, sugar, nutmeg, orange and lemon juice, and pomtajer (a root vegetable)",
+    "flag": "https://flagcdn.com/w320/sr.png"
+  },
+  {
+    "common_name": "Albania",
+    "official_name": "Republic of Albania",
+    "capital": [
+      "Tirana"
+    ],
+    "region": "Europe",
+    "population": 2837743,
+    "area": 28748,
+    "souvenirs": "Woven kilim rugs, alabaster, copper crafts, leather footwear, perfumes",
+    "traditional_cuisine": "Tavë kosi — a dish of lamb, or occasionally chicken, and rice baked with a mixture of yogurt and eggs and added to a roux of wheat flour and butter",
+    "flag": "https://flagcdn.com/w320/al.png"
+  },
+  {
+    "common_name": "Dominica",
+    "official_name": "Commonwealth of Dominica",
+    "capital": [
+      "Roseau"
+    ],
+    "region": "Americas",
+    "population": 71991,
+    "area": 751,
+    "souvenirs": "Grass and reed rugs and bags, Carib baskets, herbs and spices, pottery, jewelry, coconut items, rum",
+    "traditional_cuisine": "Mountain Chicken (historical dish) — snares of the legs of the now endangered Crapaud frog; more recently Calalloo Soup – a soup made from the leaves of the dasheen plant, other vegetables, and meat",
+    "flag": "https://flagcdn.com/w320/dm.png"
+  },
+  {
+    "common_name": "Thailand",
+    "official_name": "Kingdom of Thailand",
+    "capital": [
+      "Bangkok"
+    ],
+    "region": "Asia",
+    "population": 69799978,
+    "area": 513120,
+    "souvenirs": "Buddha statues, silk harem pants and other fabric items, Hill Tribe bags, spices and sauces",
+    "traditional_cuisine": "Pad Thai — stir-fried rice noodles with scrambled eggs, fish sauce, dried shrimp, tamarind pulp, bean sprouts, roasted crushed peanuts, and tofu; if meat is added it is typically chicken or pork",
+    "flag": "https://flagcdn.com/w320/th.png"
+  },
+  {
+    "common_name": "United Kingdom",
+    "official_name": "United Kingdom of Great Britain and Northern Ireland",
+    "capital": [
+      "London"
+    ],
+    "region": "Europe",
+    "population": 67215293,
+    "area": 242900,
+    "souvenirs": "Teas, preserves, stationary, Jasperware, shortbread cookies, chocolate, scotch",
+    "traditional_cuisine": "Fish and chips; roast beef with Yorkshire pudding",
+    "flag": "https://flagcdn.com/w320/gb.png"
+  },
+  {
+    "common_name": "New Caledonia",
+    "official_name": "New Caledonia",
+    "capital": [
+      "Nouméa"
+    ],
+    "region": "Oceania",
+    "population": 271960,
+    "area": 18575,
+    "souvenirs": "Seashell, black coral, and precious metal jewelry; sandstone-carved items, essential oils, sarongs, woven baskets, preserves, ceremonial wood-carved items",
+    "traditional_cuisine": "Bougna — coconut milk combined with various root vegetables such as taro, manioc, and yams and often chicken, pork, or seafood; the mixture is wrapped in banana leaves and placed over hot coals in an earthen oven",
+    "flag": "https://flagcdn.com/w320/nc.png"
+  },
+  {
+    "common_name": "Romania",
+    "official_name": "Romania",
+    "capital": [
+      "Bucharest"
+    ],
+    "region": "Europe",
+    "population": 19286123,
+    "area": 238391,
+    "souvenirs": "Embroidered items, hand-painted icons and eggs, carved wooden spoons, woven carpets",
+    "traditional_cuisine": "Sarmale (cabbage rolls) — minced pork and/or poultry mixed with spices, rice, and onions, then rolled up in cabbage leaves and boiled in a sauce made of sauerkraut juice, tomato juice, and other ingredients; typically served with mamaliga (a corn flour mush) and sour cream",
+    "flag": "https://flagcdn.com/w320/ro.png"
+  },
+  {
+    "common_name": "Gibraltar",
+    "official_name": "Gibraltar",
+    "capital": [
+      "Gibraltar"
+    ],
+    "region": "Europe",
+    "population": 33691,
+    "area": 6,
+    "souvenirs": "Crystal, alcohol, jewelry, electronics, perfume, and watches, Rock of Gibraltar decorative items, stuffed Macaque animals, model sail boats",
+    "traditional_cuisine": "Calentita — an oven-baked dish that looks similar to a pizza without toppings; it consists of chickpea flour, water, olive oil, and seasonings and is served hot",
+    "flag": "https://flagcdn.com/w320/gi.png"
+  },
+  {
+    "common_name": "Svalbard and Jan Mayen",
+    "official_name": "Svalbard og Jan Mayen",
+    "capital": [
+      "Longyearbyen"
+    ],
+    "region": "Europe",
+    "population": 2562,
+    "area": 61399,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/sj.png"
+  },
+  {
+    "common_name": "Angola",
+    "official_name": "Republic of Angola",
+    "capital": [
+      "Luanda"
+    ],
+    "region": "Africa",
+    "population": 32866268,
+    "area": 1246700,
+    "souvenirs": "Wood carvings, pottery, malachite sculptures; tribal masks, weapons, baskets, and drums; precious stone necklaces, woven rugs, tapestries/textiles",
+    "traditional_cuisine": "Moambe chicken — a savory chicken dish made by combining chicken, spices, and palm butter to create a stew-like consistency",
+    "flag": "https://flagcdn.com/w320/ao.png"
+  },
+  {
+    "common_name": "Bahamas",
+    "official_name": "Commonwealth of the Bahamas",
+    "capital": [
+      "Nassau"
+    ],
+    "region": "Americas",
+    "population": 393248,
+    "area": 13943,
+    "souvenirs": "N/A",
+    "traditional_cuisine": "N/A",
+    "flag": "https://flagcdn.com/w320/bs.png"
+  },
+  {
+    "common_name": "Eswatini",
+    "official_name": "Kingdom of Eswatini",
+    "capital": [
+      "Mbabane"
+    ],
+    "region": "Africa",
+    "population": 1160164,
+    "area": 17364,
+    "souvenirs": "Woven rugs, clay pots, sisal woven baskets, traditional dyed cloth or hand-loomed mohair items, glass-bead or precious-metal jewelry, carved wooden statues, sheet-metal toys",
+    "traditional_cuisine": "Karoo roast ostrich steak — thinly sliced ostrich steaks marinated in red wine and juniper berries with salt and pepper then fried in butter and served with onions sautéed with peppercorns, white wine, and heavy cream; traditionally accompanied with a pumpkin and ground maize mash",
+    "flag": "https://flagcdn.com/w320/sz.png"
+  },
+  {
+    "common_name": "Brazil",
+    "official_name": "Federative Republic of Brazil",
+    "capital": [
+      "Brasília"
+    ],
+    "region": "Americas",
+    "population": 212559409,
+    "area": 8515767,
+    "souvenirs": "Woven hammocks, carved wooden figurines and musical instruments, gold and silver gemstone jewelry, handmade lace,  feather headdresses",
+    "traditional_cuisine": "Feijoada — kidney or black beans stewed with beef and pork and sometimes vegetables",
+    "flag": "https://flagcdn.com/w320/br.png"
+  },
+  {
+    "common_name": "Lithuania",
+    "official_name": "Republic of Lithuania",
+    "capital": [
+      "Vilnius"
+    ],
+    "region": "Europe",
+    "population": 2794700,
+    "area": 65300,
+    "souvenirs": "Amber jewelry and decorative items; linen shirts, dresses, suits, and table wear; liqueurs; clay pots; local art",
+    "traditional_cuisine": "Cepelinai — large dumplings made of raw and cooked potato dough filled with pork and doused in a ladle of a sour cream and bacon sauce",
+    "flag": "https://flagcdn.com/w320/lt.png"
+  },
+  {
+    "common_name": "Saint Lucia",
+    "official_name": "Saint Lucia",
+    "capital": [
+      "Castries"
+    ],
+    "region": "Americas",
+    "population": 183629,
+    "area": 616,
+    "souvenirs": "Painted masks, pottery, rum, batik and silkscreened fabric, wood carvings, local honey and hot sauces",
+    "traditional_cuisine": "Green Fig (unripe banana) and saltfish",
+    "flag": "https://flagcdn.com/w320/lc.png"
+  }
+]

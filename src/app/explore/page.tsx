@@ -8,6 +8,7 @@ import GlobeView from '@/components/globe/globeView';
 
 export default function ExplorePage() {
   //const router = useRouter();
+  /*
   const [showGlobe, setShowGlobe] = useState(false);
 
   // Efecto para mostrar el globo con una animación de fade in
@@ -18,6 +19,7 @@ export default function ExplorePage() {
 
     return () => clearTimeout(timer);
   }, []);
+  */
 
   // Función que se ejecuta cuando finaliza el tiempo
   /*

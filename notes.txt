@@ -1,0 +1,20 @@
+1. Definir un rango de zoom in y zoom out del globo
+2. Tras aparecer el globo, eliminar bug de quedarse hover sobre pais
+3. Al pasar sobre la x de cerrar que cambie la manita del mouse
+4. Al abrir la consola del navegador y cerrarla que el globo vuelva a su posicion original
+5. Scrappear de la wiki y guardar informacion
+6. Completar informacion del popup con dicha informacion
+7. Colocarle el timer
+8. Vista de espera entre terminar el timer y el test
+9. Vista de preguntas con puntajes: guardar preguntas/respuestas en BD en base a la api llamada y scrapping para cumplir requisito de 
+   consultar backend rest. Se le hace preguntas (consultamos API Rest), el usuario escoge el pais respuesta y se le suma/resta el 
+   puntuaje (modificación de elementos frontend)
+10. Vista final tras timer final del puntuaje hecho por el usuario (aparecerá una lista de puntuajes anteriores por otros usuarios;
+    otra consulta a api rest. Debajo de dicha lista, aparecera el puntuaje del jugador y a opcion de subirlo ingresando un username y password que,
+    evidentemente, no este en la bd; Modificacion de API REST). Solo mostraremos el Top 5 (pedir su nacionalidad para poner la banderita en 
+    el tops). La lista de paises suministrarla yo para que nadie introduzca un pais inexistente
+
+Extra:
+
+globe.controls().autoRotate = true si no esta sobre el globo 
+globe.controls().autoRotate = false si esta sobre el globo 

@@ -7,6 +7,9 @@ import { NextResponse } from 'next/server';
 // No viene formateado ni tipado de tal forma de tener un header, status code... La estructura tipica de una peticion 
 import axios from 'axios';
 
+import fs from 'fs';
+import path from 'path';
+
 // Cache de países para evitar demasiadas solicitudes a APIs externas
 // Las almacenamos en cache durante una hora (medido en milisegundos)
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -23,19 +26,22 @@ export async function GET() {
       return NextResponse.json(countriesCache);
     }
 
-    // Si no hay caché válida, obtener datos de países de la API RestCountries
-    // (en el futuro cambiarlo en un archivo local. Se deja por retricciones del proyecto)
-    const response = await axios.get('https://restcountries.com/v3.1/all?fields=name,cca3,capital,population,area,flags,latlng,region');
-
+    // Si no hay caché válida, leer el archivo JSON local
+    const filePath = path.join(process.cwd(), 'public/data/countries_data.json');
+    const fileContents = fs.readFileSync(filePath, 'utf8');
+    const countriesData = JSON.parse(fileContents);
+    
     // Transformar los datos al formato que necesitamos
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const countries = response.data.map((country: any) => ({
-      common_name: country.name.common,
-      official_name: country.name.official,
-      capital: country.capital,
+    const countries = countriesData.data.map((country: any) => ({
+      common_name: country.common_name,
+      official_name: country.official_name,
+      capital: country.capital ? country.capital : "N/A",
       region: country.region, 
       population: country.population,
       area: country.area,
+      souvenirs: country.souvenirs ? country.souvenirs : "N/A",
+      traditional_cuisine: country.traditional_cuisine ? country.traditional_cuisine : "N/A",
       flag: country.flags.png
     }));
     
