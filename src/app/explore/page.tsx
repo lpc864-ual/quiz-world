@@ -1,33 +1,18 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-//import { useRouter } from 'next/navigation';
-import { motion } from 'framer-motion';
-import GlobeView from '@/components/globe/globeView';
-//import Timer from '@/components/ui/timer';
+import { useRouter } from "next/navigation";
+import { motion } from "framer-motion";
+import GlobeView from "@/components/globe/globeView";
+import Timer from "@/components/ui/timer";
 
 export default function ExplorePage() {
-  //const router = useRouter();
-  /*
-  const [showGlobe, setShowGlobe] = useState(false);
-
-  // Efecto para mostrar el globo con una animación de fade in
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setShowGlobe(true);
-    }, 1000);
-
-    return () => clearTimeout(timer);
-  }, []);
-  */
+  const router = useRouter();
 
   // Función que se ejecuta cuando finaliza el tiempo
-  /*
   const handleTimeEnd = () => {
     // Redirigir a la página de introducción del quiz
-    router.push('/quiz-intro');
+    router.push("/quiz-intro");
   };
-  */
 
   return (
     // Cielo nocturno estrellado
@@ -38,13 +23,10 @@ export default function ExplorePage() {
           Explore The World
         </h2>
 
-
-        {/*<Timer 
-            initialTime={300} // 5 minutos en segundos
-            onTimeEnd={handleTimeEnd}
-            className="text-xl"
-          />*/}
-
+        <Timer
+          initialTime={300} // 5 minutos en segundos
+          onTimeEnd={handleTimeEnd}
+        />
       </div>
 
       {/* Instrucciones */}

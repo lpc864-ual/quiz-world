@@ -150,6 +150,8 @@ export default function GlobeView({isQuizMode = false, highlightCountries = [], 
       });
 
     // Animación inicial
+    globe.controls().minDistance = 300;  // Límite de zoom out (más lejano)
+    globe.controls().maxDistance = 500;  // Límite de zoom in (más cercano)
     globe.controls().autoRotate = false;
     //globe.controls().autoRotateSpeed = 0.5;
     if (!globeReady) {
@@ -168,6 +170,7 @@ export default function GlobeView({isQuizMode = false, highlightCountries = [], 
   // Cerrar el popup de información
   const closeCountryInfo = useCallback(() => {
     setSelectedCountry(null);
+    setActiveTab("info");
   }, []);
 
   // Handler to close popup when clicking outside

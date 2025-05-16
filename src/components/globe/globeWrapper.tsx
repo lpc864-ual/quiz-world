@@ -2,6 +2,7 @@
 
 // forwardRef: usado para recibir ref de un componente padre
 import { useEffect, useRef, forwardRef } from "react";
+import { motion } from "framer-motion";
 
 // Define tipos para propiedades
 interface GlobeWrapperProps {
@@ -76,7 +77,7 @@ const GlobeWrapper = forwardRef<any, GlobeWrapperProps>(({ onGlobeReady, ...prop
       return undefined;
     }, [ref, onGlobeReady]);
 
-    return <div ref={containerRef} style={{ width: "100%", height: "100%" }} {...props} />;
+    return <motion.div><div ref={containerRef} style={{ width: "100%", height: "100%" }} {...props} /> </motion.div>;
   }
 );
 

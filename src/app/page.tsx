@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 export default function Home() {
-
   return (
     // Cielo nocturno estrellado
     <div className="min-h-screen bg-[url('/images/night-sky.png')] bg-cover relative flex items-center justify-center overflow-hidden">

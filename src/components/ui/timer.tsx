@@ -4,31 +4,27 @@ import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 interface TimerProps {
-  initialTime: number; // tiempo en segundos
+  initialTime: number; 
   onTimeEnd: () => void;
   className?: string;
 }
 
-export default function Timer({ initialTime, onTimeEnd, className = '' }: TimerProps) {
+export default function Timer({ initialTime, onTimeEnd }: TimerProps) {
   const [timeLeft, setTimeLeft] = useState(initialTime);
   const [isWarning, setIsWarning] = useState(false);
   const [isPulsing, setIsPulsing] = useState(false);
 
   useEffect(() => {
-    if (timeLeft <= 0) {
-      onTimeEnd();
-      return;
-    }
-
     // Cambiar a color rojo cuando quedan 15 segundos
     if (timeLeft <= 15 && !isWarning) {
       setIsWarning(true);
       setIsPulsing(true);
-      
-      // Detener la pulsación después de 3 segundos
-      setTimeout(() => {
-        setIsPulsing(false);
-      }, 3000);
+    }
+
+    if (timeLeft <= 0) {
+      setIsPulsing(false)
+      onTimeEnd();
+      return;
     }
 
     const timerId = setTimeout(() => {
@@ -47,13 +43,13 @@ export default function Timer({ initialTime, onTimeEnd, className = '' }: TimerP
 
   return (
     <motion.div 
-      className={`font-mono text-2xl md:text-3xl font-bold ${isWarning ? 'text-red-500' : 'text-white'} ${className}`}
+      className={`font-mono font-bold text-2xl md:text-3xl ${isWarning ? 'text-red-500' : 'text-white'}`}
       animate={{
         scale: isPulsing ? [1, 1.1, 1] : 1,
       }}
       transition={{
         duration: 0.8,
-        repeat: isPulsing ? 3 : 0,
+        repeat: isPulsing ? Infinity : 0,
         repeatType: "loop"
       }}
     >
