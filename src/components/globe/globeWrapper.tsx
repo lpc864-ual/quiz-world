@@ -77,7 +77,14 @@ const GlobeWrapper = forwardRef<any, GlobeWrapperProps>(({ onGlobeReady, ...prop
       return undefined;
     }, [ref, onGlobeReady]);
 
-    return <motion.div><div ref={containerRef} style={{ width: "100%", height: "100%" }} {...props} /> </motion.div>;
+    return  <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ duration: 1.5 }}
+    style={{ width: "100%", height: "100%" }}
+  >
+    <div ref={containerRef} style={{ width: "100%", height: "100%" }} {...props} />
+  </motion.div>;
   }
 );
 

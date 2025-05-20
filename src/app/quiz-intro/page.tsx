@@ -43,7 +43,7 @@ export default function QuizIntroPage() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 1.2, duration: 0.8 }}
         >
-          <Link href="/quiz">
+          <Link href="/explore?isQuizMode=true">
             <motion.button
               className="relative px-10 py-4 rounded-full border-2 border-white bg-transparent group overflow-hidden"
               whileHover={{ scale: 1.05 }}

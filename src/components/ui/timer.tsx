@@ -43,7 +43,7 @@ export default function Timer({ initialTime, onTimeEnd }: TimerProps) {
 
   return (
     <motion.div 
-      className={`font-mono font-bold text-2xl md:text-3xl ${isWarning ? 'text-red-500' : 'text-white'}`}
+      className={`text-xl md:text-2xl font-semibold ${isWarning ? 'text-red-500' : 'text-white'}`}
       animate={{
         scale: isPulsing ? [1, 1.1, 1] : 1,
       }}

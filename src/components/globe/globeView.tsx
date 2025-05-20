@@ -2,7 +2,6 @@
 
 import dynamic from "next/dynamic";
 import { useEffect, useRef, useState, useCallback } from "react";
-import { motion } from "framer-motion";
 
 interface Country {
   common_name: string;
@@ -14,12 +13,6 @@ interface Country {
   souvenirs: string;
   traditional_cuisine: string;
   flag: string;
-}
-
-interface GlobeViewProps {
-  isQuizMode?: boolean;
-  highlightCountries?: string[];
-  onCountryClick?: (country: Country) => void;
 }
 
 // Importar Globe.gl dinámicamente para evitar problemas de SSR
@@ -35,8 +28,7 @@ const GlobeDynamic = dynamic(() => import("./globeWrapper"), {
   ),
 });
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-export default function GlobeView({isQuizMode = false, highlightCountries = [], onCountryClick}: GlobeViewProps) {
+export default function GlobeView({ isQuizMode = false, onCountryClick }: { isQuizMode?: boolean,  onCountryClick?: (countryName: string) => void; }) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const globeRef = useRef<any>(null);
   const [globeReady, setGlobeReady] = useState(false);
@@ -133,20 +125,13 @@ export default function GlobeView({isQuizMode = false, highlightCountries = [], 
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       .onPolygonClick((polygon: any) => {
         if (!polygon) return;
-
-        console.log("Pais seleccionado: ", polygon);
-        console.log("Pais seleccionado (nombre): ", polygon.properties.name);
-        const countrySelected = countries.find(
-          (c) =>
-            c.common_name === polygon.properties.name ||
-            c.official_name === polygon.properties.name
-        );
-        console.log("Pais seleccionado (info): ", countrySelected);
-        if (countrySelected) {
+        const countrySelected = countries.find((c) => c.common_name === polygon.properties.name || c.official_name === polygon.properties.name);
+        if (countrySelected && !isQuizMode) {
           setSelectedCountry(countrySelected);
-        } else {
-          setSelectedCountry(null);
         }
+        if (countrySelected && onCountryClick) {
+          onCountryClick(polygon.properties.name);
+        }  
       });
 
     // Animación inicial
@@ -165,7 +150,7 @@ export default function GlobeView({isQuizMode = false, highlightCountries = [], 
         globe.controls().autoRotate = false;
       }
     };
-  }, [globeReady, countries, geoJsonData, hoveredPolygonId]);
+  }, [globeReady, countries, geoJsonData, hoveredPolygonId, isQuizMode, onCountryClick]);
 
   // Cerrar el popup de información
   const closeCountryInfo = useCallback(() => {
@@ -186,14 +171,9 @@ export default function GlobeView({isQuizMode = false, highlightCountries = [], 
   return (
     <div className="relative w-full h-full">
       {/* Contenedor del globo */}
-      <motion.div
-        className="w-full h-[calc(100vh-100px)]"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: globeReady ? 1 : 0 }}
-        transition={{ duration: 1.5 }}
-      >
+      <div className="w-full h-[calc(100vh-100px)]">
         <GlobeDynamic ref={globeRef} onGlobeReady={handleGlobeReady} />
-      </motion.div>
+      </div>
 
       {/* Popup de información de país */}
       {selectedCountry && !isQuizMode && (
