@@ -1,7 +1,7 @@
 "use client";
 
 // forwardRef: usado para recibir ref de un componente padre
-import { useEffect, useRef, forwardRef } from "react";
+import { useState, useEffect, useRef, forwardRef } from "react";
 import { motion } from "framer-motion";
 
 // Define tipos para propiedades
@@ -22,6 +22,9 @@ const GlobeWrapper = forwardRef<any, GlobeWrapperProps>(({ onGlobeReady, ...prop
     // Usada para la limpieza del componente ya que trabajamos con referencias
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const globeInstanceRef = useRef<any>(null);
+    //
+    const [isGlobeLoaded, setIsGlobeLoaded] = useState(false);
+
     // Efecto ejecutado al montar el componente o algun cambio en el array de dependencia (en nuestro caso, la referencia)
     useEffect(() => {
       // Si esta ejecutandose la vista en el navegador y existe la referencia al div
@@ -55,6 +58,9 @@ const GlobeWrapper = forwardRef<any, GlobeWrapperProps>(({ onGlobeReady, ...prop
             ref.current = globeInstance;
           }
 
+          //
+          setIsGlobeLoaded(true);
+
           // Signal that the globe is ready
           if (onGlobeReady) {
             onGlobeReady(globeInstance);
@@ -79,8 +85,8 @@ const GlobeWrapper = forwardRef<any, GlobeWrapperProps>(({ onGlobeReady, ...prop
 
     return  <motion.div
     initial={{ opacity: 0 }}
-    animate={{ opacity: 1 }}
-    transition={{ duration: 1.5 }}
+    animate={{ opacity: isGlobeLoaded ? 1 : 0 }}
+    transition={{ duration: 1.5, delay: 0.3 }}
     style={{ width: "100%", height: "100%" }}
   >
     <div ref={containerRef} style={{ width: "100%", height: "100%" }} {...props} />

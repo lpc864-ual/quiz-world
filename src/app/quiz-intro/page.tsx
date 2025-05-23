@@ -22,18 +22,20 @@ export default function QuizIntroPage() {
           className="text-white text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Now, Let&apos;s Test Your Knowledge!
-            </h2>
-          <p className="text-lg md:text-xl leading-relaxed">
-            I hope you explored the world enough, because now we are going to challenge your knowledge. 
-            You will have five minutes to answer all the questions we are going to give you.
+            Time to Put Your Brain to the Test!
+          </h2>
+          <p className="text-lg md:text-xl leading-relaxed text-justify">
+            Hope you had fun exploring, &apos;cause now things are about to get real! You&apos;ve got five minutes to crush as many questions as we can throw at.
           </p>
-          <p className="text-lg md:text-xl leading-relaxed mt-4">
-            Click over the country you think is the correct answer. Each correct answer will add five 
-            points to your score, but each incorrect answer will subtract ten points.
+          <p className='text-lg md:text-xl leading-relaxed'>
+            you
+          </p>
+
+          <p className="text-lg md:text-xl leading-relaxed mt-4 text-justify">
+            Just click on the country you think is right. Nail it and you&apos;ll score 5 points, but mess up and we&apos;re taking 10 points away. No pressure, right?
           </p>
           <p className="text-lg md:text-xl leading-relaxed mt-4 font-bold">
-            Good luck!
+            Ready to show off?
           </p>
         </motion.div>
         
@@ -45,7 +47,7 @@ export default function QuizIntroPage() {
         >
           <Link href="/explore?isQuizMode=true">
             <motion.button
-              className="relative px-10 py-4 rounded-full border-2 border-white bg-transparent group overflow-hidden"
+              className="relative px-10 py-4 rounded-full border-2 border-white bg-transparent group overflow-hidden cursor-pointer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -54,7 +56,7 @@ export default function QuizIntroPage() {
               
               {/* Texto del botón */}
               <span className="relative z-10 text-white text-xl font-bold tracking-wider">
-                Let&apos;s go!
+                Let&apos;s do this!
               </span>
             </motion.button>
           </Link>

@@ -5,7 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import GlobeView from "@/components/globe/globeView";
 import Timer from "@/components/ui/timer";
-import ScoreCounter from "@/components/quiz/scoreCounter";
+import ScoreCounter from "@/components/ui/scoreCounter";
 
 interface Question {
   id: number;
@@ -21,8 +21,13 @@ export default function ExplorePage() {
 
   // Función que se ejecuta cuando finaliza el tiempo
   const handleTimeEnd = () => {
-    // Redirigir a la página de introducción del quiz
-    router.push("/quiz-intro");
+    if (!isQuizMode) {
+      // Redirigir a la página de introducción del quiz
+      router.push("/quiz-intro");
+    } else {
+      // Redirigir a la página de resultados
+      router.push("/results");
+    }
   };
 
   const [score, setScore] = useState(0);
@@ -58,6 +63,7 @@ export default function ExplorePage() {
           setSeenQuestionIds((prev) => [...prev, data.question.id]);
         } else {
           // Redirijimos a la pestaña de puntuacion
+          handleTimeEnd();
         }
       }
     } catch (error) {
@@ -66,6 +72,11 @@ export default function ExplorePage() {
       setIsLoading(false);
     }
   }, [seenQuestionIds, isLoading]);
+
+  const [hoveredCountry, setHoveredCountry] = useState<string | null>(null);
+  const onHoverCountry = useCallback((countryName: string) => {
+    setHoveredCountry(countryName);
+  }, []);
 
   // Verificar la respuesta del usuario
   const checkAnswer = useCallback(
@@ -113,53 +124,63 @@ export default function ExplorePage() {
     [currentQuestion, fetchQuestion, isLoading]
   );
 
- // Efecto que maneja la primera carga de pregunta
-  // SOLUCIÓN: Eliminamos fetchQuestion de las dependencias
+  // Efecto que maneja la primera carga de pregunta
   useEffect(() => {
     if (isQuizMode) {
       // Solo cargar la primera pregunta
       const loadInitialQuestion = async () => {
         await fetchQuestion();
       };
-      
+
       loadInitialQuestion();
     }
-  }, [isQuizMode]); 
+  }, [isQuizMode]);
 
   return (
     // Cielo nocturno estrellado
     <div className="relative min-w-full min-h-screen bg-[url('/images/night-sky.png')] bg-cover flex flex-col items-center justify-center overflow-hidden">
       {/* Encabezado con el temporizador */}
-      <div className="w-full flex items-center justify-between p-4">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, delay: 0.5 }}
+        className="w-full flex items-center justify-between p-4"
+      >
         <h2 className="text-white text-xl md:text-2xl font-semibold">
-          Explore The World
+          QuizWorld
         </h2>
 
         {isQuizMode && (
-          <>
-            <ScoreCounter score={score} lastScoreChange={lastScoreChange} />
-          </>
+          <ScoreCounter score={score} lastScoreChange={lastScoreChange} />
         )}
 
         <Timer
-          initialTime={100000} // 5 minutos en segundos
+          initialTime={300} // 5 minutos en segundos
           onTimeEnd={handleTimeEnd}
         />
-      </div>
+      </motion.div>
 
       {/* Instrucciones */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.5 }}
-        className="absolute top-20 left-1/2 transform -translate-x-1/2 max-w-md p-4 text-center"
+        className={`absolute top-14 left-1/2 transform -translate-x-1/2 p-4 text-center ${
+          !isQuizMode ? "max-w-md" : "w-3/4"
+        }`}
       >
         {!isQuizMode ? (
-          <p className="text-white text-lg">
-            Click on any country to learn about it.
-            <br />
-            Explore as many as you can before the timer ends!
-          </p>
+          <>
+            <p className="text-white text-sm md:text-sm font-semibold mt-4">
+              Click on any country to learn about it.
+              <br />
+              Explore as many as you can before the timer ends!
+            </p>
+
+            <p className="text-gray-300 text-sm italic">
+              {hoveredCountry || ""}
+            </p>
+          </>
         ) : (
           <>
             <p className="text-white text-sm md:text-sm font-semibold mt-4">
@@ -168,6 +189,9 @@ export default function ExplorePage() {
             <p className="text-gray-300 text-sm italic">
               Click on the globe to select the correct country
             </p>
+            <p className="text-gray-300 text-sm italic">
+              {hoveredCountry || ""}
+            </p>
           </>
         )}
       </motion.div>
@@ -175,6 +199,7 @@ export default function ExplorePage() {
       {/* Globo interactivo */}
       <GlobeView
         isQuizMode={isQuizMode}
+        onHoverCountry={onHoverCountry}
         onCountryClick={isQuizMode ? checkAnswer : undefined}
       />
     </div>

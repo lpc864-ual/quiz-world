@@ -34,7 +34,7 @@ export default function IntroPage() {
         >
           <Link href="/explore">
             <motion.button
-              className="relative px-10 py-4 rounded-full border-2 border-white bg-transparent group overflow-hidden"
+              className="relative px-10 py-4 rounded-full border-2 border-white bg-transparent group overflow-hidden cursor-pointer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >

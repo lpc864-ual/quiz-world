@@ -9,13 +9,13 @@ export default function Home() {
     <div className="min-h-screen bg-[url('/images/night-sky.png')] bg-cover relative flex items-center justify-center overflow-hidden">
       {/* Contenido con animación de fade in */}
       <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1.5 }}
+        initial={{ y: 20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.5, duration: 0.8 }}
         className="flex flex-col items-center"
       >
         <h1 className="text-white font-bold text-4xl md:text-6xl text-center mb-8">
-          World Explorer Quiz
+          QuizWorld
         </h1>
         
         {/* Botón de inicio con borde blanco */}
@@ -26,7 +26,7 @@ export default function Home() {
             whileTap={{ scale: 0.95 }}
           >
             {/* Texto del botón */}
-            <span className=" text-white font-bold text-2xl tracking-wider">
+            <span className=" text-white font-bold text-2xl tracking-wider cursor-pointer">
               START!
             </span>
           </motion.button>

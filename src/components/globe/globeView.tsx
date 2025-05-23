@@ -28,7 +28,7 @@ const GlobeDynamic = dynamic(() => import("./globeWrapper"), {
   ),
 });
 
-export default function GlobeView({ isQuizMode = false, onCountryClick }: { isQuizMode?: boolean,  onCountryClick?: (countryName: string) => void; }) {
+export default function GlobeView({ isQuizMode = false, onHoverCountry, onCountryClick }: { isQuizMode?: boolean, onHoverCountry: (countryName: string) => void; onCountryClick?: (countryName: string) => void; }) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const globeRef = useRef<any>(null);
   const [globeReady, setGlobeReady] = useState(false);
@@ -36,7 +36,7 @@ export default function GlobeView({ isQuizMode = false, onCountryClick }: { isQu
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [geoJsonData, setGeoJsonData] = useState<any>(null);
   // Add state to track hovered country
-  const [hoveredPolygonId, setHoveredPolygonId] = useState<string | null>(null);
+  const [hoveredPolygon, setHoveredPolygon] = useState<string | null>(null);
   const [selectedCountry, setSelectedCountry] = useState<Country | null>(null);
   const [activeTab, setActiveTab] = useState("info");
 
@@ -102,15 +102,15 @@ export default function GlobeView({ isQuizMode = false, onCountryClick }: { isQu
     globe
       .polygonsData(geoJsonData.features || [])
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      .polygonAltitude((d: any) => (hoveredPolygonId === d ? 0.05 : 0.01)) // Altura ligeramente elevada para mostrar los bordes
+      .polygonAltitude((polygon: any) => (hoveredPolygon === polygon ? 0.05 : 0.01)) // Altura ligeramente elevada para mostrar los bordes
       .polygonStrokeColor(() => "rgb(0, 0, 0)") // Color del borde
       .polygonSideColor(() => "rgba(0, 100, 0, 0.15)") // Color del lado del polígono
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      .polygonCapColor((d: any) => {
+      .polygonCapColor((polygon: any) => {
         // Color para el área del polígono (puedes ajustar la transparencia)
         // Usamos un color con algo de opacidad para que sea "clickable"
         // Un poco más opaco cuando tiene hover
-        return hoveredPolygonId === d
+        return hoveredPolygon === polygon
           ? "rgba(255, 255, 255, 0.3)"
           : "rgba(255, 255, 255, 0.1)";
       })
@@ -118,9 +118,15 @@ export default function GlobeView({ isQuizMode = false, onCountryClick }: { isQu
       // Importante: esto hace que los eventos de hover y clic se detecten sobre toda el área
       .polygonsTransitionDuration(300)
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      .onPolygonHover((d: any) => {
-        document.body.style.cursor = d ? "pointer" : "default";
-        setHoveredPolygonId(d ? d : null);
+      .onPolygonHover((polygon: any) => {
+        document.body.style.cursor = polygon ? "pointer" : "default";
+        if (polygon) {
+          setHoveredPolygon(polygon);
+          onHoverCountry(polygon.properties.name);
+        } else {
+          setHoveredPolygon(null);
+          onHoverCountry("")
+        }
       })
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       .onPolygonClick((polygon: any) => {
@@ -135,8 +141,11 @@ export default function GlobeView({ isQuizMode = false, onCountryClick }: { isQu
       });
 
     // Animación inicial
-    globe.controls().minDistance = 300;  // Límite de zoom out (más lejano)
-    globe.controls().maxDistance = 500;  // Límite de zoom in (más cercano)
+    const FIXED_ZOOM_DISTANCE = 300; // Ajusta este valor según tu preferencia
+  
+    globe.controls().minDistance = FIXED_ZOOM_DISTANCE;  
+    globe.controls().maxDistance = FIXED_ZOOM_DISTANCE;  
+    globe.controls().enableZoom = false; // Deshabilitar zoom
     globe.controls().autoRotate = false;
     //globe.controls().autoRotateSpeed = 0.5;
     if (!globeReady) {
@@ -150,7 +159,7 @@ export default function GlobeView({ isQuizMode = false, onCountryClick }: { isQu
         globe.controls().autoRotate = false;
       }
     };
-  }, [globeReady, countries, geoJsonData, hoveredPolygonId, isQuizMode, onCountryClick]);
+  }, [globeReady, countries, geoJsonData, hoveredPolygon, isQuizMode, onHoverCountry, onCountryClick]);
 
   // Cerrar el popup de información
   const closeCountryInfo = useCallback(() => {
