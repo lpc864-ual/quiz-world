@@ -26,7 +26,7 @@ export default function ExplorePage() {
       router.push("/quiz-intro");
     } else {
       // Redirigir a la página de resultados
-      router.push("/results");
+      router.push(`/results?score=${score}`);
     }
   };
 

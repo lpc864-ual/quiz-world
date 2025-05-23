@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 
 interface Player {
@@ -24,7 +25,10 @@ interface Country {
   flag: string;
 }
 
-export default function ResultsPage({ score = 0 }: { score: number }) {
+export default function ResultsPage() {
+    
+  const searchParams = useSearchParams();
+  const score = parseInt(searchParams.get("score") ?? "0", 10);
   const [countries, setCountries] = useState<Country[]>([]);
   const [players, setPlayers] = useState<Player[]>([]);
   const [showRegistration, setShowRegistration] = useState(false);
@@ -298,7 +302,7 @@ export default function ResultsPage({ score = 0 }: { score: number }) {
                 onClick={() => setShowRegistration(true)}
                 className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-bold transition-colors cursor-pointer"
               >
-                💫 Registrar mi puntaje
+                💫 Save my score
               </motion.button>
             )}
 
