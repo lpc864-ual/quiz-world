@@ -1,3 +1,12 @@
 1. musica de fondo
 2. popup de respuesta correcta ante equivocacion
 3. correccion del boton de save score de evitar otra vez el efecto fade in despues de la primera vez
+4. Dockerfile y docker compose de la web
+
+- Documentar
+- Hacer la web multi-idiomas
+- Añadir ads en la vista de resultados
+- Añadir comentarios de copyright de la web y contacto de soporte tecnico (crear email de web: quizworld_staff@gmail.com)
+- Hacerlo online y comprar dominio
+
+4. Hacer presentacion

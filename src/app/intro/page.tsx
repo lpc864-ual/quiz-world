@@ -21,8 +21,8 @@ export default function IntroPage() {
              Let the Adventure Begin!
           </h2>
           <p className="text-lg md:text-xl leading-relaxed">
-            Yo! Ready for a quick challenge? Take five minutes to explore the virtual world, then let’s turn that brainpower into 
-            a game. Let’s see how much you really know about the world you live in!
+          Take a few minutes to explore this virtual world, then challenge yourself with an interactive geography quiz. 
+          Discover how well you truly know the diverse countries and cultures that make up our Earth.
           </p>
         </motion.div>
         
@@ -43,7 +43,7 @@ export default function IntroPage() {
               
               {/* Texto del botón */}
               <span className="relative z-10 text-white text-xl font-bold tracking-wider">
-                 Ready to roll? Let’s dive in!
+                 Begin
               </span>
             </motion.button>
           </Link>
