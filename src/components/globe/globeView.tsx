@@ -19,13 +19,7 @@ interface Country {
 const GlobeDynamic = dynamic(() => import("./globeWrapper"), {
   // ssr: false proporciona una capa adicional de seguridad para asegurarnos que este componente se ejecute del lado cliente para
   // acceder a las APIs del navegador para interactividad
-  ssr: false,
-  //
-  loading: () => (
-    <div className="flex items-center justify-center h-[600px]">
-      <div className="text-white text-xl">Loading interactive globe...</div>
-    </div>
-  ),
+  ssr: false
 });
 
 export default function GlobeView({ isQuizMode = false, onHoverCountry, onCountryClick }: { isQuizMode?: boolean, onHoverCountry: (countryName: string) => void; onCountryClick?: (countryName: string) => void; }) {

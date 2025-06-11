@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import BackgroundMusic from "@/components/backgroundMusic"; // Importa el nuevo componente
 
 export const metadata: Metadata = {
   icons: { 
@@ -18,7 +17,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <BackgroundMusic />
         {children}
       </body>
     </html>

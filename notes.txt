@@ -1,6 +1,7 @@
 1. musica de fondo
 2. popup de respuesta correcta ante equivocacion
 3. correccion del boton de save score de evitar otra vez el efecto fade in despues de la primera vez
+4. boton de volver a empezar
 4. Dockerfile y docker compose de la web
 
 - Documentar

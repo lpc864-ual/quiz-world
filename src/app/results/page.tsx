@@ -2,8 +2,9 @@
 
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
-import { useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 import Link from "next/link";
+import { useQuizStore } from '@/store/useQuizStore';
 
 interface Player {
   id: number;
@@ -26,24 +27,36 @@ interface Country {
 }
 
 export default function ResultsPage() {
-    
-  const searchParams = useSearchParams();
-  const score = parseInt(searchParams.get("score") ?? "0", 10);
+  const router = useRouter();
+  const isValid = useQuizStore((state) => state.isValid);
+  const score = useQuizStore((state) => state.score);
+  const clear = useQuizStore((state) => state.clear);
   const [countries, setCountries] = useState<Country[]>([]);
   const [players, setPlayers] = useState<Player[]>([]);
   const [showRegistration, setShowRegistration] = useState(false);
-  const [formData, setFormData] = useState({
-    username: "",
-    password: "",
-    country: "",
-  });
+  const [formData, setFormData] = useState({username: "", password: "", country: ""});
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [message, setMessage] = useState("");
+
+  useEffect(() => {
+    if (!isValid) {
+      router.back();
+      return;
+    }
+  }, []);
+
+  const playAgain = () => {
+    router.replace("/explore");
+    setTimeout(() => {clear()}, 2000);
+  }
+
+  const [isFirstRender, setIsFirstRender] = useState(true);
 
   // Cargar países y leaderboard al montar el componente
   useEffect(() => {
     fetchCountries();
     fetchLeaderboard();
+    setTimeout(() => {setIsFirstRender(false)}, 3000);
   }, []);
 
   const fetchCountries = async () => {
@@ -186,7 +199,7 @@ export default function ResultsPage() {
   );
 
   return (
-    <div className="min-h-screen bg-[url('/images/night-sky.png')] bg-cover flex flex-col items-center justify-center overflow-hidden relative">
+    <div className="min-h-screen bg-[url('/images/night-sky.png')] bg-cover flex flex-col items-center justify-center overflow-hidden relative cursor-default">
       <ShootingStars />
 
       <div className="max-w-7xl w-full flex flex-row gap-8 px-4 mx-auto">
@@ -229,8 +242,8 @@ export default function ResultsPage() {
               transition={{ delay: 2, duration: 0.8 }}
               className="mt-8"
             >
-              <Link href="/explore">
                 <motion.button
+                  onClick={playAgain}
                   className="px-8 py-3 rounded-full border-2 border-white bg-transparent hover:bg-white/10 transition-colors cursor-pointer"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -239,7 +252,6 @@ export default function ResultsPage() {
                     🚀 Play again
                   </span>
                 </motion.button>
-              </Link>
             </motion.div>
           </div>
         </motion.div>
@@ -296,9 +308,9 @@ export default function ResultsPage() {
             {/* Botón para mostrar formulario de registro */}
             {!showRegistration && (
               <motion.button
-                initial={{ y: 20, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ delay: 2.5 }}
+                initial={isFirstRender ? { y: 20, opacity: 0 } : false}
+                animate={isFirstRender ? { y: 0, opacity: 1 } : false}
+                transition={isFirstRender ? { delay: 2.5 } : {}}
                 onClick={() => setShowRegistration(true)}
                 className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-bold transition-colors cursor-pointer"
               >

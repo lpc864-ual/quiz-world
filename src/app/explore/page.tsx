@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import GlobeView from "@/components/globe/globeView";
 import Timer from "@/components/ui/timer";
 import ScoreCounter from "@/components/ui/scoreCounter";
+import { useQuizStore } from '@/store/useQuizStore';
 
 interface Question {
   id: number;
@@ -19,18 +20,9 @@ export default function ExplorePage() {
   // Lee el parámetro de la URL
   const isQuizMode = searchParams.get("isQuizMode") === "true";
 
-  // Función que se ejecuta cuando finaliza el tiempo
-  const handleTimeEnd = () => {
-    if (!isQuizMode) {
-      // Redirigir a la página de introducción del quiz
-      router.push("/quiz-intro");
-    } else {
-      // Redirigir a la página de resultados
-      router.push(`/results?score=${score}`);
-    }
-  };
-
+  const setIsValid = useQuizStore((state) => state.setIsValid);
   const [score, setScore] = useState(0);
+  const setQuizScore = useQuizStore((state) => state.setScore);
   const [lastScoreChange, setLastScoreChange] = useState(0);
 
   const [isLoading, setIsLoading] = useState(false);
@@ -78,10 +70,11 @@ export default function ExplorePage() {
     setHoveredCountry(countryName);
   }, []);
 
+  const [isTimeUp, setIsTimeUp] = useState(false);
+
   // Verificar la respuesta del usuario
-  const checkAnswer = useCallback(
-    async (countryName: string) => {
-      if (!currentQuestion || isLoading) {
+  const checkAnswer = useCallback(async (countryName: string) => {
+      if (!currentQuestion || isLoading || isTimeUp) {
         return;
       }
 
@@ -121,7 +114,7 @@ export default function ExplorePage() {
         setIsLoading(false);
       }
     },
-    [currentQuestion, fetchQuestion, isLoading]
+    [currentQuestion, fetchQuestion, isLoading, isTimeUp]
   );
 
   // Efecto que maneja la primera carga de pregunta
@@ -135,6 +128,20 @@ export default function ExplorePage() {
       loadInitialQuestion();
     }
   }, [isQuizMode]);
+
+  // Función que se ejecuta cuando finaliza el tiempo
+  const handleTimeEnd = async () => {
+    setIsTimeUp(true); 
+    if (!isQuizMode) {
+      // Redirigir a la página de introducción del quiz
+      router.push("/quiz-intro");
+    } else {
+      // Redirigir a la página de resultados
+      setIsValid(true);
+      setQuizScore(score);
+      router.push('/results');
+    }
+  };
 
   return (
     // Cielo nocturno estrellado
@@ -155,7 +162,7 @@ export default function ExplorePage() {
         )}
 
         <Timer
-          initialTime={300} // 5 minutos en segundos
+          initialTime={10} // 2 minutos en segundos
           onTimeEnd={handleTimeEnd}
         />
       </motion.div>

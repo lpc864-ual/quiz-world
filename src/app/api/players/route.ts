@@ -23,9 +23,9 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    if (username.length < 3 || username.length > 20) {
+    if (username.length < 3 || username.length > 10) {
       return NextResponse.json(
-        { error: 'The username must be between 3 and 20 characters' },
+        { error: 'The username must be between 3 and 10 characters' },
         { status: 400 }
       );
     }

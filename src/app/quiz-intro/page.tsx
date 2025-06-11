@@ -25,7 +25,7 @@ export default function QuizIntroPage() {
             Time to Put Your Brain to the Test!
           </h2>
           <p className="text-lg md:text-xl leading-relaxed text-justify">
-            Hope you had fun exploring, &apos;cause now things are about to get real! You&apos;ve got five minutes to crush as many questions as we can throw at.
+            Hope you had fun exploring, &apos;cause now things are about to get real! You&apos;ve got two minutes to crush as many questions as we can throw at.
           </p>
           <p className='text-lg md:text-xl leading-relaxed'>
             you

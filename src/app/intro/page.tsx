@@ -21,7 +21,7 @@ export default function IntroPage() {
              Let the Adventure Begin!
           </h2>
           <p className="text-lg md:text-xl leading-relaxed">
-          Take a few minutes to explore this virtual world, then challenge yourself with an interactive geography quiz. 
+          Take two minutes to explore this virtual world, then challenge yourself with an interactive geography quiz. 
           Discover how well you truly know the diverse countries and cultures that make up our Earth.
           </p>
         </motion.div>
