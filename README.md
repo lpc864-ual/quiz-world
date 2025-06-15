@@ -90,6 +90,23 @@ Quiz World is an interactive web application that combines geography learning wi
 - Note: If clicking on a country doesn't show its information, it means that while the country exists in `public/data/countries-110m.json`, it wasn't found in the scraped data. This can happen if the country is stored under a different name in the source website or if it's not included in the source data at all
 - Important: When adding new quiz questions, ensure the countries exist in the TopoJSON file
 
+## 🎮 Game Preview
+
+### Introduction
+![Game Introduction](public/images/screenshots/intro.png)
+
+### World Exploration
+![World Exploration](public/images/screenshots/exploration.png)
+
+### Country Information
+![Country Information](public/images/screenshots/country-info.png)
+
+### Quiz Questions
+![Quiz Questions](public/images/screenshots/question.png)
+
+### Score Display
+![Score Display](public/images/screenshots/score.png)
+
 ## 🤝 Contributing
 
 This is an open-source project, and contributions are welcome! Feel free to submit issues, fork the repository, and create pull requests.
