@@ -107,6 +107,9 @@ Quiz World is an interactive web application that combines geography learning wi
 ### Score Display
 ![Score Display](public/images/screenshots/score.png)
 
+## More Information
+- [Presentación del Proyecto](./docs/presentation.pdf)
+
 ## 🤝 Contributing
 
 This is an open-source project, and contributions are welcome! Feel free to submit issues, fork the repository, and create pull requests.
