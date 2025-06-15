@@ -53,6 +53,7 @@ export default function GlobeView({ isQuizMode = false, onHoverCountry, onCountr
         console.error("Error loading countries data:", error);
       }
     };
+    
     // Carga datos geometricos o topologicos necesarios para dibujar claramente cada país en el globo (formato GeoJSON o TopoJSON)
     // En nuestro caso recibimos los datos en formato TopoJSON
     const fetchGeoJson = async () => {

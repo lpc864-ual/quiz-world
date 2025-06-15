@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import Link from "next/link";
 import { useQuizStore } from '@/store/useQuizStore';
 
 interface Player {
@@ -43,7 +42,7 @@ export default function ResultsPage() {
       router.back();
       return;
     }
-  }, []);
+  }, [isValid]);
 
   const playAgain = () => {
     router.replace("/explore");

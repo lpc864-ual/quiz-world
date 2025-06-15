@@ -29,6 +29,20 @@ export default function ExplorePage() {
   const [seenQuestionIds, setSeenQuestionIds] = useState<number[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState<Question | null>(null);
 
+  // Función que se ejecuta cuando finaliza el tiempo
+  const handleTimeEnd = useCallback(async () => {
+    setIsTimeUp(true); 
+    if (!isQuizMode) {
+      // Redirigir a la página de introducción del quiz
+      router.push("/quiz-intro");
+    } else {
+      // Redirigir a la página de resultados
+      setIsValid(true);
+      setQuizScore(score);
+      router.push('/results');
+    }
+  }, []);
+
   // Cargar una nueva pregunta aleatoria que no se haya visto antes
   const fetchQuestion = useCallback(async () => {
     try {
@@ -63,7 +77,7 @@ export default function ExplorePage() {
     } finally {
       setIsLoading(false);
     }
-  }, [seenQuestionIds, isLoading]);
+  }, [seenQuestionIds, isLoading, handleTimeEnd]);
 
   const [hoveredCountry, setHoveredCountry] = useState<string | null>(null);
   const onHoverCountry = useCallback((countryName: string) => {
@@ -127,21 +141,7 @@ export default function ExplorePage() {
 
       loadInitialQuestion();
     }
-  }, [isQuizMode]);
-
-  // Función que se ejecuta cuando finaliza el tiempo
-  const handleTimeEnd = async () => {
-    setIsTimeUp(true); 
-    if (!isQuizMode) {
-      // Redirigir a la página de introducción del quiz
-      router.push("/quiz-intro");
-    } else {
-      // Redirigir a la página de resultados
-      setIsValid(true);
-      setQuizScore(score);
-      router.push('/results');
-    }
-  };
+  }, [isQuizMode, fetchQuestion]);
 
   return (
     // Cielo nocturno estrellado
@@ -162,7 +162,7 @@ export default function ExplorePage() {
         )}
 
         <Timer
-          initialTime={10} // 2 minutos en segundos
+          initialTime={120} // 2 minutos en segundos
           onTimeEnd={handleTimeEnd}
         />
       </motion.div>

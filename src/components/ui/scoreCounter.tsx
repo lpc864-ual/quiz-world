@@ -31,7 +31,7 @@ export default function ScoreCounter({score, lastScoreChange}: ScoreCounterProps
 
       animateColor();
     }
-  }, [score, controls]); // Dependemos del score para que se ejecute cada vez
+  }, [lastScoreChange, controls]); // Dependemos del score para que se ejecute cada vez
 
   return (
     <motion.div

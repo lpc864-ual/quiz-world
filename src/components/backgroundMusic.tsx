@@ -168,7 +168,7 @@ export default function BackgroundMusic() {
                 clearTimeout(loopTimeoutRef.current);
             }
         };
-    }, []); 
+    }, [tryPlayAudio]); 
 
     return (
         <audio
