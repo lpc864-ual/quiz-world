@@ -250,7 +250,9 @@ export default function GlobeView({ isQuizMode = false, onHoverCountry, onCountr
                       </p>
                       <p className="font-semibold text-gray-800 dark:text-white">
                         {Array.isArray(selectedCountry.capital)
-                          ? selectedCountry.capital.join(", ")
+                          ? selectedCountry.capital.length > 0
+                            ? selectedCountry.capital.join(", ")
+                            : "N/A"
                           : selectedCountry.capital}
                       </p>
                     </div>
@@ -287,35 +289,17 @@ export default function GlobeView({ isQuizMode = false, onHoverCountry, onCountr
 
                 {activeTab === "souvenirs" && (
                   <div>
-                    <h3 className="text-lg font-semibold mb-2 text-gray-800 dark:text-white">
-                      Popular Souvenirs
-                    </h3>
-                    {selectedCountry.souvenirs === "N/A" ? (
-                      <p className="text-gray-600 dark:text-gray-400 italic">
-                        Information not available
-                      </p>
-                    ) : (
-                      <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                        {selectedCountry.souvenirs}
-                      </p>
-                    )}
+                    <p className="font-semibold text-gray-800 dark:text-white text-justify">
+                      {selectedCountry.souvenirs}
+                    </p>
                   </div>
                 )}
 
                 {activeTab === "cuisine" && (
                   <div>
-                    <h3 className="text-lg font-semibold mb-2 text-gray-800 dark:text-white">
-                      Traditional Cuisine
-                    </h3>
-                    {selectedCountry.traditional_cuisine === "N/A" ? (
-                      <p className="text-gray-600 dark:text-gray-400 italic">
-                        Information not available
-                      </p>
-                    ) : (
-                      <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                        {selectedCountry.traditional_cuisine}
-                      </p>
-                    )}
+                    <p className="font-semibold text-gray-800 dark:text-white text-justify">
+                      {selectedCountry.traditional_cuisine}
+                    </p>
                   </div>
                 )}
               </div>

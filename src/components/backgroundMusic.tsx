@@ -36,7 +36,7 @@ export default function BackgroundMusic() {
             if (currentVolume >= MAX_VOLUME) {
                 // Si el volumen alcanza el máximo, lo fija y detiene el fade
                 audioRef.current.volume = MAX_VOLUME;
-                clearInterval(fadeIntervalRef.current);
+                clearInterval(fadeIntervalRef.current!);
                 fadeIntervalRef.current = null;
                 // NOTA: La programación del próximo fade-out se hará justo después del play(),
                 // no aquí, para asegurar que se haga cada vez que la canción empieza.
@@ -75,7 +75,7 @@ export default function BackgroundMusic() {
             if (currentVolume <= 0) {
                 // Si el volumen llega a 0, lo fija, detiene el fade
                 audioRef.current.volume = 0;
-                clearInterval(fadeIntervalRef.current);
+                clearInterval(fadeIntervalRef.current!);
                 fadeIntervalRef.current = null;
 
                 // Cuando el audio se ha silenciado, lo reinicia y lo reproduce silenciosamente

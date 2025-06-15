@@ -87,6 +87,7 @@ Quiz World is an interactive web application that combines geography learning wi
 - The globe uses the `globe.gl` library with custom polygons for country relief
 - Background texture: `public/images/earth-blue-marble`
 - Country coordinates are stored in `public/data/countries-110m.json` (TopoJSON format)
+- Note: If clicking on a country doesn't show its information, it means that while the country exists in `public/data/countries-110m.json`, it wasn't found in the scraped data. This can happen if the country is stored under a different name in the source website or if it's not included in the source data at all
 - Important: When adding new quiz questions, ensure the countries exist in the TopoJSON file
 
 ## 🤝 Contributing
